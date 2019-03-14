@@ -1,0 +1,100 @@
+$Blanc: white;
+$Bleu: #0a36c5;
+$Noir: #00000C;
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    text-shadow: black 0.1px 0.1px white 0.1px 0.1px;
+}
+
+header {
+    background-color: $Noir;
+    transform: scaleX(1.128);
+    height: 120px;
+}
+
+h3 {
+    border-bottom: 3px solid #0a36c5;
+}
+
+#profil {
+    box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.7) inset;
+    position: absolute;
+    z-index: 2;
+    height: 100px;
+    width: 100px;
+    transition: all 0.5s;
+    filter: brightness(50%);
+    filter: contrast(200%);
+    &:hover {
+        box-shadow: 0px 0px 0px 0px rgba(255, 255, 255, 0.7) inset;
+        filter: brightness(100%);
+        filter: contrast(100%);
+    }
+}
+
+#dzem {
+    text-align: left;
+    color: $Blanc;
+    transform: translateX(5px);
+}
+
+#civique {
+    text-align: right;
+    color: $Blanc;
+}
+
+#grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+article {
+    color: $Bleu;
+    font-size: 150%;
+    padding-left: 10px;
+    width: 95%;
+}
+
+ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+    color: $Noir;
+}
+
+li {
+    &:before {
+        content: "►";
+    }
+}
+
+.un_quatre {
+    list-style-image: url("../image/un_quatre.png");
+    padding-left: 5px;
+    list-style-position: inside;
+}
+
+.deux_quatre {
+    list-style-image: url("../image/deux_quatre.png");
+    list-style-position: inside;
+    margin-left: 5px;
+}
+
+.trois_quatre {
+    list-style-image: url("../image/trois_quatre.png");
+    padding-left: 5px;
+    list-style-position: inside;
+}
+
+.quatre_quatre {
+    list-style-image: url("../image/quatre_quatre.png");
+    margin-left: 5px;
+    list-style-position: inside;
+}
+
+.tiny_linky {
+    font-size: 15px;
+    color: $Bleu;
+}
