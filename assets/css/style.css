@@ -1,33 +1,39 @@
 @charset "UTF-8";
-body { margin: 0; padding: 0; width: 100%; text-shadow: black 0.1px 0.1px white 0.1px 0.1px; }
+@media (min-width: 1025px) { body { margin: 0; padding: 0; width: 100%; text-shadow: black 0.1px 0.1px white 0.1px 0.1px; }
+  header { background-color: #00000C; -webkit-transform: scaleX(1.128); transform: scaleX(1.128); height: 120px; }
+  h3 { border-bottom: 3px solid #0a36c5; }
+  #profil { -webkit-box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.7) inset; box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.7) inset; z-index: 2; position: absolute; right: 5px; height: 100px; width: 100px; -webkit-transition: all 0.5s; transition: all 0.5s; }
+  #profil:hover { -webkit-box-shadow: 0px 0px 0px 0px rgba(255, 255, 255, 0.7) inset; box-shadow: 0px 0px 0px 0px rgba(255, 255, 255, 0.7) inset; }
+  #dzem { text-align: left; color: white; -webkit-transform: translateX(5px); transform: translateX(5px); }
+  #civique { text-align: right; color: white; }
+  #grid { display: -ms-grid; display: grid; -ms-grid-columns: 50% 50%; grid-template-columns: 50% 50%; }
+  article { color: #0a36c5; font-size: 150%; padding-left: 10px; width: 95%; }
+  ul { list-style: none; margin-left: 0; padding-left: 0; color: #00000C; }
+  li:before { content: "►"; }
+  .un_quatre { list-style-image: url("../image/un_quatre.png"); padding-left: 5px; list-style-position: inside; }
+  .deux_quatre { list-style-image: url("../image/deux_quatre.png"); list-style-position: inside; margin-left: 5px; }
+  .trois_quatre { list-style-image: url("../image/trois_quatre.png"); padding-left: 5px; list-style-position: inside; }
+  .quatre_quatre { list-style-image: url("../image/quatre_quatre.png"); margin-left: 5px; list-style-position: inside; }
+  .tiny_linky { font-size: 15px; color: #0a36c5; } }
 
-header { background-color: #00000C; -webkit-transform: scaleX(1.128); transform: scaleX(1.128); height: 120px; }
-
-h3 { border-bottom: 3px solid #0a36c5; }
-
-#profil { -webkit-box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.7) inset; box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.7) inset; position: absolute; z-index: 2; height: 100px; width: 100px; -webkit-transition: all 0.5s; transition: all 0.5s; -webkit-filter: brightness(50%); filter: brightness(50%); -webkit-filter: contrast(200%); filter: contrast(200%); }
-
-#profil:hover { -webkit-box-shadow: 0px 0px 0px 0px rgba(255, 255, 255, 0.7) inset; box-shadow: 0px 0px 0px 0px rgba(255, 255, 255, 0.7) inset; -webkit-filter: brightness(100%); filter: brightness(100%); -webkit-filter: contrast(100%); filter: contrast(100%); }
-
-#dzem { text-align: left; color: white; -webkit-transform: translateX(5px); transform: translateX(5px); }
-
-#civique { text-align: right; color: white; }
-
-#grid { display: -ms-grid; display: grid; -ms-grid-columns: 50% 50%; grid-template-columns: 50% 50%; }
-
-article { color: #0a36c5; font-size: 150%; padding-left: 10px; width: 95%; }
-
-ul { list-style: none; margin-left: 0; padding-left: 0; color: #00000C; }
-
-li:before { content: "►"; }
-
-.un_quatre { list-style-image: url("../image/un_quatre.png"); padding-left: 5px; list-style-position: inside; }
-
-.deux_quatre { list-style-image: url("../image/deux_quatre.png"); list-style-position: inside; margin-left: 5px; }
-
-.trois_quatre { list-style-image: url("../image/trois_quatre.png"); padding-left: 5px; list-style-position: inside; }
-
-.quatre_quatre { list-style-image: url("../image/quatre_quatre.png"); margin-left: 5px; list-style-position: inside; }
-
-.tiny_linky { font-size: 15px; color: #0a36c5; }
+@media (max-width: 1025px) { body { margin: 1px; padding: 0; width: 100%; text-shadow: black 0.1px 0.1px white 0.1px 0.1px; }
+  header { background-color: #00000C; -webkit-transform: scaleX(1.128); transform: scaleX(1.128); height: 120px; }
+  h2 { font-size: 18px; text-shadow: 0 1px 1px; }
+  h3 { border-bottom: 3px solid #0a36c5; font-size: 14px; }
+  #profil { -webkit-box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.7) inset; box-shadow: 0px 0px 10px 0px rgba(255, 255, 255, 0.7) inset; z-index: 2; position: absolute; right: 5px; height: 100px; width: 100px; -webkit-transition: all 0.5s; transition: all 0.5s; }
+  #profil:hover { -webkit-box-shadow: 0px 0px 0px 0px rgba(255, 255, 255, 0.7) inset; box-shadow: 0px 0px 0px 0px rgba(255, 255, 255, 0.7) inset; }
+  #dzem { display: block; color: white; margin-left: 15px; }
+  #dzem .prenom { margin-left: 25px; }
+  #dzem .nom { margin-top: -25px; font-size: 25px; }
+  #civique { font-size: 12px; margin-left: 15px; color: white; }
+  #grid { display: -ms-grid; display: grid; -ms-grid-columns: 50% 50%; grid-template-columns: 50% 50%; }
+  article { color: #0a36c5; font-size: 150%; padding-left: 10px; width: 95%; font-size: 12px; }
+  ul { list-style: none; margin-left: 0; padding-left: 0; color: #00000C; }
+  li:before { content: "►"; }
+  .un_quatre { list-style-image: url("../image/un_quatre.png"); padding-left: 5px; list-style-position: inside; }
+  .deux_quatre { list-style-image: url("../image/deux_quatre.png"); list-style-position: inside; margin-left: 5px; }
+  .trois_quatre { list-style-image: url("../image/trois_quatre.png"); padding-left: 5px; list-style-position: inside; }
+  .quatre_quatre { list-style-image: url("../image/quatre_quatre.png"); margin-left: 5px; list-style-position: inside; }
+  .tiny_linky { display: block; border: solid 1px #0a36c5; font-size: 10px; color: #0a36c5; padding: 2px; }
+  .tiny_linky:hover { -webkit-box-shadow: inset #00000C 0 0 5px; box-shadow: inset #00000C 0 0 5px; } }
 /*# sourceMappingURL=style.css.map */
