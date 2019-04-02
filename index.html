@@ -7,127 +7,65 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
 </head>
 
 <body>
-    <header class="container">
-        <div class="row">
-            <div class="col-xs-2 col-sm-1">
-                <img src="assets/image/profil.png" id="profil" />
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <img src="assets/image/profil.jpeg" id="profil" />
+
+            <a class="Accueil" href="index.html">Accueil</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-vector-square"></i>
+                        </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="assets/pages/CVDM.html">CV</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="assets/pages/Apps.html">Applications</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                  Réseau
+                                </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="https://github.com/DzenetanMassart?tab=repositories">Github</a>
+                            <a class="dropdown-item" href="https://www.linkedin.com/in/dzenetan-massart-05071996/">Linkedin</a>
+                        </div>
+                    </li>
+                </ul>
             </div>
-            <div class="col-xs-5 col-sm-4" id="dzem">
-                <p class="prenom">Dzénetan </p>
-                <h1 class="nom">MASSART</h1>
-            </div>
-            <div class="col-xs-5 col-sm-7" id="civique">
-                <p>Né à Namur le 5 juillet 1996,</p>
-                <p>Célibataire,</p>
-            </div>
-        </div>
+        </nav>
     </header>
-    <section id="grid">
-        <div>
-            <article>
-                <h2>Δ Logiciels utilisés</h2>
-                <h3>▼ Traitement/création d’image</h3>
-                <ul>
-                    <li class="trois_quatre">Adobe Photoshop</li>
 
-                    <li class="trois_quatre">Adobe Illustrator</li>
+    <section>
+        <h1>Bienvenue sur le site de Dzénetan Massart !</h1>
+        <p class="intro">Ce site a été créé pendant la formation "BeCode" et sert à tester les différentes capacités apprises lors de la formation par Dzénetan Massart !</p>
 
-                    <li class="quatre_quatre"> PaintDotNet</li>
-                </ul>
-            </article>
-            <article>
-                <h3>▼ 3D</h3>
-                <ul>
-                    <li class="un_quatre">Autodesk Maya</li>
+        <ul class="logiciels">
+            <span>Liste des logiciels et APIs que j'emplois pour créer ce site:</span>
 
-                    <li class="deux_quatre">Autodesk 3D Studio Max</li>
-
-                    <li class="deux_quatre">Google SketchUp</li>
-                </ul>
-            </article>
-            <article>
-                <h3>▼ Mise en page</h3>
-                <ul>
-                    <li class="trois_quatre">Adobe InDesign</li>
-
-                    <li class="quatre_quatre">Microsoft Word</li>
-                </ul>
-            </article>
-            <article>
-                <h3>▼ Video</h3>
-                <ul>
-                    <li class="trois_quatre">Adobe Premiere</li>
-                    <li class="deux_quatre">Adobe After Effect</li>
-                    <li class="quatre_quatre">Windows Movie Maker</li>
-                    <li class="deux_quatre">Corel MotionStudio 3D</li>
-                    <li class="quatre_quatre">Magix Video Deluxe</li>
-                </ul>
-            </article>
-            <article>
-                <h3>▼ Audio</h3>
-                <ul>
-                    <li class="un_quatre">Audacity</li>
-                </ul>
-            </article>
-            <article>
-                <h3>▼ WEB</h3>
-                <ul>
-                    <li class="trois_quatre">CSS (Notepad++,Bracket et Visual Studio Code)</li>
-                    <li class="deux_quatre">SCSS (Visual Studio Code)</li>
-                    <li class="trois_quatre">HTML (Notepad++,Bracket et Visual Studio Code)</li>
-                    <li class="deux_quatre">JS (Notepad++,Bracket et Visual Studio Code)</li>
-                </ul>
-            </article>
-        </div>
-
-
-
-        <div>
-            <article>
-                <h2>Δ Formations</h2>
-                <ul>
-                    <li>Obtention du CESS en 2016 au Collège Pie 10 après un enseignement général.</li>
-
-                    <li>2 ans à la première année de la Haute École Albert Jacquard en Infographie à Namur.</li>
-                </ul>
-
-            </article>
-
-            <article>
-                <h2>Δ Langues maîtrisées</h2>
-                <ul>
-                    <li>Français (langue maternelle)</li>
-
-                    <li>Anglais (niveau technique, spécialisé «infographie»)</li>
-                </ul>
-            </article>
-
-            <article>
-                <h2>Δ Hobbies</h2>
-                <ul>
-                    <li>Production de ressources variées sans consignes particulières</li>
-
-                    <li>Production d’image humoristiques</li>
-                    <li>Production de modèle 3D pour créer des histoires ou des fan-arts,</li>
-                    <li>Écriture d’histoires satiriques.</li>
-                </ul>
-            </article>
-            <article>
-                <h2>Δ Réseau en ligne</h2>
-                <ul>
-                    <li>Github:
-                        <a class="tiny_linky" href="https://github.com/DzenetanMassart">https://github.com/DzenetanMassart</a>
-                    </li>
-                    <li>Linkedin:
-                        <a class="tiny_linky" href="https://www.linkedin.com/in/dzenetan-massart-05071996/">https://www.linkedin.com/in/dzenetan-massart-05071996/</a>
-                    </li>
-                </ul>
-            </article>
-        </div>
+            <li>
+                <a href="https://code.visualstudio.com/Download">Visual Studio Code</a>
+            </li>
+            <li>
+                <a href="https://getbootstrap.com/docs/4.3/getting-started/download/">Bootstrap</a>
+            </li>
+            <li>
+                <a href="https://fontawesome.com/start">FontAwesome</a>
+            </li>
+            <li>
+                <a href="https://www.photopea.com/">Photopea</a>
+            </li>
+            <li>
+                <a href="https://fonts.google.com/">Google Font</a>
+            </li>
+        </ul>
     </section>
 
 </body>

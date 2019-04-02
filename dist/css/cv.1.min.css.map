@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAGA,AAAA,MAAM,AAAC,CACH,QAAQ,CAAE,QAAQ,CACrB,AAED,AAAA,OAAO,AAAC,CACJ,QAAQ,CAAE,QAAQ,CACrB,AAED,AAAA,MAAM,AAAC,CACH,QAAQ,CAAE,QAAQ,CACrB",
+    "sources": [
+        "../../assets/sass/cv.1.scss"
+    ],
+    "names": [],
+    "file": "cv.1.min.css"
+}

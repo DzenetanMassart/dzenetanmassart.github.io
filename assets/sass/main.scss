@@ -1,0 +1,317 @@
+$C1: white;
+$C2: #0a36c5;
+$C3: #00000C;
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+body {
+    background-color: $C2;
+}
+
+@media (min-width: 991px) {
+    header {
+        width: 100%;
+        background-color: $C3;
+        img {
+            left: 1%;
+            width: 10%;
+            padding: 0.5%;
+        }
+        a {
+            font-size: 1.5vw;
+            color: $C1;
+        }
+        .Accueil {
+            font-family: 'Oswald', sans-serif;
+            width: 10%;
+            background-color: $C1;
+            border: 1px solid $C3;
+            padding-left: 1%;
+            padding-right: 1%;
+            color: $C2;
+            font-size: 2vw;
+            text-decoration: none;
+            transform: scale(1.0);
+            transition: all 0.2s;
+            &:hover {
+                color: $C3;
+                border: 1px solid $C2;
+                box-shadow: inset 0 0 5px $C2;
+            }
+            &:active {
+                transform: scale(0.9);
+            }
+        }
+        .dropdown {
+            opacity: 0.5;
+            &:hover {
+                opacity: 0.9;
+            }
+        }
+        .navbar-toggler {
+            background-color: $C1;
+            border-bottom: 1px $C2 solid;
+            &:active {
+                border-bottom: 5px $C2 solid;
+            }
+        }
+        .navbarDropdownMenuLink {
+            opacity: 0.5;
+            &:hover {
+                opacity: 0.9;
+            }
+        }
+        .dropdown-item {
+            opacity: 0.5;
+            &:hover {
+                opacity: 0.9;
+            }
+        }
+    }
+    section {
+        background-color: $C2;
+        width: 100%;
+        color: $C1;
+        h1 {
+            font-family: 'Oswald', sans-serif;
+            text-align: center;
+            font-size: 3vw;
+            text-shadow: $C3 0 1px 0;
+        }
+        .description {
+            text-align: center;
+            border: 1.5px $C1 dotted;
+            box-shadow: $C3 0 1px 5px;
+            font-size: 1.5vw;
+        }
+        .card {
+            height: 350px;
+            width: 200px;
+            display: inline-block;
+            margin: 10px;
+            box-shadow: 0px 2px 0px $C3;
+            transition: 0.2s;
+            background-color: $C1;
+            .card-title {
+                text-align: center;
+                font-size: 14px;
+                font-weight: bold;
+                color: $C2;
+                text-shadow: 0px 1px 0px $C3;
+                transition: 0.2s;
+            }
+            .badge {
+                width: 100%;
+            }
+            .card-text {
+                color: $C2;
+                height: 200px;
+                font-size: 12px;
+                transition: 0.2s;
+                &::first-letter {
+                    border-left: dotted 2px $C2;
+                    font-size: 15px;
+                    border-radius: 15px;
+                    background-image: linear-gradient(90deg, $C3 0%, $C1 55%)
+                }
+            }
+            &:hover {
+                background-color: $C1;
+                transform: scale(1.05);
+                box-shadow: 0px 0px 5px $C3;
+                .card-title {
+                    text-align: center;
+                    font-size: 14px;
+                    font-weight: bold;
+                    color: $C2;
+                    text-shadow: 0px -1px 0px $C3;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 990px) {
+    header {
+        position: fixed;
+        top: 0;
+        z-index: 5;
+        width: 100%;
+        background-color: $C3;
+        img {
+            left: 1%;
+            width: 10%;
+            padding: 0.5%;
+        }
+        a {
+            font-size: 2.5vw;
+            color: $C1;
+        }
+        .Accueil {
+            font-family: 'Oswald', sans-serif;
+            text-align: center;
+            width: 25%;
+            background-color: $C1;
+            border: 1px solid $C3;
+            color: $C2;
+            font-size: 3vw;
+            text-decoration: none;
+            transform: scale(1.0);
+            transition: all 0.2s;
+            &:hover {
+                color: $C3;
+                border: 1px solid $C2;
+                box-shadow: inset 0 0 5px $C2;
+            }
+            &:active {
+                transform: scale(0.9);
+            }
+        }
+        .dropdown {
+            opacity: 0.5;
+            &:hover {
+                opacity: 0.9;
+            }
+        }
+        .navbar-toggler {
+            background-color: $C1;
+            border-bottom: 1px $C2 solid;
+            &:active {
+                border-bottom: 5px $C2 solid;
+            }
+        }
+        .navbarDropdownMenuLink {
+            opacity: 0.5;
+            &:hover {
+                opacity: 0.9;
+            }
+        }
+        .dropdown-item {
+            opacity: 0.5;
+            &:hover {
+                opacity: 0.9;
+            }
+        }
+    }
+    section {
+        background-color: $C2;
+        width: 100%;
+        color: $C1;
+        position: absolute;
+        top: 7.5%;
+        h1 {
+            font-family: 'Oswald', sans-serif;
+            text-align: center;
+            font-size: 5vw;
+            text-shadow: $C3 0 1px 0;
+            padding-top: 5%;
+        }
+        .intro {
+            font-size: 2vw;
+        }
+        .description {
+            text-align: center;
+            border: 1.5px $C1 dotted;
+            box-shadow: $C3 0 1px 5px;
+            font-size: 3vw;
+        }
+        .card {
+            margin-top: 1%;
+            margin-bottom: 1%;
+            height: 100%;
+            margin-left: auto;
+            margin-right: auto;
+            width: 80%;
+            display: block;
+            padding: 1px;
+            box-shadow: 0px 2px 0px $C3;
+            transition: 0.2s;
+            background-color: $C1;
+            .card-title {
+                text-align: center;
+                font-size: 5vw;
+                font-weight: bold;
+                color: $C2;
+                text-shadow: 0px 1px 0px $C3;
+                transition: 0.2s;
+            }
+            .badge {
+                width: 100%;
+            }
+            .card-text {
+                color: $C2;
+                height: 25%;
+                font-size: 2.5vw;
+                transition: 0.2s;
+                &::first-letter {
+                    border-left: dotted 2px $C2;
+                    font-size: 2vw;
+                    border-radius: 15px;
+                    background-image: linear-gradient(90deg, $C3 0%, $C1 55%)
+                }
+            }
+            &:hover {
+                background-color: $C1;
+                transform: scale(0.95);
+                box-shadow: 0px 0px 5px $C3;
+                .card-title {
+                    text-align: center;
+                    font-size: 4vw;
+                    font-weight: bold;
+                    color: $C2;
+                    text-shadow: 0px -1px 0px $C3;
+                }
+            }
+        }
+    }
+}
+
+.logiciels {
+    text-align: center;
+    border: $C1 1px solid;
+    list-style: none;
+    padding: 1%;
+    box-shadow: inset $C1 0 0 5px;
+    background-color: $C3;
+    width: 50%;
+    span {
+        color: $C1;
+        font-family: 'Oswald', sans-serif;
+        border-bottom: $C1 dotted 2px;
+        font-size: 2vw;
+        text-shadow: $C3 0 1px 1px;
+        background-color: $C2;
+        box-shadow: $C3 inset 0 0 10px;
+        width: 100%;
+        padding: 1%;
+    }
+    li {
+        margin-top: 2%;
+        margin-left: 0;
+        padding-left: 0;
+        a {
+            border: $C1 0.1px solid;
+            color: $C2;
+            font-size: 1.8vw;
+            padding: 1%;
+            height: 25%;
+            width: 100%;
+            display: inline-block;
+            box-shadow: inset $C1 0 0 5px;
+            text-decoration: none;
+            background-color: $C3;
+            transition: all 0.2s;
+            &:hover {
+                border: $C1 0.1px solid;
+                color: $C2;
+                font-size: 1.8vw;
+                padding: 1%;
+                padding-left: 60%;
+                height: 25%;
+                width: 100%;
+                display: inline-block;
+                box-shadow: inset $C1 0 0 10px;
+                text-decoration: none;
+                background-color: $C1;
+            }
+        }
+    }
+}
