@@ -1,5 +1,5 @@
 $C1: white;
-$C2: #0a36c5;
+$C2: #4c85bd;
 $C3: #00000C;
 @import url('https://fonts.googleapis.com/css?family=Oswald');
 body {
@@ -89,7 +89,7 @@ body {
             display: inline-block;
             margin: 10px;
             box-shadow: 0px 2px 0px $C3;
-            transition: 0.2s;
+            transition: 0.4s;
             background-color: $C1;
             .card-title {
                 text-align: center;
@@ -299,7 +299,7 @@ body {
             box-shadow: inset $C1 0 0 5px;
             text-decoration: none;
             background-color: $C3;
-            transition: all 0.2s;
+            transition: all 0.5s;
             &:hover {
                 border: $C1 0.1px solid;
                 color: $C2;
