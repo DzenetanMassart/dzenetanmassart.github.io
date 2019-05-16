@@ -2,6 +2,7 @@ $C1: white;
 $C2: #4c85bd;
 $C3: #00000C;
 .menu {
+    z-index: 1;
     position: fixed;
     font-size: 10px;
     background-color: $C2;
@@ -30,32 +31,28 @@ $C3: #00000C;
 
 header {
     background-color: $C2;
-    height: 120px;
+    height: 200px;
     width: 98.92vw;
     margin-right: 0;
     margin-left: 0;
     max-width: none;
     grid-column: 3;
-    #profil {
+    .profil {
         box-shadow: 0px 0px 10px 0px $C1 inset;
-        z-index: 2;
-        position: absolute;
-        left: 42.5vw;
-        height: 120px;
-        transition: all 0.5s;
-    }
-    #dzem {
-        text-align: left;
-        color: $C1;
+        z-index: 1;
         position: absolute;
         left: 0;
+        height: 200px;
+        transition: all 0.5s;
     }
-    #civique {
+    .civique {
+        font-size: 2vw;
+        height: 200px;
+        width: 50%;
         text-align: right;
         color: $C1;
         position: absolute;
         right: 0;
-        font-size: 1.5vw;
     }
 }
 
@@ -72,7 +69,7 @@ header {
             border-bottom: 3px solid $C2;
             font-size: 2vw;
         }
-        #grid {
+        .grid {
             display: grid;
             grid-template-columns: 50% 50%;
         }

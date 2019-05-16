@@ -42,13 +42,12 @@ body {
             }
         }
         .dropdown {
-            opacity: 0.5;
             &:hover {
                 opacity: 0.9;
             }
         }
         .navbar-toggler {
-            background-color: $C1;
+            background-color: $C3;
             border-bottom: 1px $C2 solid;
             &:active {
                 border-bottom: 5px $C2 solid;
@@ -77,6 +76,10 @@ body {
             font-size: 3vw;
             text-shadow: $C3 0 1px 0;
         }
+        .intro {
+            font-size: 1.5vw;
+            text-align: center;
+        }
         .description {
             text-align: center;
             border: 1.5px $C1 dotted;
@@ -96,7 +99,7 @@ body {
                 font-size: 14px;
                 font-weight: bold;
                 color: $C2;
-                text-shadow: 0px 1px 0px $C3;
+                text-shadow: 0px 1px 0px $C3, 0px -1px 0px $C1;
                 transition: 0.2s;
             }
             .badge {
@@ -167,7 +170,6 @@ body {
             }
         }
         .dropdown {
-            opacity: 0.5;
             &:hover {
                 opacity: 0.9;
             }
@@ -207,6 +209,7 @@ body {
         }
         .intro {
             font-size: 2vw;
+            text-align: center;
         }
         .description {
             text-align: center;
@@ -231,7 +234,7 @@ body {
                 font-size: 5vw;
                 font-weight: bold;
                 color: $C2;
-                text-shadow: 0px 1px 0px $C3;
+                text-shadow: 0px 1px 0px $C3, 0px -1px 0px $C1;
                 transition: 0.2s;
             }
             .badge {
@@ -266,18 +269,19 @@ body {
 }
 
 .logiciels {
+    margin: auto auto;
     text-align: center;
     border: $C1 1px solid;
     list-style: none;
     padding: 1%;
     box-shadow: inset $C1 0 0 5px;
     background-color: $C3;
-    width: 50%;
+    width: 75%;
     span {
         color: $C1;
         font-family: 'Oswald', sans-serif;
         border-bottom: $C1 dotted 2px;
-        font-size: 2vw;
+        font-size: 3vw;
         text-shadow: $C3 0 1px 1px;
         background-color: $C2;
         box-shadow: $C3 inset 0 0 10px;
@@ -291,7 +295,7 @@ body {
         a {
             border: $C1 0.1px solid;
             color: $C2;
-            font-size: 1.8vw;
+            font-size: 15px;
             padding: 1%;
             height: 25%;
             width: 100%;
