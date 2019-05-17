@@ -51,13 +51,23 @@ body { background-color: #4c85bd; }
   section .card:hover { background-color: white; -webkit-transform: scale(0.95); transform: scale(0.95); -webkit-box-shadow: 0px 0px 5px #00000C; box-shadow: 0px 0px 5px #00000C; }
   section .card:hover .card-title { text-align: center; font-size: 4vw; font-weight: bold; color: #4c85bd; text-shadow: 0px -1px 0px #00000C; } }
 
-.logiciels { margin: auto auto; text-align: center; border: white 1px solid; list-style: none; padding: 1%; -webkit-box-shadow: inset white 0 0 5px; box-shadow: inset white 0 0 5px; background-color: #00000C; width: 75%; }
+.logiciels { text-align: center; border: white 1px solid; list-style: none; padding: 1%; -webkit-box-shadow: inset white 0 0 5px; box-shadow: inset white 0 0 5px; background-color: #00000C; width: 48%; }
 
-.logiciels span { color: white; font-family: 'Oswald', sans-serif; border-bottom: white dotted 2px; font-size: 3vw; text-shadow: #00000C 0 1px 1px; background-color: #4c85bd; -webkit-box-shadow: #00000C inset 0 0 10px; box-shadow: #00000C inset 0 0 10px; width: 100%; padding: 1%; }
+.logiciels span { color: white; font-family: 'Oswald', sans-serif; border-bottom: white dotted 2px; font-size: 2.1vw; text-shadow: #00000C 0 1px 1px; background-color: #4c85bd; -webkit-box-shadow: #00000C inset 0 0 10px; box-shadow: #00000C inset 0 0 10px; width: 100%; padding: 1%; }
 
 .logiciels li { margin-top: 2%; margin-left: 0; padding-left: 0; }
 
-.logiciels li a { border: white 0.1px solid; color: #4c85bd; font-size: 15px; padding: 1%; height: 25%; width: 100%; display: inline-block; -webkit-box-shadow: inset white 0 0 5px; box-shadow: inset white 0 0 5px; text-decoration: none; background-color: #00000C; -webkit-transition: all 0.5s; transition: all 0.5s; }
+.logiciels li a { border: white 0.1px solid; color: #4c85bd; font-size: 1.8vw; padding: 1%; height: 25%; width: 100%; display: inline-block; -webkit-box-shadow: inset white 0 0 5px; box-shadow: inset white 0 0 5px; text-decoration: none; background-color: #00000C; padding-left: 1%; -webkit-transition: padding-left 1s; transition: padding-left 1s; }
 
-.logiciels li a:hover { border: white 0.1px solid; color: #4c85bd; font-size: 1.8vw; padding: 1%; padding-left: 60%; height: 25%; width: 100%; display: inline-block; -webkit-box-shadow: inset white 0 0 10px; box-shadow: inset white 0 0 10px; text-decoration: none; background-color: white; }
+.logiciels li a:hover { border: white 0.1px solid; color: #4c85bd; font-size: 1.8vw; padding: 1%; padding-left: 10%; height: 25%; width: 100%; display: inline-block; -webkit-box-shadow: inset #4c85bd 0 0 5px; box-shadow: inset #4c85bd 0 0 5px; text-decoration: none; background-color: white; }
+
+.technologies { text-align: center; border: white 1px solid; list-style: none; padding: 1%; -webkit-box-shadow: inset white 0 0 5px; box-shadow: inset white 0 0 5px; background-color: #00000C; width: 48%; }
+
+.technologies span { color: white; font-family: 'Oswald', sans-serif; border-bottom: white dotted 2px; font-size: 2.1vw; text-shadow: #00000C 0 1px 1px; background-color: #4c85bd; -webkit-box-shadow: #00000C inset 0 0 10px; box-shadow: #00000C inset 0 0 10px; width: 100%; padding: 1%; }
+
+.technologies li { margin-top: 2%; margin-left: 0; padding-left: 0; border: white 0.1px solid; color: white; font-size: 1.8vw; padding: 1%; height: 14%; width: 100%; display: inline-block; -webkit-box-shadow: inset white 0 0 5px; box-shadow: inset white 0 0 5px; text-decoration: none; background-color: #00000C; padding-left: 1%; -webkit-transition: padding-left 1s; transition: padding-left 1s; }
+
+.technologies li:hover { border: white 0.1px solid; color: #00000C; font-size: 1.8vw; padding: 1%; padding-left: 10%; height: 14%; width: 100%; display: inline-block; -webkit-box-shadow: inset #00000C 0 0 5px; box-shadow: inset #00000C 0 0 5px; text-decoration: none; background-color: white; }
+
+.inline { display: -webkit-box; display: -ms-flexbox; display: flex; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; }
 /*# sourceMappingURL=main.css.map */
