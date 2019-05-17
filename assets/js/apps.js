@@ -6,6 +6,13 @@ let app = [{
         "link": "https://dzenetanmassart.github.io/Parlote/"
     },
     {
+        "title": "Parlote2",
+        "badgestyle": "badge-warning",
+        "badge": "Utilise le microphone sur deux têtes",
+        "desc": "C'est une version améliorée de Parlote qui permet d'utiliser non-seulement l'affichage par Canvas mais aussi l'affichage par image ! Le code aura été amélioré en conséquence de la présence de plusieurs éléments sur la page ! ",
+        "link": "https://dzenetanmassart.github.io/Parlote2/"
+    },
+    {
         "title": "Tricks and Tips",
         "badgestyle": "badge-secondary",
         "badge": "Compile des apps et de la doc'",
