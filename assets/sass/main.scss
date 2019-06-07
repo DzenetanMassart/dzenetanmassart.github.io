@@ -103,7 +103,11 @@ body {
                 transition: 0.2s;
             }
             .badge {
+                text-align: center;
                 width: 100%;
+                word-wrap: break-word !important;
+                white-space: normal;
+                height: 30px;
             }
             .card-text {
                 color: $C2;

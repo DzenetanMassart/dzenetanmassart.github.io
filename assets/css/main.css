@@ -20,7 +20,7 @@ body { background-color: #4c85bd; }
   section .description { text-align: center; border: 1.5px white dotted; -webkit-box-shadow: #00000C 0 1px 5px; box-shadow: #00000C 0 1px 5px; font-size: 1.5vw; }
   section .card { height: 350px; width: 200px; display: inline-block; margin: 10px; -webkit-box-shadow: 0px 2px 0px #00000C; box-shadow: 0px 2px 0px #00000C; -webkit-transition: 0.4s; transition: 0.4s; background-color: white; }
   section .card .card-title { text-align: center; font-size: 14px; font-weight: bold; color: #4c85bd; text-shadow: 0px 1px 0px #00000C, 0px -1px 0px white; -webkit-transition: 0.2s; transition: 0.2s; }
-  section .card .badge { width: 100%; }
+  section .card .badge { text-align: center; width: 100%; word-wrap: break-word !important; white-space: normal; height: 30px; }
   section .card .card-text { color: #4c85bd; height: 200px; font-size: 12px; -webkit-transition: 0.2s; transition: 0.2s; }
   section .card .card-text::first-letter { border-left: dotted 2px #4c85bd; font-size: 15px; border-radius: 15px; background-image: -webkit-gradient(linear, left top, right top, from(#00000C), color-stop(55%, white)); background-image: linear-gradient(90deg, #00000C 0%, white 55%); }
   section .card:hover { background-color: white; -webkit-transform: scale(1.05); transform: scale(1.05); -webkit-box-shadow: 0px 0px 5px #00000C; box-shadow: 0px 0px 5px #00000C; }

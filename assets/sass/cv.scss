@@ -32,7 +32,7 @@ $C3: #00000C;
 header {
     background-color: $C2;
     height: 200px;
-    width: 98.92vw;
+    width: 98.29vw;
     margin-right: 0;
     margin-left: 0;
     max-width: none;
@@ -52,7 +52,11 @@ header {
         text-align: right;
         color: $C1;
         position: absolute;
-        right: 0;
+        right: 10px;
+        text-shadow: #000000 1px 1px, #000000 -1px 1px, #000000 -1px -1px, #000000 1px -1px;
+        &:after {
+            content: "   ";
+        }
     }
 }
 
@@ -191,6 +195,9 @@ header {
         padding: 0;
         width: 100%;
         text-shadow: $C3 0.1px 0.1px $C1 0.1px 0.1px;
+        .civique {
+            width: 185px;
+        }
         h2 {
             font-size: 3.5vw;
         }
@@ -262,6 +269,9 @@ header {
             border-bottom: 3px solid $C2;
             color: #0a36c5;
             font-size: 1.5vw;
+        }
+        .civique {
+            width: 75px;
         }
         #grid {
             display: grid;
