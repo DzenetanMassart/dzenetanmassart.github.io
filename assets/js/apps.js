@@ -26,6 +26,13 @@ let app = [{
         "desc": "Utilisation de 4 techniques d'animation en JS et CSS avec le microphone ",
         "link": "https://dzenetanmassart.github.io/Parlote4/"
     },
+               {
+        "title": "Parlote5",
+        "badgestyle": "badge-warning",
+        "badge": "Utilise le microphone sur 5 visages",
+        "desc": "Utilisation de 5 techniques d'animation en JS et CSS avec le microphone ",
+        "link": "https://dzenetanmassart.github.io/Parlote5/"
+    },   
     {
         "title": "Tricks and Tips",
         "badgestyle": "badge-secondary",
@@ -46,6 +53,20 @@ let app = [{
         "badge": "Trouvez le mot mystrère AVEC UNE MEILLEUR INTERFACE !",
         "desc": "La version améliorée et surtout beaucoup plus complète du jeu du pendu en javascript !",
         "link": "https://dzenetanmassart.github.io/le-jeu-du-pendu-REVENGE/"
+    },
+    {
+        "title": "Dialogue",
+        "badgestyle": "badge-warning",
+        "badge": "Emulez un dialogue entre deux personnages !",
+        "desc": "L'idée était de refaire une interface épurée de l'interface des phases de dialogue dans les jeux de la saga Professeur Layton !",
+        "link": "https://github.com/DzenetanMassart/Dialogue"
+    },
+    {
+        "title": "MakeOnWeb",
+        "badgestyle": "badge-secondary",
+        "badge": "Compile des apps autour de la création sur le Web",
+        "desc": "C'est une application pour chercher des applications pour produire des images,des vidéos, des modèles 3D,de l'audio et du code.",
+        "link": "https://github.com/DzenetanMassart/MakeOnWeb"
     }
 
 
