@@ -12,11 +12,12 @@
 </head>
 
 <body>
+    <!--Le header DEBUT-->
     <header>
         <nav class="navbar navbar-expand-lg">
             <img src="assets/image/profil.jpeg" id="profil" />
 
-            <a class="Accueil" href="index.html">Accueil</a>
+            <a class="cv" href="assets/pages/CVDM.html">CV</a>
 
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <i class="fas fa-vector-square"></i>
@@ -24,9 +25,6 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item active">
-                        <a class="nav-link" href="assets/pages/CVDM.html">CV</a>
-                    </li>
-                    <li class="nav-item">
                         <a class="nav-link" href="#apps">Applications</a>
                     </li>
                     <li class="nav-item dropdown">
@@ -43,10 +41,15 @@
             </div>
         </nav>
     </header>
+    <!--Le header FIN-->
+    <!--Le main Debut-->
 
-    <section>
+    <main>
         <h1>Bienvenue sur le site de Dzénetan Massart !</h1>
-        <p class="intro">Ce site a été créé pendant la formation "BeCode" et sert à tester les différentes capacités apprises lors de la formation par Dzénetan Massart !</p>
+        <div class="intro">
+            <p>Ce site a été créé pendant la formation "BeCode" et sert à tester les différentes capacités apprises lors de la formation par Dzénetan Massart.</p>
+            <p>Entre-temps, ce site a évolué pour vous mettre en avant bien plus que tout ce qui touche au code en énumérant les différentes capacités que Dzénetan Massart vous propose à mettre à contribution pour vos projets.</p>
+        </div>
         <div class="inline">
             <ul class="logiciels">
                 <span>Liste des logiciels et APIs que j'emplois pour créer ce site:</span>
@@ -88,13 +91,101 @@
                     JS
                 </li>
             </ul>
+            <ul class="capacites">
+                <span>Liste des capacités que je peux vous proposer</span>
+
+                <li>
+                    Montage-vidéo
+                </li>
+                <li>
+                    Storyboarding
+                </li>
+                <li>
+                    Design d'un CV (PDF et HTML)
+                </li>
+                <li>
+                    Narration
+                </li>
+                <li>
+                    Design d'interface
+                </li>
+                <li>
+                    Photographie de groupe
+                </li>
+                <li>
+                    Dynamisation de vidéo
+                </li>
+                <li>
+                    Mise en place d'un design fantaisiste (HTML-CSS-JS)
+                </li>
+                <li>
+                    Aide à la mise en place d'un projet créatif (Moodboard + organisation)
+                </li>
+                <li>
+                    Création de logo unicolor
+                </li>
+                <li>
+                    Dé-rusher video
+                </li>
+                <li>
+                    Création de gif animé
+                </li>
+                <li>
+                    Création de tutoriel
+                </li>
+            </ul>
+            <ul class="programmes">
+                <span>Liste des logiciels que j'emplois souvent</span>
+
+                <li>
+                    Adobe Premiere
+                </li>
+                <li>
+                    Adobe Photoshop
+                </li>
+                <li>
+                    Audacity
+                </li>
+                <li>
+                    PaintDotNet <sup> (amélioré avec des plugins)</sup>
+                </li>
+                <li>
+                    Visual Studio Code <sup>(amélioré avec des plugins)</sup>
+                </li>
+                <li>
+                    Autodesk 3DSmax <sup>(version étudiante)</sup>
+                </li>
+                <li>
+                    Autodesk Maya <sup>(version étudiante)</sup>
+                </li>
+                <li>
+                    Adobe After Effect
+                </li>
+                <li>
+                    Adobe Illustrator
+                </li>
+                <li>
+                    OBS Studio
+                </li>
+
+            </ul>
         </div>
-    </section>
-    <section class="apps">
+
+
+        </div>
+    </main>
+    <!--Le main FIN-->
+
+    <!--Le footer ayant les applications DEBUT-->
+    <footer class="apps">
         <h2 id="apps">Les Applications</h2>
-        <p class="description">Ici se trouve les applications que Dzénetan Massart a créé sur son Github !</p>
-        <div id="generate"></div>
-    </section>
+        <p class="description">Ici se trouve les applications que Dzénetan Massart a créées sur son Github !</p>
+        <div class="appsview" id="generate"></div>
+    </footer>
+    <!--Le footer ayant les applications FIN-->
+
+
+    <!--Les scripts-->
     <script src="assets/js/apps.js"></script>
     <script src="assets/js/generate_apps.js"></script>
 

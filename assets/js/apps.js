@@ -1,4 +1,5 @@
 let app = [{
+        "icon": "fas fa-microphone-alt",
         "title": "Parlote",
         "badgestyle": "badge-warning",
         "badge": "Utilise le microphone",
@@ -6,6 +7,7 @@ let app = [{
         "link": "https://dzenetanmassart.github.io/Parlote/"
     },
     {
+        "icon": "fas fa-microphone-alt",
         "title": "Parlote2",
         "badgestyle": "badge-warning",
         "badge": "Utilise le microphone sur 2 têtes",
@@ -13,6 +15,7 @@ let app = [{
         "link": "https://dzenetanmassart.github.io/Parlote2/"
     },
     {
+        "icon": "fas fa-microphone-alt",
         "title": "Parlote3",
         "badgestyle": "badge-warning",
         "badge": "Utilise le microphone sur 3 têtes",
@@ -20,20 +23,23 @@ let app = [{
         "link": "https://dzenetanmassart.github.io/Parlote3/"
     },
     {
+        "icon": "fas fa-microphone-alt",
         "title": "Parlote4",
         "badgestyle": "badge-warning",
         "badge": "Utilise le microphone sur 4 têtes",
         "desc": "Utilisation de 4 techniques d'animation en JS et CSS avec le microphone ",
         "link": "https://dzenetanmassart.github.io/Parlote4/"
     },
-               {
+    {
+        "icon": "fas fa-microphone-alt",
         "title": "Parlote5",
         "badgestyle": "badge-warning",
         "badge": "Utilise le microphone sur 5 visages",
         "desc": "Utilisation de 5 techniques d'animation en JS et CSS avec le microphone ",
         "link": "https://dzenetanmassart.github.io/Parlote5/"
-    },   
+    },
     {
+        "icon": "fas fa-magic",
         "title": "Tricks and Tips",
         "badgestyle": "badge-secondary",
         "badge": "Compile des apps et de la doc'",
@@ -41,6 +47,7 @@ let app = [{
         "link": "https://dzenetanmassart.github.io/Tricks-and-Tips/"
     },
     {
+        "icon": "fas fa-cookie",
         "title": "JS Cookie Clicker REVENGE",
         "badgestyle": "badge-dark",
         "badge": "Nouvelle version du Cookie Clicker en JS ! ",
@@ -48,6 +55,7 @@ let app = [{
         "link": "https://dzenetanmassart.github.io/JS-Cookie-Clicker-REVENGE/"
     },
     {
+        "icon": "fas fa-gamepad",
         "title": "Le jeu du pendu REVENGE",
         "badgestyle": "badge-info",
         "badge": "Trouvez le mot mystrère AVEC UNE MEILLEUR INTERFACE !",
@@ -55,6 +63,7 @@ let app = [{
         "link": "https://dzenetanmassart.github.io/le-jeu-du-pendu-REVENGE/"
     },
     {
+        "icon": "fas fa-comment-dots",
         "title": "Dialogue",
         "badgestyle": "badge-warning",
         "badge": "Emulez un dialogue entre deux personnages !",
@@ -62,12 +71,12 @@ let app = [{
         "link": "https://github.com/DzenetanMassart/Dialogue"
     },
     {
+        "icon": "fas fa-atlas",
         "title": "MakeOnWeb",
         "badgestyle": "badge-secondary",
         "badge": "Compile des apps autour de la création sur le Web",
         "desc": "C'est une application pour chercher des applications pour produire des images,des vidéos, des modèles 3D,de l'audio et du code.",
         "link": "https://github.com/DzenetanMassart/MakeOnWeb"
     }
-
 
 ]

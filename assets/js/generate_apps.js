@@ -5,7 +5,7 @@ let generate = " ";
 for (let ii = 0; ii < app.length; ii++) {
     let apps = (app[ii]);
 
-    generate += '<article class="card"><h4 class="card-title">' +
+    generate += '<article class="card"><h4 class="card-title"><i class="' + apps.icon + ' "></i> ' +
         apps.title +
         '</h4><span class="badge ' +
         apps.badgestyle +
