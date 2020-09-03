@@ -12,11 +12,41 @@ header {
   background-color: #00000C;
 }
 
-header img {
+header .profil {
   left: 1%;
   width: 10%;
   padding: 0.5%;
   border-radius: 180px;
+}
+
+header .cv {
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  width: 10%;
+  background-color: white;
+  border: 1px solid #00000C;
+  padding-left: 1%;
+  padding-right: 1%;
+  border-radius: 0 180px 180px 0;
+  color: #4c85bd;
+  font-size: 2vw;
+  text-decoration: none;
+  -webkit-transform: scale(1);
+  transform: scale(1);
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+header .cv:hover {
+  color: #00000C;
+  border: 1px solid #4c85bd;
+  -webkit-box-shadow: inset 0 0 5px #4c85bd;
+  box-shadow: inset 0 0 5px #4c85bd;
+}
+
+header .cv:active {
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
 }
 
 @media screen and (min-width: 1280px) {
@@ -24,66 +54,12 @@ header img {
     font-size: 1.5vw;
     color: white;
   }
-  header .cv {
-    text-align: center;
-    font-family: 'Oswald', sans-serif;
-    width: 10%;
-    background-color: white;
-    border: 1px solid #00000C;
-    padding-left: 1%;
-    padding-right: 1%;
-    border-radius: 0 180px 180px 0;
-    color: #4c85bd;
-    font-size: 2vw;
-    text-decoration: none;
-    -webkit-transform: scale(1);
-            transform: scale(1);
-    -webkit-transition: all 0.2s;
-    transition: all 0.2s;
-  }
-  header .cv:hover {
-    color: #00000C;
-    border: 1px solid #4c85bd;
-    -webkit-box-shadow: inset 0 0 5px #4c85bd;
-            box-shadow: inset 0 0 5px #4c85bd;
-  }
-  header .cv:active {
-    -webkit-transform: scale(0.9);
-            transform: scale(0.9);
-  }
 }
 
 @media screen and (max-width: 1280px) {
   header a {
     font-size: 2.5vw;
     color: white;
-  }
-  header .cv {
-    text-align: center;
-    font-family: 'Oswald', sans-serif;
-    width: 10%;
-    background-color: white;
-    border: 1px solid #00000C;
-    border-radius: 180px;
-    padding-left: 1%;
-    padding-right: 1%;
-    color: #4c85bd;
-    font-size: 5vw;
-    text-decoration: none;
-    -webkit-transform: scale(1);
-            transform: scale(1);
-    -webkit-transition: all 0.2s;
-    transition: all 0.2s;
-  }
-  header .cv:hover {
-    color: #00000C;
-    border: 1px solid #4c85bd;
-    -webkit-box-shadow: inset 0 0 5px #4c85bd;
-            box-shadow: inset 0 0 5px #4c85bd;
-  }
-  header .cv:active {
-    -webkit-transform: scale(0.9);
-            transform: scale(0.9);
   }
 }
 
@@ -175,6 +151,12 @@ header .dropdown-item:hover {
     background-color: #4c85bd;
     border-radius: 0 0 50px 50px;
   }
+  main .inline .technologies li:nth-child(2n-1),
+  main .inline .logiciels li:nth-child(2n-1),
+  main .inline .capacites li:nth-child(2n-1),
+  main .inline .programmes li:nth-child(2n-1) {
+    background-color: #00000c3b;
+  }
   main .inline .technologies a:link, main .inline .technologies a:visited,
   main .inline .logiciels a:link,
   main .inline .logiciels a:visited,
@@ -258,6 +240,12 @@ header .dropdown-item:hover {
     width: 100%;
     background-color: #4c85bd;
     border-radius: 0 0 50px 50px;
+  }
+  main .inline .technologies li:nth-child(2n-1),
+  main .inline .logiciels li:nth-child(2n-1),
+  main .inline .capacites li:nth-child(2n-1),
+  main .inline .programmes li:nth-child(2n-1) {
+    background-color: rgba(0, 0, 12, 0.231);
   }
   main .inline .technologies a:link, main .inline .technologies a:visited,
   main .inline .logiciels a:link,

@@ -15,68 +15,49 @@ html {
 header {
     width: 100%;
     background-color: $C3;
-    img {
+    .profil {
         left: 1%;
         width: 10%;
         padding: 0.5%;
         border-radius: 180px;
+    }
+    .cv {
+        text-align: center;
+        font-family: 'Oswald', sans-serif;
+        width: 10%;
+        background-color: white;
+        border: 1px solid #00000C;
+        padding-left: 1%;
+        padding-right: 1%;
+        border-radius: 0 180px 180px 0;
+        color: #4c85bd;
+        font-size: 2vw;
+        text-decoration: none;
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-transition: all 0.2s;
+        transition: all 0.2s;
+        &:hover {
+            color: #00000C;
+            border: 1px solid #4c85bd;
+            -webkit-box-shadow: inset 0 0 5px #4c85bd;
+            box-shadow: inset 0 0 5px #4c85bd;
+        }
+        &:active {
+            -webkit-transform: scale(0.9);
+            transform: scale(0.9);
+        }
     }
     @media screen and (min-width: 1280px) {
         a {
             font-size: 1.5vw;
             color: $C1;
         }
-        .cv {
-            text-align: center;
-            font-family: 'Oswald', sans-serif;
-            width: 10%;
-            background-color: $C1;
-            border: 1px solid $C3;
-            padding-left: 1%;
-            padding-right: 1%;
-            border-radius: 0 180px 180px 0;
-            color: $C2;
-            font-size: 2vw;
-            text-decoration: none;
-            transform: scale(1.0);
-            transition: all 0.2s;
-            &:hover {
-                color: $C3;
-                border: 1px solid $C2;
-                box-shadow: inset 0 0 5px $C2;
-            }
-            &:active {
-                transform: scale(0.9);
-            }
-        }
     }
     @media screen and (max-width: 1280px) {
         a {
             font-size: 2.5vw;
             color: $C1;
-        }
-        .cv {
-            text-align: center;
-            font-family: 'Oswald', sans-serif;
-            width: 10%;
-            background-color: $C1;
-            border: 1px solid $C3;
-            border-radius: 180px;
-            padding-left: 1%;
-            padding-right: 1%;
-            color: $C2;
-            font-size: 5vw;
-            text-decoration: none;
-            transform: scale(1.0);
-            transition: all 0.2s;
-            &:hover {
-                color: $C3;
-                border: 1px solid $C2;
-                box-shadow: inset 0 0 5px $C2;
-            }
-            &:active {
-                transform: scale(0.9);
-            }
         }
     }
     .dropdown {
@@ -156,6 +137,11 @@ header {
                     background-color: $C2;
                     border-radius: 0 0 50px 50px;
                 }
+                li {
+                    &:nth-child(2n-1) {
+                        background-color: #00000c3b;
+                    }
+                }
                 a {
                     &:link,
                     &:visited {
@@ -224,6 +210,11 @@ header {
                     width: 100%;
                     background-color: $C2;
                     border-radius: 0 0 50px 50px;
+                }
+                li {
+                    &:nth-child(2n-1) {
+                        background-color: rgba(0, 0, 12, 0.231);
+                    }
                 }
                 a {
                     &:link,
