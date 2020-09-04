@@ -9,7 +9,7 @@ main {
     grid-gap: 1%;
     section {
         background: $C3;
-        border-radius: 180px;
+        border-radius: 100px 100px 0 0;
         border: solid $C3a 10px;
         h2 {
             border-bottom: solid $C1 2px;

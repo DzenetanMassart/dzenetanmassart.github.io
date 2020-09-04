@@ -9,7 +9,7 @@ main {
 
 main section {
   background: #00000c;
-  border-radius: 180px;
+  border-radius: 100px 100px 0 0;
   border: solid rgba(0, 0, 12, 0.376) 10px;
 }
 
