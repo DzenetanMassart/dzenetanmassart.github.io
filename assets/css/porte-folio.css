@@ -22,5 +22,35 @@ main section h2 {
 main section div {
   text-align: center;
   color: white;
+  border-radius: 180px;
+}
+
+main section div a {
+  color: #4c85bd;
+  text-decoration: none;
+}
+
+main section div a:after {
+  content: ">";
+}
+
+main section div a:before {
+  content: "<";
+}
+
+main section div a:hover {
+  text-decoration: none;
+}
+
+main section div a:hover:after {
+  content: "<";
+}
+
+main section div a:hover:before {
+  content: ">";
+}
+
+main section div span {
+  color: white;
 }
 /*# sourceMappingURL=porte-folio.css.map */

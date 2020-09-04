@@ -19,6 +19,29 @@ main {
         div {
             text-align: center;
             color: $C1;
+            border-radius: 180px;
+            a {
+                color: $C2;
+                text-decoration: none;
+                &:after {
+                    content: ">"
+                }
+                &:before {
+                    content: "<"
+                }
+                &:hover {
+                    text-decoration: none;
+                    &:after {
+                        content: "<"
+                    }
+                    &:before {
+                        content: ">"
+                    }
+                }
+            }
+            span {
+                color: $C1;
+            }
         }
     }
 }
