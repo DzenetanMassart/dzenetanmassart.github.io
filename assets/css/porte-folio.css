@@ -2,8 +2,8 @@
 main {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: auto auto;
-      grid-template-columns: auto auto;
+  -ms-grid-columns: 45% 45%;
+      grid-template-columns: 45% 45%;
   grid-gap: 1%;
 }
 
@@ -23,6 +23,7 @@ main section div {
   text-align: center;
   color: white;
   border-radius: 180px;
+  overflow-wrap: break-word;
 }
 
 main section div a {

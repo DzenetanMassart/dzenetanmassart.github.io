@@ -75,7 +75,7 @@ let app = [{
         "title": "MakeOnWeb",
         "badgestyle": "badge-secondary",
         "badge": "Compile des apps autour de la création sur le Web",
-        "desc": "C'est une application pour chercher des applications pour produire des images,des vidéos, des modèles 3D,de l'audio et du code.",
+        "desc": "C'est une application pour chercher des applications pour produire des images,des vidéos, des modèles 3D,de l'audio et du code sans devoir télécharger un executable.",
         "link": "https://github.com/DzenetanMassart/MakeOnWeb"
     }
 
