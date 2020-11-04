@@ -7,9 +7,7 @@
     <meta name="keywords" content="CV,Dzénetan,Massart,vidéo,gif,applications" />
     <meta name="author" content="Dzénetan Massart" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/css/main.css">
     <link rel="stylesheet" type="text/css" href="assets/css/porte-folio.css">
@@ -65,27 +63,58 @@
         <section id="photos">
             <h2>Les photographies</h2>
             <div>
-                <a href="https://www.behance.net/gallery/103649419/Fonds-naturels">Les fonds naturels</a>
-                <a href="https://www.behance.net/gallery/104117057/Reprage-a-Chevetogne">Repérage à Chevetogne</a>
-                <a href="https://www.behance.net/gallery/104042411/Fonds-verdoyants">Fonds verdoyants</a>
-                <a href="https://www.behance.net/gallery/103840487/Chateau-de-La-Roche-en-Ardenne">Château de La Roche-en-Ardenne</a>
+                <button type="button" class="btn btn-outline-primary">
+                    <a href="https://www.behance.net/gallery/103649419/Fonds-naturels">Les fonds naturels</a>
+                </button>
+                <button type="button" class="btn btn-outline-primary">
+                    <a href="https://www.behance.net/gallery/104117057/Reprage-a-Chevetogne">Repérage à Chevetogne</a>         
+                       </button>
+                <button type="button" class="btn btn-outline-primary">
+                    <a href="https://www.behance.net/gallery/104042411/Fonds-verdoyants">Fonds verdoyants</a>           
+                     </button>
+                <button type="button" class="btn btn-outline-primary">
+                    <a href="https://www.behance.net/gallery/103840487/Chateau-de-La-Roche-en-Ardenne">Château de La Roche-en-Ardenne</a>           
+                     </button>
+
+
+
             </div>
         </section>
         <section id="3d">
             <h2>Les modèles 3D</h2>
-            <div>
-                <div class="sketchfab-embed-wrapper">
-                    <iframe title="A 3D model" width="100%" height="500" src="https://sketchfab.com/models/9afaca4084e040228525e115dd1b534b/embed?camera=0&amp;ui_controls=1&amp;ui_infos=1&amp;ui_inspector=1&amp;ui_stop=1&amp;ui_watermark=1&amp;ui_watermark_link=1" frameborder="0"
-                        allow=" fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+            <div class="row">
+                <div class="col-12">
+                    <div class="list-group list-group-horizontal-xl " id="list-tab" role="tablist">
+                        <button type="button" class="btn btn-outline-primary list-group-item list-group-item-action active" id="list-logo-list" data-toggle="list" href="#list-logo" role="tab" aria-controls="logo">Logo</button>
+                        <button type="button" class="btn btn-outline-primary list-group-item list-group-item-action" id="list-presentoirs-list" data-toggle="list" href="#list-presentoirs" role="tab" aria-controls="presentoirs">Présentoir à statut</button>
+                        <button type="button" class="btn btn-outline-primary list-group-item list-group-item-action" id="list-valise-list" data-toggle="list" href="#list-valise" role="tab" aria-controls="valise">Valise</button>
+                    </div>
                 </div>
-                <div class="sketchfab-embed-wrapper">
-                    <iframe title="A 3D model" width="100%" height="500" src="https://sketchfab.com/models/4a822e95527449d6982839f6b036e5b3/embed?camera=0&amp;ui_controls=1&amp;ui_infos=1&amp;ui_inspector=1&amp;ui_stop=1&amp;ui_watermark=1&amp;ui_watermark_link=1" frameborder="0"
-                        allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                <div class="col-12">
+                    <div class="tab-content" id="nav-tabContent">
+                        <div class="tab-pane fade show active" id="list-logo" role="tabpanel" aria-labelledby="list-logo-list">
+                            <div class="sketchfab-embed-wrapper">
+                                <iframe title="A 3D model" width="100%" height="500" src="https://sketchfab.com/models/9afaca4084e040228525e115dd1b534b/embed?camera=0&amp;ui_controls=1&amp;ui_infos=1&amp;ui_inspector=1&amp;ui_stop=1&amp;ui_watermark=1&amp;ui_watermark_link=1" frameborder="0"
+                                    allow=" fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="list-presentoirs" role="tabpanel" aria-labelledby="list-presentoirs-list">
+                            <div class="sketchfab-embed-wrapper">
+                                <iframe title="A 3D model" width="100%" height="500" src="https://sketchfab.com/models/4a822e95527449d6982839f6b036e5b3/embed?camera=0&amp;ui_controls=1&amp;ui_infos=1&amp;ui_inspector=1&amp;ui_stop=1&amp;ui_watermark=1&amp;ui_watermark_link=1" frameborder="0"
+                                    allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                            </div>
+                        </div>
+                        <div class="tab-pane fade" id="list-valise" role="tabpanel" aria-labelledby="list-valise-list">
+                            <div class="sketchfab-embed-wrapper">
+                                <iframe title="A 3D model" width="100%" height="500" src="https://sketchfab.com/models/2f2f4b0bfd30401d93ff3b4bbd1c3784/embed?camera=0&amp;ui_controls=1&amp;ui_infos=1&amp;ui_inspector=1&amp;ui_stop=1&amp;ui_watermark=1&amp;ui_watermark_link=1" frameborder="0"
+                                    allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="sketchfab-embed-wrapper">
-                    <iframe title="A 3D model" width="100%" height="500" src="https://sketchfab.com/models/2f2f4b0bfd30401d93ff3b4bbd1c3784/embed?camera=0&amp;ui_controls=1&amp;ui_infos=1&amp;ui_inspector=1&amp;ui_stop=1&amp;ui_watermark=1&amp;ui_watermark_link=1" frameborder="0"
-                        allow="autoplay; fullscreen; vr" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-                </div>
+
+
+
 
 
 
@@ -93,5 +122,7 @@
 
         </section>
     </main>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
 
 </body>

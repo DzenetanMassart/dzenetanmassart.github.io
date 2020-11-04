@@ -3,45 +3,66 @@ $C2: rgb(76, 133, 189);
 $C3: rgb(0, 0, 12);
 $C3a: rgba(0, 0, 12, 0.376);
 @import url('https://fonts.googleapis.com/css?family=Oswald');
-main {
-    display: grid;
-    grid-template-columns: 45% 45%;
-    grid-gap: 1%;
-    section {
-        background: $C3;
-        border-radius: 100px 100px 0 0;
-        border: solid $C3a 10px;
-        h2 {
-            border-bottom: solid $C1 2px;
-            text-transform: uppercase;
-            font-family: 'Oswald', sans-serif;
-        }
-        div {
-            text-align: center;
-            color: $C1;
-            border-radius: 180px;
-            overflow-wrap: break-word;
-            a {
-                color: $C2;
-                text-decoration: none;
-                &:after {
-                    content: ">"
-                }
-                &:before {
-                    content: "<"
-                }
-                &:hover {
-                    text-decoration: none;
-                    &:after {
-                        content: "<"
+@media screen and (min-width: 1280px) {
+    main {
+        display: grid;
+        grid-template-columns: 45% 45%;
+        grid-gap: 1%;
+        section {
+            background: $C3;
+            border-radius: 100px 100px 0 0;
+            border: solid $C3a 10px;
+            h2 {
+                border-bottom: solid $C1 2px;
+                text-transform: uppercase;
+                font-family: 'Oswald', sans-serif;
+            }
+            div {
+                text-align: center;
+                color: $C1;
+                border-radius: 180px;
+                overflow-wrap: break-word;
+                button:hover {
+                    a {
+                        color: $C1;
+                        text-decoration: none;
                     }
-                    &:before {
-                        content: ">"
-                    }
+                }
+                span {
+                    color: $C1;
                 }
             }
-            span {
+        }
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    main {
+        display: grid;
+        grid-gap: 1%;
+        section {
+            background: $C3;
+            border-radius: 100px 100px 0 0;
+            border: solid $C3a 10px;
+            h2 {
+                border-bottom: solid $C1 2px;
+                text-transform: uppercase;
+                font-family: 'Oswald', sans-serif;
+            }
+            div {
+                text-align: center;
                 color: $C1;
+                border-radius: 180px;
+                overflow-wrap: break-word;
+                button:hover {
+                    a {
+                        color: $C1;
+                        text-decoration: none;
+                    }
+                }
+                span {
+                    color: $C1;
+                }
             }
         }
     }
