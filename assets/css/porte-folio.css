@@ -53,6 +53,10 @@ header .cv:active {
     font-size: 2.5vw;
     color: white;
   }
+  header .nav-item {
+    width: 100%;
+    height: 30px;
+  }
 }
 
 header .dropdown:hover {
