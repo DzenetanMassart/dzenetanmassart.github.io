@@ -310,4 +310,47 @@ footer .description {
     margin: 10px;
   }
 }
+
+/* Background data (Original source: https://subtlepatterns.com/grid-me/) */
+/* Animations */
+@-webkit-keyframes bg-scrolling-reverse {
+  100% {
+    background-position: 50px 50px;
+  }
+}
+@keyframes bg-scrolling-reverse {
+  100% {
+    background-position: 50px 50px;
+  }
+}
+
+@-webkit-keyframes bg-scrolling {
+  0% {
+    background-position: 50px 50px;
+  }
+}
+
+@keyframes bg-scrolling {
+  0% {
+    background-position: 50px 50px;
+  }
+}
+
+main ul {
+  color: #999;
+  text-align: center;
+  /* img size is 50x50 */
+  background: url("../image/bg.png") repeat 0 0;
+  -webkit-animation: bg-scrolling-reverse .92s infinite;
+          animation: bg-scrolling-reverse .92s infinite;
+  -webkit-animation-timing-function: linear;
+          animation-timing-function: linear;
+}
+
+main ul::before {
+  content: " ";
+  font-size: 8rem;
+  font-weight: 100;
+  font-style: normal;
+}
 /*# sourceMappingURL=main.css.map */
