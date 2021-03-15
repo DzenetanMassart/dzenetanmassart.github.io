@@ -134,6 +134,10 @@
                     padding-left: 5px;
                     padding-right: 5px;
                     background-color: $C3a;
+                    border-bottom: 1px $C1 solid;
+                    border-left: 1px $C1 solid;
+                    border-right: 1px $C1 solid;
+                    border-radius: 5px 5px 5px 5px;
                     span {
                         display: block;
                         border-bottom: 2px $C1 solid;
@@ -242,7 +246,7 @@
     }
     
     // Les applications
-    footer {
+    .apps {
         .description {
             border-top: $C3a solid 2px;
             border-bottom: $C3a solid 2px;
@@ -304,4 +308,73 @@
             font-weight: 100;
             font-style: normal;
         }
+    }
+    
+    // Parcours
+    .parcours {
+        .description {
+            border-top: $C3a solid 2px;
+            border-bottom: $C3a solid 2px;
+            box-shadow: $C3a 2px 2px 2px;
+            padding: 20px;
+            text-align: center;
+            color: $C1;
+        }
+        @media screen and (min-width: 1280px) {
+            .parc {
+                display: grid;
+                grid-gap: 20px;
+                grid-template-columns: auto auto;
+                margin: 10px;
+                article {
+                    &:nth-child(2n) {
+                        background-color: #fff;
+                        border: 1px solid rgba(0, 0, 0, .125);
+                    }
+                    position: relative;
+                    display: -ms-flexbox;
+                    display: flex;
+                    -ms-flex-direction: column;
+                    flex-direction: column;
+                    min-width: 0;
+                    word-wrap: break-word;
+                    background-clip: border-box;
+                    border-radius: .25rem;
+                    img {
+                        width: 10vw;
+                    }
+                }
+            }
+        }
+        @media screen and (max-width: 1280px) {
+            .parc {
+                display: grid;
+                grid-gap: 10px;
+                grid-template-columns: auto auto;
+                margin: 10px;
+                article {
+                    &:nth-child(2n) {
+                        background-color: #fff;
+                        border: 1px solid rgba(0, 0, 0, .125);
+                    }
+                    position: relative;
+                    display: -ms-flexbox;
+                    display: flex;
+                    -ms-flex-direction: column;
+                    flex-direction: column;
+                    min-width: 0;
+                    word-wrap: break-word;
+                    background-clip: border-box;
+                    border-radius: .25rem;
+                    img {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+    
+    .copyright {
+        text-align: center;
+        color: white;
     }

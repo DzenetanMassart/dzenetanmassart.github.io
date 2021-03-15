@@ -144,6 +144,10 @@ header .dropdown-item:hover {
     padding-left: 5px;
     padding-right: 5px;
     background-color: #00000c60;
+    border-bottom: 1px white solid;
+    border-left: 1px white solid;
+    border-right: 1px white solid;
+    border-radius: 5px 5px 5px 5px;
   }
   main .inline .technologies span,
   main .inline .logiciels span,
@@ -279,7 +283,7 @@ header .dropdown-item:hover {
   }
 }
 
-footer .description {
+.apps .description {
   border-top: #00000c60 solid 2px;
   border-bottom: #00000c60 solid 2px;
   -webkit-box-shadow: #00000c60 2px 2px 2px;
@@ -352,5 +356,84 @@ main ul::before {
   font-size: 8rem;
   font-weight: 100;
   font-style: normal;
+}
+
+.parcours .description {
+  border-top: #00000c60 solid 2px;
+  border-bottom: #00000c60 solid 2px;
+  -webkit-box-shadow: #00000c60 2px 2px 2px;
+          box-shadow: #00000c60 2px 2px 2px;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+@media screen and (min-width: 1280px) {
+  .parcours .parc {
+    display: -ms-grid;
+    display: grid;
+    grid-gap: 20px;
+    -ms-grid-columns: auto auto;
+        grid-template-columns: auto auto;
+    margin: 10px;
+  }
+  .parcours .parc article {
+    position: relative;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    -ms-flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+            flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-clip: border-box;
+    border-radius: .25rem;
+  }
+  .parcours .parc article:nth-child(2n) {
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+  }
+  .parcours .parc article img {
+    width: 10vw;
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  .parcours .parc {
+    display: -ms-grid;
+    display: grid;
+    grid-gap: 10px;
+    -ms-grid-columns: auto auto;
+        grid-template-columns: auto auto;
+    margin: 10px;
+  }
+  .parcours .parc article {
+    position: relative;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    -ms-flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+            flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-clip: border-box;
+    border-radius: .25rem;
+  }
+  .parcours .parc article:nth-child(2n) {
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+  }
+  .parcours .parc article img {
+    width: 100%;
+  }
+}
+
+.copyright {
+  text-align: center;
+  color: white;
 }
 /*# sourceMappingURL=main.css.map */
