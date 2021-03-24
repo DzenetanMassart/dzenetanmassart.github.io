@@ -3,6 +3,7 @@
     $C3: #00000C;
     $C3a: #00000c60;
     @import url('https://fonts.googleapis.com/css?family=Oswald');
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
     body {
         background-color: $C2;
     }
@@ -340,8 +341,12 @@
                     word-wrap: break-word;
                     background-clip: border-box;
                     border-radius: .25rem;
+                    h3 {
+                        font-family: 'Open Sans', sans-serif;
+                    }
                     img {
                         width: 10vw;
+                        margin: auto auto;
                     }
                 }
             }
@@ -350,7 +355,7 @@
             .parc {
                 display: grid;
                 grid-gap: 10px;
-                grid-template-columns: auto auto;
+                grid-template-columns: auto;
                 margin: 10px;
                 article {
                     &:nth-child(2n) {
@@ -366,8 +371,13 @@
                     word-wrap: break-word;
                     background-clip: border-box;
                     border-radius: .25rem;
+                    h3 {
+                        font-family: 'Open Sans', sans-serif;
+                        font-size: 1.2em;
+                    }
                     img {
-                        width: 100%;
+                        width: 10%;
+                        margin: auto auto;
                     }
                 }
             }

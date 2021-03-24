@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Oswald");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap");
 body {
   background-color: #4c85bd;
 }
@@ -395,8 +396,12 @@ main ul::before {
     background-color: #fff;
     border: 1px solid rgba(0, 0, 0, 0.125);
   }
+  .parcours .parc article h3 {
+    font-family: 'Open Sans', sans-serif;
+  }
   .parcours .parc article img {
     width: 10vw;
+    margin: auto auto;
   }
 }
 
@@ -405,8 +410,8 @@ main ul::before {
     display: -ms-grid;
     display: grid;
     grid-gap: 10px;
-    -ms-grid-columns: auto auto;
-        grid-template-columns: auto auto;
+    -ms-grid-columns: auto;
+        grid-template-columns: auto;
     margin: 10px;
   }
   .parcours .parc article {
@@ -427,8 +432,13 @@ main ul::before {
     background-color: #fff;
     border: 1px solid rgba(0, 0, 0, 0.125);
   }
+  .parcours .parc article h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2em;
+  }
   .parcours .parc article img {
-    width: 100%;
+    width: 10%;
+    margin: auto auto;
   }
 }
 
