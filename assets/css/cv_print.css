@@ -37,7 +37,7 @@ header div:nth-child(2) .type {
   text-align: center;
   padding-top: 20px;
   padding-bottom: 20px;
-  font-size: 2vw;
+  font-size: 16pt;
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[2];
@@ -52,7 +52,7 @@ header div:nth-child(2) .type span:nth-child(n+2):before {
   content: " + ";
 }
 
-@media screen and (min-width: 810px) {
+@media print and (min-width: 810px) {
   main {
     color: white;
     display: -ms-grid;
@@ -86,7 +86,7 @@ header div:nth-child(2) .type span:nth-child(n+2):before {
   }
   h1,
   h2 {
-    color: #4c85bd;
+    color: #747474;
   }
   h2 {
     font-size: 2.5em;
@@ -95,27 +95,13 @@ header div:nth-child(2) .type span:nth-child(n+2):before {
     color: #646464;
   }
   .retour {
-    position: fixed;
-    top: 0;
-    left: 0;
-    padding: 5px;
-    text-align: center;
-    background: #4c85bd;
-    border: white solid 1px;
-    color: white;
-  }
-  .retour a:link, .retour a:visited {
-    text-decoration: none;
-    color: white;
-  }
-  .retour a:link:hover, .retour a:visited:hover {
-    color: #00000C;
+    display: none;
   }
 }
 
-@media screen and (max-width: 810px) {
+@media print and (max-width: 810px) {
   li {
-    font-size: 3.5vw;
+    font-size: 15pt;
   }
   main {
     color: white;
@@ -151,7 +137,7 @@ header div:nth-child(2) .type span:nth-child(n+2):before {
   }
   h1,
   h2 {
-    color: #4c85bd;
+    color: #747474;
     text-transform: uppercase;
     font-family: 'Oswald', sans-serif;
   }
@@ -164,20 +150,7 @@ header div:nth-child(2) .type span:nth-child(n+2):before {
     font-family: 'Oswald', sans-serif;
   }
   .retour {
-    display: block;
-    padding: 10vw;
-    text-align: center;
-    background: #4c85bd;
-    border: white solid 5px;
-    color: white;
-    font-size: 20px;
-  }
-  .retour a:link, .retour a:visited {
-    text-decoration: none;
-    color: white;
-  }
-  .retour a:link:hover, .retour a:visited:hover {
-    color: #00000C;
+    display: none;
   }
 }
-/*# sourceMappingURL=cv.css.map */
+/*# sourceMappingURL=cv_print.css.map */

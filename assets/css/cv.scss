@@ -1,172 +1,182 @@
-$C1: rgb(192, 192, 192);
-$C2: #4c85bd;
-$C3: #00000C;
-$C4:white;
-$C5:rgb(100, 100, 100);
-@import url("https://fonts.googleapis.com/css?family=Oswald");
-header {
-    color: $C4;
-    display: grid;
-    grid-template-columns: 50% 50%;
-    background-color: $C3;
-    div:nth-child(1) {
-        text-align: center;
-        margin: auto auto;
-        img {
-            margin-left: auto;
-            margin-right: auto;
-            width: 15vw;
-            height: 15vw;
-            border-radius: 360px;
-        }
-    }
-    div:nth-child(2) {
-        background-color: $C1;
-        padding: 10px;
-        h1 {
-            font-size: 5vw;
-            text-align: center;
-        }
-        .type {
-            background-color: $C5;
-            color: $C1;
-            text-align: center;
-            padding-top: 20px;
-            padding-bottom: 20px;
-            font-size: 2.5vw;
-        }
-    }
-}
-
-@media screen and (min-width: 810px) {
-    main {
+    $C1: rgb(192, 192, 192);
+    $C2: #4c85bd;
+    $C3: #00000C;
+    $C4:white;
+    $C5:rgb(100, 100, 100);
+    @import url("https://fonts.googleapis.com/css?family=Oswald");
+    header {
         color: $C4;
         display: grid;
         grid-template-columns: 50% 50%;
-        .gauche {
+        background-color: $C3;
+        div:nth-child(1) {
             text-align: center;
-            background-color: $C3;
+            margin: auto auto;
+            img {
+                margin-left: auto;
+                margin-right: auto;
+                width: 15vw;
+                height: 15vw;
+                border-radius: 360px;
+            }
+        }
+        div:nth-child(2) {
+            background-color: $C1;
             padding: 10px;
-            div {
+            h1 {
+                font-size: 5vw;
                 text-align: center;
-                margin-bottom: 25px;
-                margin-top: 25px;
-                img {
-                    margin-left: auto;
-                    margin-right: auto;
-                    width: 15vw;
-                    height: 15vw;
-                    border-radius: 360px;
+            }
+            .type {
+                background-color: $C5;
+                color: $C1;
+                text-align: center;
+                padding-top: 20px;
+                padding-bottom: 20px;
+                font-size: 2vw;
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                span {
+                    word-wrap: break-word;
+                    &:nth-child(n+2) {
+                        &:before {
+                            content: " + "
+                        }
+                    }
                 }
             }
         }
-        .droit {
-            background-color: $C1;
+    }
+    
+    @media screen and (min-width: 810px) {
+        main {
+            color: $C4;
+            display: grid;
+            grid-template-columns: 50% 50%;
+            .gauche {
+                text-align: center;
+                background-color: $C3;
+                padding: 10px;
+                div {
+                    text-align: center;
+                    margin-bottom: 25px;
+                    margin-top: 25px;
+                    img {
+                        margin-left: auto;
+                        margin-right: auto;
+                        width: 15vw;
+                        height: 15vw;
+                        border-radius: 360px;
+                    }
+                }
+            }
+            .droit {
+                background-color: $C1;
+            }
+            ul {
+                color: $C5;
+                list-style-type: none;
+            }
         }
-        ul {
+        h1,
+        h2 {
+            color: $C2
+        }
+        h2 {
+            font-size: 2.5em;
+        }
+        h3 {
             color: $C5;
-            list-style-type: none;
         }
-    }
-    h1,
-    h2 {
-        color: $C2
-    }
-    h2 {
-        font-size: 2.5em;
-    }
-    h3 {
-        color: $C5;
-    }
-    // Le bouton du retour à la page d'acceuil
-    .retour {
-        position: fixed;
-        top: 0;
-        left: 0;
-        padding: 5px;
-        text-align: center;
-        background: $C2;
-        border: $C4 solid 1px;
-        color: $C4;
-        a {
-            &:link,
-            &:visited {
-                text-decoration: none;
-                color: white;
-                &:hover {
-                    color: $C3;
-                }
-            }
-        }
-    }
-}
-
-@media screen and (max-width: 810px) {
-    li {
-        font-size: 3.5vw;
-    }
-    main {
-        color: $C4;
-        display: grid;
-        grid-template-columns: 100%;
-        .gauche {
+        // Le bouton du retour à la page d'acceuil
+        .retour {
+            position: fixed;
+            top: 0;
+            left: 0;
+            padding: 5px;
             text-align: center;
-            background-color: $C3;
-            padding: 20px;
-            div {
+            background: $C2;
+            border: $C4 solid 1px;
+            color: $C4;
+            a {
+                &:link,
+                &:visited {
+                    text-decoration: none;
+                    color: white;
+                    &:hover {
+                        color: $C3;
+                    }
+                }
+            }
+        }
+    }
+    
+    @media screen and (max-width: 810px) {
+        li {
+            font-size: 3.5vw;
+        }
+        main {
+            color: $C4;
+            display: grid;
+            grid-template-columns: 100%;
+            .gauche {
                 text-align: center;
-                margin-bottom: 25px;
-                margin-top: 25px;
-                img {
-                    margin-left: auto;
-                    margin-right: auto;
-                    width: 15vw;
-                    height: 15vw;
-                    border-radius: 360px;
+                background-color: $C3;
+                padding: 20px;
+                div {
+                    text-align: center;
+                    margin-bottom: 25px;
+                    margin-top: 25px;
+                    img {
+                        margin-left: auto;
+                        margin-right: auto;
+                        width: 15vw;
+                        height: 15vw;
+                        border-radius: 360px;
+                    }
                 }
             }
+            .droit {
+                background-color: $C1;
+                padding: 20px;
+            }
+            ul {
+                color: $C5;
+                list-style-type: none;
+            }
         }
-        .droit {
-            background-color: $C1;
-            padding: 20px;
+        h1,
+        h2 {
+            color: $C2;
+            text-transform: uppercase;
+            font-family: 'Oswald', sans-serif;
         }
-        ul {
+        h2 {
+            font-size: 6.5vw;
+        }
+        h3 {
             color: $C5;
-            list-style-type: none;
+            font-size: 5.5vw;
+            font-family: 'Oswald', sans-serif;
         }
-    }
-    h1,
-    h2 {
-        color: $C2;
-        text-transform: uppercase;
-        font-family: 'Oswald', sans-serif;
-    }
-    h2 {
-        font-size: 6.5vw;
-    }
-    h3 {
-        color: $C5;
-        font-size: 5.5vw;
-        font-family: 'Oswald', sans-serif;
-    }
-    // Le bouton du retour à la page d'acceuil
-    .retour {
-        display: block;
-        padding: 10vw;
-        text-align: center;
-        background: $C2;
-        border: $C4 solid 5px;
-        color: $C4;
-        font-size: 20px;
-        a {
-            &:link,
-            &:visited {
-                text-decoration: none;
-                color: white;
-                &:hover {
-                    color: $C3;
+        // Le bouton du retour à la page d'acceuil
+        .retour {
+            display: block;
+            padding: 10vw;
+            text-align: center;
+            background: $C2;
+            border: $C4 solid 5px;
+            color: $C4;
+            font-size: 20px;
+            a {
+                &:link,
+                &:visited {
+                    text-decoration: none;
+                    color: white;
+                    &:hover {
+                        color: $C3;
+                    }
                 }
             }
         }
     }
-}
