@@ -39,6 +39,14 @@ let app = [{
         "link": "https://dzenetanmassart.github.io/Parlote5/"
     },
     {
+        "icon": "fas fa-microphone-alt",
+        "title": "Parlote6",
+        "badgestyle": "badge-warning",
+        "badge": "Utilise le microphone sur 5 visages",
+        "desc": "Amélioration du design pour convertir le projet en banque de module ",
+        "link": "https://dzenetanmassart.github.io/Parlote6/"
+    },
+    {
         "icon": "fas fa-magic",
         "title": "Tricks and Tips",
         "badgestyle": "badge-secondary",
