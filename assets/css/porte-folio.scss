@@ -85,10 +85,10 @@ header {
     main {
         display: grid;
         grid-template-columns: 45% 45%;
-        grid-gap: 1%;
+        grid-gap: 10%;
         section {
             background: $C3;
-            border-radius: 100px 100px 0 0;
+            border-radius: 95px 95px 0 0;
             border: solid $C3a 10px;
             h2 {
                 border-bottom: solid $C1 2px;
@@ -121,7 +121,7 @@ header {
         section {
             background: $C3;
             border-radius: 100px 100px 0 0;
-            border: solid $C3a 10px;
+            border: solid $C3a 15px;
             h2 {
                 border-bottom: solid $C1 2px;
                 text-transform: uppercase;
