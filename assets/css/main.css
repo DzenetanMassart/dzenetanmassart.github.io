@@ -29,13 +29,24 @@ header .cv {
   padding-left: 1%;
   padding-right: 1%;
   border-radius: 0 180px 180px 0;
-  color: #4c85bd;
-  font-size: 2vw;
+  color: #4c85bd !important;
   text-decoration: none;
   -webkit-transform: scale(1);
   transform: scale(1);
   -webkit-transition: all 0.2s;
   transition: all 0.2s;
+}
+
+@media screen and (min-width: 990px) {
+  header .cv {
+    font-size: 2vw;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  header .cv {
+    font-size: 5vw;
+  }
 }
 
 header .cv:hover {
@@ -53,14 +64,14 @@ header .cv:active {
 @media screen and (min-width: 1280px) {
   header a {
     font-size: 1.5vw;
-    color: white;
+    color: white !important;
   }
 }
 
 @media screen and (max-width: 1280px) {
   header a {
     font-size: 2.5vw;
-    color: white;
+    color: white !important;
   }
   header .nav-item {
     width: 100%;
