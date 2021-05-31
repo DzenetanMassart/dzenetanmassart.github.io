@@ -33,7 +33,7 @@ const parcours = [{
 }, {
     "alt": "Photoshop",
     "title": "2014: Photoshop CS6",
-    "para1": "C'est en 2014 que je me tourne vers la suite Adobe pour Photoshop afin de pouvoir faire certains effets non-disponible sur PaintDotNet.",
+    "para1": "C'est en 2014 que je me tourne vers la suite Adobe pour Photoshop afin de pouvoir faire certains effets non-disponible sur PaintDotNet et Magix Video Deluxe.",
     "para2": "Je me sépare de TheGimp pour des raisons de lenteur et de doublon avec PaintDotNet et Photoshop."
 }, {
     "alt": "Adobe Illustraor, After Effect & InDesign. Autodesk 3DSmax, Maya. ",

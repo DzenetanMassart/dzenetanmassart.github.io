@@ -8,6 +8,16 @@ html {
   scroll-behavior: smooth;
 }
 
+.lien_magique {
+  color: yellow;
+}
+
+.lien_magique:hover {
+  color: yellow;
+  text-decoration: none;
+  text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.616), 0px 0px 3px rgba(194, 4, 4, 0.616), 0px 0px 5px yellow !important;
+}
+
 header {
   width: 100%;
   background-color: #00000C;
@@ -129,6 +139,13 @@ header .dropdown-item:hover {
     text-align: center;
     margin-bottom: 20px;
   }
+  main .intro a {
+    color: yellow;
+  }
+  main .intro a:hover {
+    text-decoration: none;
+    text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.616), 0px 0px 3px rgba(194, 4, 4, 0.616), 0px 0px 5px yellow;
+  }
   main .inline {
     display: -ms-grid;
     display: grid;
@@ -222,6 +239,13 @@ header .dropdown-item:hover {
     border-bottom: #00000c60 solid 2px;
     text-align: center;
     padding: 5px;
+  }
+  main .intro a {
+    color: yellow;
+  }
+  main .intro a:hover {
+    text-decoration: none;
+    text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.616), 0px 0px 3px rgba(194, 4, 4, 0.616), 0px 0px 5px yellow;
   }
   main .inline {
     display: -ms-grid;
@@ -385,11 +409,31 @@ main ul::before {
     display: -ms-grid;
     display: grid;
     grid-gap: 20px;
-    -ms-grid-columns: auto auto;
-        grid-template-columns: auto auto;
+    -ms-grid-columns: auto;
+        grid-template-columns: auto;
     margin: 10px;
   }
   .parcours .parc article {
+    -ms-grid-columns: 12vw auto;
+        grid-template-columns: 12vw auto;
+    display: -ms-grid;
+    display: grid;
+    grid-gap: 20px;
+  }
+  .parcours .parc article div {
+    height: 10vw;
+  }
+  .parcours .parc article div img {
+    width: 12vw;
+    margin: auto auto;
+    height: 12vw;
+    display: block;
+  }
+  .parcours .parc article div:nth-child(2n) {
+    height: 12vw;
+    font-size: 0.9vw;
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.125);
     position: relative;
     display: -ms-flexbox;
     display: -webkit-box;
@@ -403,16 +447,8 @@ main ul::before {
     background-clip: border-box;
     border-radius: .25rem;
   }
-  .parcours .parc article:nth-child(2n) {
-    background-color: #fff;
-    border: 1px solid rgba(0, 0, 0, 0.125);
-  }
-  .parcours .parc article h3 {
+  .parcours .parc article div:nth-child(2n) h3 {
     font-family: 'Open Sans', sans-serif;
-  }
-  .parcours .parc article img {
-    width: 10vw;
-    margin: auto auto;
   }
 }
 
@@ -426,6 +462,17 @@ main ul::before {
     margin: 10px;
   }
   .parcours .parc article {
+    height: 10%;
+  }
+  .parcours .parc article img {
+    width: 10%;
+    margin: auto auto;
+    height: 10%;
+    display: block;
+  }
+  .parcours .parc article div:nth-child(2n) {
+    background-color: #fff;
+    border: 1px solid rgba(0, 0, 0, 0.125);
     position: relative;
     display: -ms-flexbox;
     display: -webkit-box;
@@ -437,19 +484,12 @@ main ul::before {
     min-width: 0;
     word-wrap: break-word;
     background-clip: border-box;
-    border-radius: .25rem;
+    border-bottom-right-radius: .25em;
+    border-bottom-left-radius: .25em;
   }
-  .parcours .parc article:nth-child(2n) {
-    background-color: #fff;
-    border: 1px solid rgba(0, 0, 0, 0.125);
-  }
-  .parcours .parc article h3 {
+  .parcours .parc article div:nth-child(2n) h3 {
     font-family: 'Open Sans', sans-serif;
     font-size: 1.2em;
-  }
-  .parcours .parc article img {
-    width: 10%;
-    margin: auto auto;
   }
 }
 
