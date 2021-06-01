@@ -11,7 +11,7 @@ let app = [{
         "title": "Parlote2",
         "badgestyle": "badge-warning",
         "badge": "Utilise le microphone sur 2 têtes",
-        "desc": "C'est une version améliorée de Parlote qui permet d'utiliser non-seulement l'affichage par Canvas mais aussi l'affichage par image ! Le code aura été amélioré en conséquence de la présence de plusieurs éléments sur la page ! ",
+        "desc": "C'est une version améliorée de Parlote qui permet d'utiliser non seulement l'affichage par Canvas mais aussi l'affichage par image ! Le code aura été amélioré en conséquence de la présence de plusieurs éléments sur la page ! ",
         "link": "https://dzenetanmassart.github.io/Parlote2/"
     },
     {
@@ -83,7 +83,7 @@ let app = [{
         "title": "MakeOnWeb",
         "badgestyle": "badge-secondary",
         "badge": "Compile des apps autour de la création sur le Web",
-        "desc": "C'est une application pour chercher des applications pour produire des images,des vidéos, des modèles 3D,de l'audio et du code sans devoir télécharger un executable.",
+        "desc": "C'est une application pour chercher des applications pour produire des images, des vidéos, des modèles 3D, de l'audio et du code sans devoir télécharger un exécutable.",
         "link": "https://github.com/DzenetanMassart/MakeOnWeb"
     }
 
