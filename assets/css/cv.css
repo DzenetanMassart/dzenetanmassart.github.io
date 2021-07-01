@@ -1,183 +1,329 @@
 @import url("https://fonts.googleapis.com/css?family=Oswald");
-header {
-  color: white;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: 50% 50%;
-      grid-template-columns: 50% 50%;
-  background-color: #00000C;
-}
-
-header div:nth-child(1) {
-  text-align: center;
-  margin: auto auto;
-}
-
-header div:nth-child(1) img {
-  margin-left: auto;
-  margin-right: auto;
-  width: 15vw;
-  height: 15vw;
-  border-radius: 360px;
-}
-
-header div:nth-child(2) {
-  background-color: silver;
-  padding: 10px;
-}
-
-header div:nth-child(2) h1 {
-  font-size: 5vw;
-  text-align: center;
-}
-
-header div:nth-child(2) .type {
-  background-color: #646464;
-  color: silver;
-  text-align: center;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  font-size: 2vw;
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (1fr)[2];
-      grid-template-columns: repeat(2, 1fr);
-}
-
-header div:nth-child(2) .type span {
-  word-wrap: break-word;
-}
-
-header div:nth-child(2) .type span:nth-child(n+2):before {
-  content: " + ";
-}
-
-@media screen and (min-width: 810px) {
+@media screen and (orientation: portrait) {
   main {
-    color: white;
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 50% 50%;
-        grid-template-columns: 50% 50%;
-  }
-  main .gauche {
-    text-align: center;
-    background-color: #00000C;
-    padding: 10px;
-  }
-  main .gauche div {
-    text-align: center;
-    margin-bottom: 25px;
-    margin-top: 25px;
-  }
-  main .gauche div img {
-    margin-left: auto;
-    margin-right: auto;
-    width: 15vw;
-    height: 15vw;
-    border-radius: 360px;
-  }
-  main .droit {
-    background-color: silver;
-  }
-  main ul {
-    color: #646464;
-    list-style-type: none;
-  }
-  h1,
-  h2 {
-    color: #4c85bd;
-  }
-  h2 {
-    font-size: 2.5em;
-  }
-  h3 {
-    color: #646464;
-  }
-  .retour {
-    position: fixed;
-    top: 0;
-    left: 0;
-    padding: 5px;
-    text-align: center;
-    background: #4c85bd;
-    border: white solid 1px;
-    color: white;
-  }
-  .retour a:link, .retour a:visited {
-    text-decoration: none;
-    color: white;
-  }
-  .retour a:link:hover, .retour a:visited:hover {
-    color: #00000C;
-  }
-}
-
-@media screen and (max-width: 810px) {
-  li {
-    font-size: 3.5vw;
-  }
-  main {
-    color: white;
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 100%;
-        grid-template-columns: 100%;
-  }
-  main .gauche {
-    text-align: center;
-    background-color: #00000C;
-    padding: 20px;
-  }
-  main .gauche div {
-    text-align: center;
-    margin-bottom: 25px;
-    margin-top: 25px;
-  }
-  main .gauche div img {
-    margin-left: auto;
-    margin-right: auto;
-    width: 15vw;
-    height: 15vw;
-    border-radius: 360px;
-  }
-  main .droit {
-    background-color: silver;
-    padding: 20px;
-  }
-  main ul {
-    color: #646464;
-    list-style-type: none;
-  }
-  h1,
-  h2 {
-    color: #4c85bd;
-    text-transform: uppercase;
-    font-family: 'Oswald', sans-serif;
-  }
-  h2 {
-    font-size: 6.5vw;
-  }
-  h3 {
-    color: #646464;
-    font-size: 5.5vw;
-    font-family: 'Oswald', sans-serif;
-  }
-  .retour {
     display: block;
-    padding: 10vw;
-    text-align: center;
-    background: #4c85bd;
-    border: white solid 5px;
-    color: white;
+  }
+}
+
+@media screen and (orientation: landscape) {
+  main {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 0.5fr 1.5fr;
+        grid-template-columns: 0.5fr 1.5fr;
+    -ms-grid-rows: 1fr;
+        grid-template-rows: 1fr;
+    gap: 0px 0px;
+        grid-template-areas: ". .";
+  }
+}
+
+main section:first-child {
+  background-color: #4c85bd;
+  margin: 0;
+}
+
+main section:first-child .profil {
+  margin: 50px auto;
+  width: 150px;
+  height: 150px;
+  -webkit-clip-path: path("M0,64c0,35.346,31.992,54.489,62.04,81.702C115.331,106.299,128,99.346,128,64c0-35.346-28.654-64-64-64 C28.653, 0, 0, 28.654, 0, 64");
+          clip-path: path("M0,64c0,35.346,31.992,54.489,62.04,81.702C115.331,106.299,128,99.346,128,64c0-35.346-28.654-64-64-64 C28.653, 0, 0, 28.654, 0, 64");
+  background-image: url(../image/profil.jpeg);
+  background-size: 155px 155px;
+  -webkit-transform: scale(1.5);
+          transform: scale(1.5);
+}
+
+main section:first-child .coordonnee {
+  background-color: transparent;
+}
+
+@media screen and (orientation: portrait) {
+  main section:first-child .coordonnee {
+    height: 150px;
+  }
+}
+
+main section:first-child .coordonnee a {
+  color: white;
+  text-decoration: underline;
+}
+
+main section:first-child .coordonnee a:hover {
+  color: #00000C;
+}
+
+main section:first-child .reseaux {
+  background-color: transparent;
+}
+
+main section:first-child .reseaux svg a:hover {
+  fill-opacity: 0.5;
+}
+
+main section:first-child .langues {
+  background-color: transparent;
+}
+
+@media screen and (orientation: landscape) {
+  main section:first-child .langues {
+    width: 100%;
+  }
+}
+
+@media screen and (orientation: portrait) {
+  main section:first-child .langues .card-body {
+    padding: 0;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: 1fr;
+        grid-template-rows: 1fr;
+    gap: 0px 0px;
+        grid-template-areas: ". .";
+  }
+  main section:first-child .langues .card-body p {
+    font-size: 10px;
+  }
+}
+
+main section:last-child {
+  background-color: white;
+  color: black;
+}
+
+main section:last-child h3 {
+  display: inline-block;
+  background: #4c85bd;
+  color: white;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  border-radius: 0px 0px 40px 0px;
+}
+
+@media screen and (orientation: portrait) {
+  main section:last-child .metiers {
+    margin-bottom: 20px;
+  }
+  main section:last-child .metiers .card {
+    margin-bottom: 15px;
+  }
+  main section:last-child .metiers p {
+    font-size: 15px;
+    margin: auto auto;
+  }
+  main section:last-child .metiers p i {
+    margin-right: 5px;
+  }
+}
+
+@media screen and (orientation: landscape) {
+  main section:last-child .metiers {
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    width: 95%;
+  }
+  main section:last-child .metiers .card {
+    margin: 0 0.1vw;
+  }
+  main section:last-child .metiers p {
     font-size: 20px;
+    margin: auto auto;
   }
-  .retour a:link, .retour a:visited {
-    text-decoration: none;
-    color: white;
+  main section:last-child .metiers p i {
+    margin-right: 5px;
   }
-  .retour a:link:hover, .retour a:visited:hover {
-    color: #00000C;
-  }
+}
+
+main section:last-child .metiers .vm {
+  background-color: red;
+  color: white !important;
+}
+
+main section:last-child .metiers .vm .icon {
+  position: absolute;
+  left: 50%;
+  bottom: -15px;
+  color: red;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgba(0, 0, 0, 0.125);
+}
+
+main section:last-child .metiers .photo {
+  background-color: black;
+  color: white !important;
+}
+
+main section:last-child .metiers .photo .icon {
+  position: absolute;
+  left: 50%;
+  bottom: -15px;
+  color: black;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgba(0, 0, 0, 0.125);
+}
+
+main section:last-child .metiers .cm {
+  background-color: #4c85bd;
+  color: white !important;
+}
+
+main section:last-child .metiers .cm .icon {
+  position: absolute;
+  left: 50%;
+  bottom: -15px;
+  color: #4c85bd;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgba(0, 0, 0, 0.125);
+}
+
+main section:last-child .metiers .js {
+  background-color: yellow;
+  color: black;
+}
+
+main section:last-child .metiers .js .icon {
+  position: absolute;
+  left: 50%;
+  bottom: -15px;
+  color: yellow;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: rgba(0, 0, 0, 0.125);
+}
+
+main section:last-child .competence .card {
+  color: black;
+}
+
+main section:last-child .competence .card .card-title {
+  text-align: center;
+}
+
+main section:last-child .competence .card .card-title .icon {
+  position: absolute;
+  right: 0;
+  top: 0;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+main section:last-child .competence .card .card-title .icon .vm {
+  color: red;
+}
+
+main section:last-child .competence .card .card-title .icon .photo {
+  color: black;
+}
+
+main section:last-child .competence .card .card-title .icon .cm {
+  color: #4c85bd;
+}
+
+main section:last-child .competence .card .card-title .icon .js {
+  color: yellow;
+}
+
+main section:last-child .competence .card ul {
+  list-style-type: none;
+  background: transparent;
+  text-align: left;
+}
+
+main section:last-child .competence .card ul li .prog {
+  width: 20px;
+  margin-right: 5px;
+}
+
+main section:last-child .formations p,
+main section:last-child .stage p {
+  margin-left: 5px;
+}
+
+main section:last-child .formations p b:first-child,
+main section:last-child .stage p b:first-child {
+  color: #4c85bd;
+}
+
+main section:last-child .formations p .icon,
+main section:last-child .stage p .icon {
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+main section:last-child .formations p .icon .vm,
+main section:last-child .stage p .icon .vm {
+  color: red;
+}
+
+main section:last-child .formations p .icon .photo,
+main section:last-child .stage p .icon .photo {
+  color: black;
+}
+
+main section:last-child .formations p .icon .cm,
+main section:last-child .stage p .icon .cm {
+  color: #4c85bd;
+}
+
+main section:last-child .formations p .icon .js,
+main section:last-child .stage p .icon .js {
+  color: yellow;
+}
+
+main section:last-child .hobbies .hob {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 1fr 1fr;
+      grid-template-rows: 1fr 1fr;
+  gap: 10px 20px;
+      grid-template-areas: ". ." ". .";
+  padding: 10px 20px;
+}
+
+main section:last-child .hobbies .hob div {
+  padding: 10px 10px;
+}
+
+main section:last-child .hobbies .hob div ul {
+  list-style-type: "- ";
+  background: transparent;
+  text-align: left;
+  color: white;
+  font-weight: bold;
+}
+
+main section:last-child .hobbies .hob div h4 {
+  text-align: center;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+main section:last-child .hobbies .hob div:nth-child(1) {
+  background-color: red;
+  color: white;
+}
+
+main section:last-child .hobbies .hob div:nth-child(2) {
+  background-color: #4c85bd;
+  color: white;
+}
+
+main section:last-child .hobbies .hob div:nth-child(3) {
+  background-color: black;
+  color: white;
+}
+
+main section:last-child .hobbies .hob div:nth-child(4) {
+  background-color: yellow;
+}
+
+main section:last-child .hobbies .hob div:nth-child(4) ul {
+  color: black;
 }
 /*# sourceMappingURL=cv.css.map */
