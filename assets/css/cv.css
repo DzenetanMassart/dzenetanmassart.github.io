@@ -286,6 +286,34 @@ main section:last-child .hobbies .hob {
   padding: 10px 20px;
 }
 
+@media screen and (orientation: portrait) {
+  main section:last-child .hobbies .hob {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    -ms-grid-rows: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    gap: 10px 20px;
+        grid-template-areas: ". " ". ";
+    padding: 10px 20px;
+  }
+}
+
+@media screen and (orientation: landscape) {
+  main section:last-child .hobbies .hob {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    gap: 10px 20px;
+        grid-template-areas: ". ." ". .";
+    padding: 10px 20px;
+  }
+}
+
 main section:last-child .hobbies .hob div {
   padding: 10px 10px;
 }

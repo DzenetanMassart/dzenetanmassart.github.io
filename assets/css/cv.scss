@@ -227,6 +227,22 @@ main {
             }
             .hobbies {
                 .hob {
+                    @media screen and (orientation: portrait) {
+                        display: grid;
+                        grid-template-columns: 1fr;
+                        grid-template-rows: 1fr 1fr;
+                        gap: 10px 20px;
+                        grid-template-areas: ". " ". ";
+                        padding: 10px 20px;
+                    }
+                    @media screen and (orientation:landscape) {
+                        display: grid;
+                        grid-template-columns: 1fr 1fr;
+                        grid-template-rows: 1fr 1fr;
+                        gap: 10px 20px;
+                        grid-template-areas: ". ." ". .";
+                        padding: 10px 20px;
+                    }
                     display: grid;
                     grid-template-columns: 1fr 1fr;
                     grid-template-rows: 1fr 1fr;
