@@ -105,10 +105,20 @@ header .navbarDropdownMenuLink:hover {
 
 header .dropdown-item {
   opacity: 0.5;
+  z-index: 10000;
 }
 
 header .dropdown-item:hover {
   opacity: 0.9;
+  z-index: 10000;
+}
+
+header .dropdown-menu {
+  z-index: 10000;
+}
+
+header .dropdown-menu:hover {
+  z-index: 10000;
 }
 
 @media screen and (min-width: 1280px) {
