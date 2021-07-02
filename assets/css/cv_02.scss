@@ -11,8 +11,6 @@ embed {
 footer {
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
-    gap: 10px 20px;
     grid-template-areas: ". " ". ";
     width: 100%;
     height: 100%;
@@ -20,7 +18,7 @@ footer {
         text-align: center;
         text-decoration: underline;
         font-weight: bold;
-        color: $c1;
+        color: white;
         margin: auto auto;
         font-size: 10vw;
     }
