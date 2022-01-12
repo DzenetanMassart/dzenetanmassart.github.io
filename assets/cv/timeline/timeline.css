@@ -1,0 +1,92 @@
+.timeline {
+  width: 80vw;
+  color: black;
+  margin: auto;
+}
+
+.timeline p {
+  border-top: 2px dashed;
+  border-color: #4c85bd !important;
+  margin: 0;
+  padding: 30px;
+  counter-increment: section;
+  position: relative;
+}
+
+.timeline p:nth-child(even):before {
+  content: " ";
+  right: 100%;
+  margin-right: -20px;
+  position: absolute;
+  border-radius: 50%;
+  padding: 10px;
+  height: 20px;
+  width: 20px;
+  background-color: #4c85bd;
+  text-align: center;
+  color: white;
+  font-size: 110%;
+}
+
+.timeline p:nth-child(odd):before {
+  content: " ";
+  left: 100%;
+  margin-left: -20px;
+  position: absolute;
+  border-radius: 50%;
+  padding: 10px;
+  height: 20px;
+  width: 20px;
+  background-color: #4c85bd;
+  text-align: center;
+  color: white;
+  font-size: 110%;
+}
+
+.timeline p:nth-child(even) {
+  border-left: 2px dashed;
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  margin-right: 30px;
+  padding-right: 0;
+  text-align: left;
+}
+
+.timeline p:nth-child(odd) {
+  border-right: 2px dashed;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  margin-left: 30px;
+  padding-left: 0;
+  text-align: right;
+}
+
+.timeline p:first-child {
+  border-top: 0;
+  border-top-right-radius: 0;
+  border-top-left-radius: 0;
+}
+
+.timeline p:last-child {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.stage {
+  background-color: rgba(0, 0, 0, 0.082);
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+
+.stage span {
+  -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: vertical-rl;
+  position: absolute;
+  right: 1vw;
+  top: 0;
+  font-weight: bold;
+  text-align: center;
+  height: 100%;
+}
+/*# sourceMappingURL=timeline.css.map */

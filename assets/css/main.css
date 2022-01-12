@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Oswald");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap");
+@import url("https://fr.allfont.net/allfont.css?fonts=lexia");
 body {
   background-color: #4c85bd;
 }
@@ -73,11 +74,11 @@ header .cv:active {
 
 @media screen and (max-width: 1280px) {
   header a:not(.dropdown-item) {
-    font-size: 2.5vw;
+    font-size: 1.8vw;
     color: white;
   }
   header .nav-item {
-    width: 100%;
+    width: auto;
     height: 30px;
   }
 }
@@ -407,6 +408,15 @@ main ul::before {
   color: white;
 }
 
+.parcours a {
+  padding: 0.2rem 0.4rem;
+  font-size: 87.5%;
+  color: #fff;
+  background-color: #212529;
+  border-radius: 0.2rem;
+  white-space: nowrap;
+}
+
 @media screen and (min-width: 1280px) {
   .parcours .parc {
     display: -ms-grid;
@@ -499,5 +509,10 @@ main ul::before {
 .copyright {
   text-align: center;
   color: white;
+}
+
+.dys {
+  font-family: 'Lexia', arial;
+  font-size: 14px;
 }
 /*# sourceMappingURL=main.css.map */

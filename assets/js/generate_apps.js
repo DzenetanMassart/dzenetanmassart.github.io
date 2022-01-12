@@ -13,7 +13,7 @@ for (let ii = 0; ii < app.length; ii++) {
         apps.badge +
         '</span><div class="card-body"><p class="card-text">' +
         apps.desc +
-        '</p><a href="' +
+        '</p><a target="_blank" href="' +
         apps.link +
         '" class="btn btn-primary">Lien</a></div></article>';
 }
