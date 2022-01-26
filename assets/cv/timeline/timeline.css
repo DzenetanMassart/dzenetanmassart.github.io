@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .timeline {
   width: 80vw;
   color: black;
@@ -76,6 +77,10 @@
   background-color: rgba(0, 0, 0, 0.082);
   border-top-left-radius: 30px;
   border-bottom-left-radius: 30px;
+}
+
+.stage::after {
+  content: " ";
 }
 
 .stage span {

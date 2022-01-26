@@ -70,6 +70,9 @@ $C2: #4c85bd;
     background-color: rgba(0, 0, 0, 0.082);
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
+    &::after {
+        content: " ";
+    }
     span {
         writing-mode: vertical-rl;
         position: absolute;
