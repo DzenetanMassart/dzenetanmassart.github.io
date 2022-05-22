@@ -32,7 +32,6 @@
     <link rel="stylesheet" type="text/css" href="assets/css/main.css">
     <link rel="stylesheet" type="text/css" href="assets/css/cv.css">
     <link rel="stylesheet" type="text/css" href="assets/cv/timeline/timeline.css">
-
 </head>
 
 <body>
@@ -48,14 +47,10 @@
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav mr-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html#apps">Applications</a>
+                        <a class="nav-link" href="index.html#outils">Outils</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="index.html#parcours">Parcours</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="porte-folio.html">Porte-Folio</a>
-
                     </li>
 
                 </ul>
@@ -79,9 +74,12 @@
             </div>
         </nav>
     </header>
+
+
     <main class="dys">
         <!-- La petite bannière-->
         <section id="banniere" class="banniere">
+
             <aside class="profil">
             </aside>
             <h2>MASSART DZÉNETAN</h2>
@@ -114,176 +112,125 @@
             </aside>
         </section>
         <!-- Tout le contenu-->
-
-        <h3>Compétences</h3>
+        <!--Sélection du métier DÉBUT-->
+        <nav class="metiers">
+            <select name="metiers" id="metier">
+    <option value="">--Choisissez un métier--</option>
+        <option value="Video Maker">Video Maker</option>
+        <option value="Photographe">Photographe</option>
+        <option value="Community Manager">Community Manager</option>
+        <option value="Employé de Service">Employé de Service</option>
+        <option value="Codeur Javascript">Codeur Javascript</option>
+        </select>
+        </nav>
+        <!--Sélection du métier FIN-->
+        <h3>Compétences <span id="met"></span></h3>
 
         <!-- Les logiciels et outils-->
-        <section class="compe competences">
-            <!-- VideoMaker-->
-            <article class="vm">
-                <div class="text-center">
-                    <h5><i class="fas fa-video"></i>VideoMaker</h5>
-                    <span class="icon"><i class="fas fa-map-marker vm"></i></span>
-                </div>
-                <div class="compe_scroll vm">
-                    <h4> Video</h4>
-                    <p>
-                        <ul>
-                            <li> <img class="prog" alt="Logo Adobe Premiere" src="https://logodownload.org/wp-content/uploads/2019/10/adobe-premiere-pro-logo.png"></img>Adobe Premiere</li>
-                            <li> <img class="prog" alt="Logo Adobe After Effect" src="https://www.logolynx.com/images/logolynx/7c/7cb33ff7cc109d4c3e0c4a055e41fa22.jpeg"></img>Adobe After Effect</li>
-                            <li> <img class="prog" alt="Logo Magix Video Deluxe" src="https://images.sftcdn.net/images/t_app-logo-xl,f_auto/p/c07b0a50-9b27-11e6-ad19-00163ec9f5fa/3264625929/magix-video-deluxe-plus-logo.png"></img>Magix Video Deluxe</li>
-                        </ul>
-                    </p>
-                    <h4>Photographie</h4>
-                    <p>
-                        <ul>
-                            <li><img class="prog" alt="Logo Nikon" src="https://upload.wikimedia.org/wikipedia/fr/d/d3/Nikon_logo.svg"></img>Nikon D3300</li>
-                            <li><img class="prog" alt="Logo Samsung" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Samsung_Logo.svg/2560px-Samsung_Logo.svg.png"></img>Samsung Galaxy A71 128GB</li>
-                        </ul>
-                    </p>
-                    <h4>3D</h4>
-                    <p>
-                        <ul>
-                            <li><img class="prog" alt="Logo Autodesk Maya" src="https://cdn.freelogovectors.net/wp-content/uploads/2018/05/autodesk-maya_logo.png"></img>Autodesk Maya</li>
-                            <li><img class="prog" alt="Logo Autodesk 3DSsmax" src="https://seeklogo.com/images/1/3ds-max-logo-51422AA0E7-seeklogo.com.png"></img>Autodesk 3Dsmax</li>
-                        </ul>
-                    </p>
-                    <h4>Gestion d'image</h4>
-                    <p>
-                        <ul>
-                            <li><img class="prog" alt="Logo Adobe Photoshop" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Adobe_Photoshop_CS6_icon.svg/300px-Adobe_Photoshop_CS6_icon.svg.png"></img>Adobe Photoshop</li>
-                            <li><img class="prog" alt="Logo PaintDotNet" src="https://i1.wp.com/blogs.lyceecfadumene.fr/informatique/files/2011/11/PaintNET_Icon.png?ssl=1"></img>PaintDotNet</li>
-                            <li><img class="prog" alt="Logo Adobe Illustrator" src="https://img.pngio.com/buy-adobe-education-contact-multiblue-and-receive-discounts-for-logo-adobe-illustrator-png-600_600.png"></img>Adobe Illustrator</li>
-                        </ul>
-                    </p>
-                </div>
+        <section class="compe competences" id="competences">
+
+            <article id="tD">
+                <h4>3D </h4>
+                <ul>
+                    <li><img class="prog " alt="Logo Autodesk Maya " src="https://www.masolutionformation.com/wp-content/uploads/2021/03/4abf5146283e1609eeeae16335666564.png "></img>Autodesk Maya</li>
+                    <li><img class="prog " alt="Logo Autodesk 3DSsmax " src="https://seeklogo.com/images/1/3ds-max-logo-51422AA0E7-seeklogo.com.png "></img>Autodesk 3Dsmax</li>
+                </ul>
             </article>
-            <!-- Photographie-->
-            <article class="photo">
-                <div class="text-center">
-                    <h5><i class="fas fa-camera"></i>Photographe</h5>
-                    <span class="icon"><i class="fas fa-map-marker photo"></i></span>
+            <article id="video">
+                <h4> Video</h4>
+                <ul>
+                    <li> <img class="prog " alt="Logo Adobe Premiere " src="https://logodownload.org/wp-content/uploads/2019/10/adobe-premiere-pro-logo.png "></img>Adobe Premiere</li>
+                    <li> <img class="prog " alt="Logo Adobe After Effect " src="https://www.logolynx.com/images/logolynx/7c/7cb33ff7cc109d4c3e0c4a055e41fa22.jpeg "></img>Adobe After Effect</li>
+                    <li> <img class="prog " alt="Logo Magix Video Deluxe " src="https://images.sftcdn.net/images/t_app-logo-xl,f_auto/p/c07b0a50-9b27-11e6-ad19-00163ec9f5fa/3264625929/magix-video-deluxe-plus-logo.png "></img>Magix Video Deluxe</li>
+                </ul>
 
-                </div>
-                <div class="compe_scroll photo">
-                    <h4>Photographie</h4>
-                    <p>
-                        <ul>
-                            <li><img class="prog" alt="Logo Nikon" src="https://upload.wikimedia.org/wikipedia/fr/d/d3/Nikon_logo.svg"></img>Nikon D3300</li>
-                            <li><img class="prog" alt="Logo Samsung" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Samsung_Logo.svg/2560px-Samsung_Logo.svg.png"></img>Samsung Galaxy A71 128GB</li>
-                        </ul>
-                    </p>
-                </div>
+            </article>
+            <article id="photo">
+                <h4>Photographie</h4>
+                <ul>
+                    <li><img class="prog " alt="Logo Nikon " src="https://upload.wikimedia.org/wikipedia/fr/d/d3/Nikon_logo.svg "></img>Nikon D3300</li>
+                    <li><img class="prog " alt="Logo Samsung " src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Samsung_Logo.svg/2560px-Samsung_Logo.svg.png "></img>Samsung Galaxy A71 128GB</li>
+                </ul>
+
+            </article>
+            <article id="Gi">
+                <h4>Gestion d'image</h4>
+                <ul>
+                    <li><img class="prog " alt="Logo Adobe Photoshop " src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Adobe_Photoshop_CS6_icon.svg/300px-Adobe_Photoshop_CS6_icon.svg.png "></img>Adobe Photoshop</li>
+                    <li><img class="prog " alt="Logo PaintDotNet " src="https://i1.wp.com/blogs.lyceecfadumene.fr/informatique/files/2011/11/PaintNET_Icon.png?ssl=1 "></img>PaintDotNet</li>
+                    <li><img class="prog " alt="Logo Adobe Illustrator " src="https://img.pngio.com/buy-adobe-education-contact-multiblue-and-receive-discounts-for-logo-adobe-illustrator-png-600_600.png "></img>Adobe Illustrator</li>
+                </ul>
+
+            </article>
+            <article id="mep">
+                <h4>Mise en page</h4>
+                <ul>
+                    <li><img class="prog " alt="Logo Adobe InDesign " src="https://www.adobe.com/content/dam/cc/icons/indesign.svg "></img>Adobe InDesign</li>
+                    <li><img class="prog " alt="Logo Microsoft Word " src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE282Ru?ver=af20&q=90&m=6&h=64&w=64&b=%23FFFFFFFF&l=f&o=t&aim=true "></img>Microsoft Word</li>
+                    <li><img class="prog " alt="Logo Microsoft PowerPoint " src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE2883D?ver=3026&q=90&m=6&h=64&w=64&b=%23FFFFFFFF&l=f&o=t&aim=true "></img>Microsoft PowerPoint</li>
+                </ul>
+
+            </article>
+            <article id="optiweb">
+                <h4>Optimisation des réseaux sociaux</h4>
+                <ul>
+                    <li><img class="prog " alt="Logo YouTube " src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/YouTube_full-color_icon_%282017%29.svg/1280px-YouTube_full-color_icon_%282017%29.svg.png "></img>YouTube</li>
+                    <li><img class="prog " alt="Logo Twitter " src="https://upload.wikimedia.org/wikipedia/fr/thumb/c/c8/Twitter_Bird.svg/1200px-Twitter_Bird.svg.png "></img>Twitter</li>
+                    <li><img class="prog " alt="Logo Facebook " src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Facebook-icon-1.png/480px-Facebook-icon-1.png "></img>Facebook</li>
+                    <li><img class="prog " alt="Logo LinkedIn " src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/768px-LinkedIn_logo_initials.png "></img>LinkedIn</li>
+                </ul>
+
+            </article>
+            <article id="tdd">
+                <h4>Traitement de donnée</h4>
+                <ul>
+                    <li><img class="prog " alt="Logo Microsoft Excel " src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE280eS?ver=d983&q=90&m=6&h=64&w=64&b=%23FFFFFFFF&l=f&o=t&aim=true "></img>Microsoft Excel</li>
+                </ul>
+
             </article>
 
-            <!-- Community Manager-->
-            <article class="cm">
-                <div class="text-center">
-                    <h5><i class="fas fa-comments"></i>Community Manager</h5>
-                    <span class="icon"><i class="fas fa-map-marker cm"></i></span>
+            <article id="coding">
+                <h4>Coding ( Visual Studio Code )</h4>
+                <ul>
+                    <li><img class="prog " alt="Logo CSS " src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png "></img>CSS</li>
+                    <li><img class="prog " alt="Logo HTML5 " src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/768px-HTML5_logo_and_wordmark.svg.png "></img>HTML5</li>
+                    <li><img class="prog " alt="Logo Javascript " src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png "></img>Javascript</li>
+                    <li><img class="prog " alt="Logo WordPress " src="https://cdn.iconscout.com/icon/free/png-256/wordpress-9-282614.png "></img>WordPress</li>
+                    <li><img class="prog " alt="Logo Bootstrap " src="https://cdn.worldvectorlogo.com/logos/bootstrap-4.svg "></img>Bootstrap</li>
+                    <li><img class="prog " alt="Logo PHP " src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/2560px-PHP-logo.svg.png "></img>PHP</li>
+                    <li><img class="prog " alt="Logo Git " src="http://assets.stickpng.com/images/5847f981cef1014c0b5e48be.png "></img>Git</li>
+                </ul>
 
-                </div>
-                <div class="compe_scroll cm">
-                    <h4> Video</h4>
-                    <p>
-                        <ul>
-                            <li> <img class="prog" alt="Logo Adobe Premiere" src="https://logodownload.org/wp-content/uploads/2019/10/adobe-premiere-pro-logo.png"></img>Adobe Premiere</li>
-                            <li> <img class="prog" alt="Logo Adobe After Effect" src="https://www.logolynx.com/images/logolynx/7c/7cb33ff7cc109d4c3e0c4a055e41fa22.jpeg"></img>Adobe After Effect</li>
-                            <li> <img class="prog" alt="Logo Magix Video Deluxe" src="https://images.sftcdn.net/images/t_app-logo-xl,f_auto/p/c07b0a50-9b27-11e6-ad19-00163ec9f5fa/3264625929/magix-video-deluxe-plus-logo.png"></img>Magix Video Deluxe</li>
-                        </ul>
-                    </p>
-                    <h4>Photographie</h4>
-                    <p>
-                        <ul>
-                            <li><img class="prog" alt="Logo Nikon" src="https://upload.wikimedia.org/wikipedia/fr/d/d3/Nikon_logo.svg"></img>Nikon D3300</li>
-                            <li><img class="prog" alt="Logo Samsung" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/24/Samsung_Logo.svg/2560px-Samsung_Logo.svg.png"></img>Samsung Galaxy A71 128GB</li>
-                        </ul>
-                    </p>
-                    <h4>Gestion d'image</h4>
-                    <p>
-                        <ul>
-                            <li><img class="prog" alt="Logo Adobe Photoshop" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Adobe_Photoshop_CS6_icon.svg/300px-Adobe_Photoshop_CS6_icon.svg.png"></img>Adobe Photoshop</li>
-                            <li><img class="prog" alt="Logo PaintDotNet" src="https://i1.wp.com/blogs.lyceecfadumene.fr/informatique/files/2011/11/PaintNET_Icon.png?ssl=1"></img>PaintDotNet</li>
-                            <li><img class="prog" alt="Logo Adobe Illustrator" src="https://img.pngio.com/buy-adobe-education-contact-multiblue-and-receive-discounts-for-logo-adobe-illustrator-png-600_600.png"></img>Adobe Illustrator</li>
-                        </ul>
-                    </p>
-                    <h4>Mise en page</h4>
-                    <p>
-                        <ul>
-                            <li><img class="prog" alt="Logo Adobe InDesign" src="https://www.adobe.com/content/dam/cc/icons/indesign.svg"></img>Adobe InDesign</li>
-                            <li><img class="prog" alt="Logo Microsoft Word" src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE282Ru?ver=af20&q=90&m=6&h=64&w=64&b=%23FFFFFFFF&l=f&o=t&aim=true"></img>Microsoft Word</li>
-                            <li><img class="prog" alt="Logo Microsoft PowerPoint" src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE2883D?ver=3026&q=90&m=6&h=64&w=64&b=%23FFFFFFFF&l=f&o=t&aim=true"></img>Microsoft PowerPoint</li>
-                        </ul>
-                    </p>
-                    <h4>Optimisation des réseaux sociaux</h4>
-                    <p>
-                        <ul>
-                            <li><img class="prog" alt="Logo YouTube" src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/YouTube_full-color_icon_%282017%29.svg/1280px-YouTube_full-color_icon_%282017%29.svg.png"></img>YouTube</li>
-                            <li><img class="prog" alt="Logo Twitter" src="https://upload.wikimedia.org/wikipedia/fr/thumb/c/c8/Twitter_Bird.svg/1200px-Twitter_Bird.svg.png"></img>Twitter</li>
-                            <li><img class="prog" alt="Logo Facebook" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Facebook-icon-1.png/480px-Facebook-icon-1.png"></img>Facebook</li>
-                            <li><img class="prog" alt="Logo LinkedIn" src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/768px-LinkedIn_logo_initials.png"></img>LinkedIn</li>
-                        </ul>
-                    </p>
-                    <h4>Traitement de donnée</h4>
-                    <p>
-                        <ul>
-                            <li><img class="prog" alt="Logo Microsoft Excel" src="https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RE280eS?ver=d983&q=90&m=6&h=64&w=64&b=%23FFFFFFFF&l=f&o=t&aim=true"></img>Microsoft Excel</li>
-                        </ul>
-                    </p>
-                </div>
-            </article>
-            <!-- Création de site web-->
-            <article class=" js">
-                <div class="text-center">
-                    <h5><i class="fab fa-js"></i>Codeur Javascript</h5>
-                    <span class="icon"><i class="fas fa-map-marker js"></i></span>
-                </div>
-
-                <div class="compe_scroll js">
-                    <h4>Coding ( Visual Studio Code )</h4>
-                    <p>
-
-                        <ul>
-                            <li><img class="prog" alt="Logo CSS" src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1200px-CSS3_logo_and_wordmark.svg.png"></img>CSS</li>
-                            <li><img class="prog" alt="Logo HTML5" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/768px-HTML5_logo_and_wordmark.svg.png"></img>HTML5</li>
-                            <li><img class="prog" alt="Logo Javascript" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png"></img>Javascript</li>
-                            <li><img class="prog" alt="Logo WordPress" src="https://cdn.iconscout.com/icon/free/png-256/wordpress-9-282614.png"></img>WordPress</li>
-                            <li><img class="prog" alt="Logo Bootstrap" src="https://cdn.worldvectorlogo.com/logos/bootstrap-4.svg"></img>Bootstrap</li>
-                            <li><img class="prog" alt="Logo PHP" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/PHP-logo.svg/2560px-PHP-logo.svg.png"></img>PHP</li>
-                            <li><img class="prog" alt="Logo Git" src="http://assets.stickpng.com/images/5847f981cef1014c0b5e48be.png"></img>Git</li>
-                        </ul>
-                    </p>
-                </div>
             </article>
         </section>
 
 
         <h3>Formations</h3>
 
-        <section class="timeline">
+        <section class="timeline ">
             <p><b>2021-2022</b>- Formation d'<b>Employé de Service</b> - IEPSCF NAMUR-CADETS Enseignement de Promotion Sociale
-                <span class="icon">
-                                <i class="fas fa-map-marker cm"></i>
+                <span class="icon ">
+                                <i class="fas fa-map-marker cm "></i>
                             </span>
             </p>
             <p><b>2020-2021</b>- Formation de <b>Community Manager</b> - Centre de Formation à Distance
-                <span class="icon">
-                                <i class="fas fa-map-marker cm"></i>
+                <span class="icon ">
+                                <i class="fas fa-map-marker cm "></i>
                             </span>
             </p>
-            <p class="stage"><b>2019</b> - <b>WordPress</b> - Charleroi-Entreprendre <span>STAGE</span></p>
+            <p class="stage "><b>2019</b> - <b>WordPress</b> - Charleroi-Entreprendre <span>STAGE</span></p>
 
             <p><b>2019</b> - Formation en <b>développement Web</b> - BeCode- Charleroi
-                <span class="icon">
-                                <i class="fas fa-map-marker js"></i>
+                <span class="icon ">
+                                <i class="fas fa-map-marker js "></i>
                             </span>
 
 
                 <p><b>2017-2019</b> - <b>Infographie</b> - HEAJ- Namur
-                    <span class="icon">
-                                                        <i class="fas fa-map-marker vm"></i>
-                                <i class="fas fa-map-marker photo"></i>
-                                <i class="fas fa-map-marker js"></i>
+                    <span class="icon ">
+                                                        <i class="fas fa-map-marker vm "></i>
+                                <i class="fas fa-map-marker photo "></i>
+                                <i class="fas fa-map-marker js "></i>
                             </span></p>
                 <p><b>2012-2016</b> - Enseignement <b>Général</b> - CollègePieX - Châtelineau
                 </p>
@@ -291,9 +238,9 @@
 
         <h3>Hobbies</h3>
 
-        <section class="hobbies">
-            <div class="hob">
-                <div id="video">
+        <section class="hobbies ">
+            <div class="hob ">
+                <div id="video ">
                     <h4>Création audiovisuelle</h4>
                     <ul>
                         <li>Aide aux jeunes vidéastes amateurs
@@ -305,7 +252,7 @@
                         <li>Tutoriels</li>
                     </ul>
                 </div>
-                <div id="photo">
+                <div id="photo ">
                     <h4>Photographie</h4>
                     <ul>
                         <li>Paysage</li>
@@ -314,7 +261,7 @@
                     </ul>
                 </div>
 
-                <div id="com">
+                <div id="com ">
                     <h4>Web Managing</h4>
                     <ul>
                         <li>Blogging</li>
@@ -322,12 +269,12 @@
                         <li>Wiking</li>
                     </ul>
                 </div>
-                <div id="code">
+                <div id="code ">
                     <h4>Création de site web</h4>
                     <ul>
-                        <li>Travail sur <a href="https://dzenetanmassart.github.io/Tricks-and-Tips/">Tips&Tricks</a>
+                        <li>Travail sur <a href="https://dzenetanmassart.github.io/Tricks-and-Tips/ ">Tips&Tricks</a>
                         </li>
-                        <li>Travail sur <a href="https://dzenetanmassart.github.io/MakeOnWeb/">MakeOnWeb</a>
+                        <li>Travail sur <a href="https://dzenetanmassart.github.io/MakeOnWeb/ ">MakeOnWeb</a>
                         </li>
                     </ul>
                 </div>
@@ -338,5 +285,5 @@
     </main>
 
 
-    <script src="assets/cv/cv.js"></script>
+    <script src="assets/cv/cv.js "></script>
 </body>
