@@ -132,175 +132,120 @@ main section:last-child h3 {
   border-radius: 0px 0px 40px 0px;
 }
 
-.competences {
-  display: -ms-grid;
-  display: grid;
-  -ms-grid-columns: (1fr)[4];
-      grid-template-columns: repeat(4, 1fr);
-  grid-column-gap: 10px;
-  grid-row-gap: 10px;
-  background-color: white;
+.metiers {
+  text-align: right;
+  border-bottom: 0;
+  -webkit-box-shadow: 0 0 2rem 0 #2930421a;
+          box-shadow: 0 0 2rem 0 #2930421a;
+  background-color: #4c85bd;
+}
+
+.metiers select {
+  background-color: #4c85bd;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+
+.metiers select option {
+  background-color: #00000c7c;
+}
+
+@media (orientation: landscape) {
+  .competences {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[3];
+        grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-line-pack: justify;
+        align-content: space-between;
+  }
+}
+
+@media (orientation: portrait) {
+  .competences {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[1];
+        grid-template-columns: repeat(1, 1fr);
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+  }
 }
 
 .competences article {
   display: inline-block;
-  width: 100%;
+  background-color: #00000C;
+  margin-left: 10px;
+  margin-right: 10px;
   -webkit-box-flex: 1;
       -ms-flex: 1 1 auto;
           flex: 1 1 auto;
-  padding: 1.25rem;
+  border: 1px solid transparent;
+  border-radius: 40px 40px 0px 0px;
+  -webkit-clip-path: polygon(0% 15%, 0% 0%, 15% 0%, 85% 0%, 100% 0%, 100% 15%, 100% 94%, 89% 92%, 85% 100%, 15% 100%, 9% 92%, 0% 98%);
+          clip-path: polygon(0% 15%, 0% 0%, 15% 0%, 85% 0%, 100% 0%, 100% 15%, 100% 94%, 89% 92%, 85% 100%, 15% 100%, 9% 92%, 0% 98%);
 }
 
-.competences article h4 {
-  text-align: center;
-}
-
-.competences article img {
-  width: 20px;
+.competences article i {
   margin-right: 5px;
 }
 
+.competences article h4 {
+  background-color: rgba(255, 255, 255, 0.39);
+  border-bottom: solid white 2px;
+  border-top: solid white 2px;
+  border-radius: 40px 40px 0px 0px;
+  text-align: center;
+  margin: 0;
+}
+
 @media screen and (min-width: 1500px) {
-  .compe {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 1fr 1fr 1fr 1fr;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-column-gap: 20px;
-    grid-row-gap: 20px;
-    justify-items: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+  .competences article h4 {
+    font-size: 1.5em;
+    font-weight: bold;
   }
 }
 
 @media screen and (min-width: 459px) and (max-width: 1499px) {
-  .compe {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 1fr 1fr;
-        grid-template-columns: 1fr 1fr;
-    -ms-grid-rows: 1fr 1fr;
-        grid-template-rows: 1fr 1fr;
-    grid-column-gap: 20px;
-    grid-row-gap: 20px;
-    justify-items: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+  .competences article h4 {
+    font-size: 1.2em;
+    font-weight: bold;
   }
 }
 
 @media screen and (max-width: 460px) {
-  .compe {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: 1fr;
-        grid-template-columns: 1fr;
-    justify-items: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+  .competences article h4 {
+    font-size: 1em;
+    font-weight: bold;
   }
 }
 
-.compe i {
-  margin-right: 5px;
-}
-
-.compe h4 {
-  text-align: center;
-}
-
-.compe img {
-  width: 20px;
-  margin-right: 5px;
-}
-
-.compe .compe_scroll {
-  width: 100%;
-  height: 200px;
-  overflow-y: scroll;
-}
-
-.compe .vm {
-  background-color: red;
-  color: white;
-}
-
-.compe .vm h4 {
-  background-color: rgba(255, 255, 255, 0.39);
-  border-bottom: solid white 2px;
-  border-top: solid white 2px;
-}
-
-.compe .vm ul {
+.competences article ul {
   list-style-type: " ";
   list-style-type: none;
   text-align: justify;
   color: white;
   font-weight: bold;
-  padding: 0;
+  padding: 5px;
+  border-radius: 0px 0px 40px 40px;
+  padding-bottom: 10px;
+  -webkit-clip-path: polygon(0% 15%, 0% 0%, 15% 0%, 85% 0%, 100% 0%, 100% 15%, 100% 94%, 89% 92%, 85% 100%, 15% 100%, 9% 92%, 0% 98%);
+          clip-path: polygon(0% 15%, 0% 0%, 15% 0%, 85% 0%, 100% 0%, 100% 15%, 100% 94%, 89% 92%, 85% 100%, 15% 100%, 9% 92%, 0% 98%);
 }
 
-.compe .photo {
-  background-color: black;
-  color: white;
+.competences article ul li {
+  padding-bottom: 5px;
 }
 
-.compe .photo h4 {
-  background-color: rgba(255, 255, 255, 0.39);
-  border-bottom: solid white 2px;
-  border-top: solid white 2px;
-}
-
-.compe .photo ul {
-  list-style-type: none;
-  background: transparent;
-  text-align: justify;
-  color: white;
-  font-weight: bold;
-  padding: 0;
-}
-
-.compe .cm {
-  background-color: #4c85bd;
-  color: white;
-}
-
-.compe .cm h4 {
-  background-color: rgba(255, 255, 255, 0.39);
-  border-bottom: solid white 2px;
-  border-top: solid white 2px;
-}
-
-.compe .cm ul {
-  list-style-type: none;
-  background: transparent;
-  text-align: justify;
-  color: white;
-  font-weight: bold;
-  padding: 0;
-}
-
-.compe .js {
-  background-color: yellow;
-  color: black;
-}
-
-.compe .js h4 {
-  background-color: rgba(0, 0, 0, 0.39);
-  border-bottom: solid white 2px;
-  border-top: solid white 2px;
-}
-
-.compe .js ul {
-  list-style-type: none;
-  background: transparent;
-  text-align: justify;
-  color: black;
-  font-weight: bold;
+.competences article img {
+  width: 20px;
+  margin-right: 5px;
 }
 
 .hobbies {
@@ -403,27 +348,6 @@ main section:last-child h3 {
   color: yellow;
 }
 
-::-webkit-scrollbar {
-  width: 9px;
-  height: 9px;
-}
-
-::-webkit-scrollbar-thumb {
-  background: #F0F0F0;
-  border-radius: 0px;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: #B3AFB3;
-}
-
-::-webkit-scrollbar-track {
-  background: transparent;
-  border-radius: 0px;
-  -webkit-box-shadow: inset 0px 0px 0px 0px #F0F0F0;
-          box-shadow: inset 0px 0px 0px 0px #F0F0F0;
-}
-
 h3 {
   margin-top: 20px;
   margin-bottom: 20px;
@@ -434,6 +358,31 @@ h3 {
   height: 50px;
   border: 5px solid transparent;
   border-radius: 40px 0px 40px 0px;
+}
+
+@media screen and (min-width: 1500px) {
+  h3 {
+    font-size: 1.7em;
+    font-weight: bold;
+  }
+}
+
+@media screen and (min-width: 459px) and (max-width: 1499px) {
+  h3 {
+    font-size: 1.5em;
+    font-weight: bold;
+    line-height: 50px;
+    white-space: nowrap;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  h3 {
+    font-size: 1.2em;
+    font-weight: bold;
+    line-height: 50px;
+    white-space: nowrap;
+  }
 }
 
 h5 {
