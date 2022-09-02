@@ -1,0 +1,54 @@
+    $C1: white;
+    $C2: #4c85bd;
+    $C3: #00000C;
+    $C3a: #00000c60;
+    @import url('https://fonts.googleapis.com/css?family=Oswald');
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+    @import url("https://fr.allfont.net/allfont.css?fonts=lexia");
+    body {
+        margin: 0;
+    }
+    
+    header {
+        height: 40px;
+        overflow: none;
+        background-color: $C3;
+        display: flex;
+        a {
+            float: left;
+            font-size: 0.8em;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none !important;
+            display: block;
+            width: 25%;
+            font-weight: bold;
+            img {
+                height: 200%;
+            }
+            .icon {
+                display: none;
+            }
+            &:hover {
+                background-color: $C2;
+                color: $C3;
+            }
+            &:active {
+                background-color: $C2;
+                color: white;
+            }
+        }
+        @media screen and (max-width: 600px) {
+            header a:not(:first-child) {
+                display: none;
+            }
+            header a.icon {
+                float: right;
+                display: block;
+                float: none;
+                display: block;
+                width: 100%;
+            }
+        }
+    }

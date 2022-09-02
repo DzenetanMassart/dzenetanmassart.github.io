@@ -8,7 +8,8 @@ const img_link = [
     "assets/image/parcours/2016.png",
     "assets/image/parcours/2019.png",
     "assets/image/parcours/2020.png",
-    "assets/image/parcours/2021.png"
+    "assets/image/parcours/2021.png",
+    "assets/image/parcours/2022.png"
 ];
 
 /* Le parcours en texte */
@@ -55,6 +56,11 @@ const parcours = [{
 }, {
     "alt": "Word & Excel",
     "title": "2021: Word et Excel",
-    "para1": "C'est en 2021 , lors de ma formation d'Employé de Service , que j'ai appris à employé de manière professionelle <a target='_blank' href='https://www.microsoft.com/fr-be/microsoft-365/word'>Word</a> et <a target='_blank' href='https://www.microsoft.com/fr-be/microsoft-365/excel'>Excel</a>.",
+    "para1": "C'est en 2021 , lors de ma formation d'Employé de Services , que j'ai appris à employé de manière professionelle <a target='_blank' href='https://www.microsoft.com/fr-be/microsoft-365/word'>Word</a> et <a target='_blank' href='https://www.microsoft.com/fr-be/microsoft-365/excel'>Excel</a>.",
     "para2": "Bien sur, j'employais déjà Word avant pour écire mes vidéos et j'avais déjà eût une initiation à Excel en année secondaire."
+}, {
+    "alt": "PowerPoint & Blender",
+    "title": "2022: PowerPoint et Blender",
+    "para1": "C'est en 2022 , à la fin de ma formation d'Employé de Services, j'ai pût re-découvrir <a target='_blank' href='https://www.microsoft.com/fr-be/microsoft-365/powerpoint/'>PowerPoint</a>. Je l'avais déjà utilisé par le passer pour mon TFE en Sciences Sociale pour mon CESS.",
+    "para2": "Arrivé à la fin de la période d'essai d'Autodesk Maya et Autodesk 3DSmax, je me suis mis à apprendre en autonomie <a target='_blank' href='https://www.blender.org/'>Blender</a>"
 }];

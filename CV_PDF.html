@@ -23,70 +23,36 @@
     <meta name="msapplication-TileImage" content="root/ico//ms-icon-144x144.png">
     <meta name="theme-color" content="#455DB3">
     <title>CV Dzénetan Massart</title>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/navbar/navbar.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/cv_02.css">
     <link rel="stylesheet" type="text/css" href="assets/css/main.css">
     <script src="https://cdnjs.com/libraries/pdf.js"></script>
 
+
 </head>
 
 <body>
     <!--Le header DEBUT-->
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-dark">
-            <a href="index.html" class="navbar-brand"><img src="assets/image/Dzénetan Massart.png" id="profil" height="40px" /> </a>
+    <header class="dys" id="navigation">
 
-            <a class="cv" href="CV.html#banniere">Version HTML</a>
+        <a href="index.html" class="active"><img src="assets/image/Dzénetan Massart.png" id="profil" /> </a>
 
-
-
-            <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <i class="fas fa-vector-square"></i>
-                        </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html#outils">Outils</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html#parcours">Parcours</a>
-                    </li>
+        <a class="cv" href="CV.html">CV</a>
+        <a href="index.html#outils">Outils</a>
+        <a href="index.html#parcours">Parcours</a>
 
 
-
-                </ul>
-                <ul class="navbar-nav mx-2">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                  Réseau
-                                </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="https://github.com/DzenetanMassart?tab=repositories">Github</a>
-                            <a class="dropdown-item" href="https://www.linkedin.com/in/dzenetan-massart/">Linkedin</a>
-                            <a class="dropdown-item" href="https://www.youtube.com/channel/UCpZE_eV7wKf7sJXvpPGP-ZA/videos">YouTube</a>
-                            <a class="dropdown-item" href="https://www.behance.net/dznetanmassart">Behance</a>
-                            <a class="dropdown-item" href="https://sketchfab.com/DzenetanMassart/models">Sketchfab</a>
-                            <a class="dropdown-item" href="https://www.codewars.com/users/DzenetanMassart">Codewars</a>
-                            <a class="dropdown-item" href="https://www.pinterest.fr/MakeOnWebsoft/_saved/">Pinterest</a>
-
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </nav>
     </header>
     <!--Le header FIN-->
 
     <main>
         <a href="assets/cv/Dzénetan Massart CV Online.pdf">
-            <img src="assets/cv/Dzénetan Massart CV Online.jpg" alt="Dzénetan Massart CV Online" srcset="assets/cv/Dzénetan Massart CV Online.jpg">
+            <img src="assets/cv/Dzénetan Massart CV Online.png" alt="Dzénetan Massart CV Online" srcset="assets/cv/Dzénetan Massart CV Online.jpg">
         </a>
     </main>
     <footer>
-        <a href="assets/cv/Dzénetan Massart CV Online.pdf" download="Le CV de Dzénetan Massart en ligne"><i class="fas fa-download"></i>Téléchargez le CV</a>
+        <a href="assets/cv/Dzénetan Massart CV Online.pdf" download="Le CV de Dzénetan Massart en ligne" class="download"><i class="fas fa-download"></i>Téléchargez le CV</a>
 
     </footer>
 </body>

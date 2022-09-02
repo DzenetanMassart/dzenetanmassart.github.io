@@ -7,11 +7,10 @@
     <meta name="keywords" content="CV,Dzénetan,Massart,vidéo,gif,applications,Github" />
     <meta name="author" content="Dzénetan Massart" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/navbar/navbar.css">
     <link rel="apple-touch-icon" sizes="57x57" href="root/ico/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="root/ico//apple-icon-60x60.png">
     <link rel="apple-touch-icon" sizes="72x72" href="root/ico//apple-icon-72x72.png">
@@ -35,46 +34,19 @@
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-sm navbar-dark dys">
-            <a href="index.html" class="navbar-brand"><img src="assets/image/Dzénetan Massart.png" id="profil" height="40px" /> </a>
+    <header class="dys" id="navigation">
 
-            <a class="cv" href="CV_PDF.html">Version PDF</a>
+        <a href="index.html" class="active"><img src="assets/image/Dzénetan Massart.png" id="profil" /> </a>
 
-            <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <i class="fas fa-vector-square"></i>
-                        </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html#outils">Outils</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html#parcours">Parcours</a>
-                    </li>
+        <a class="cv" href="CV_PDF.html">Version PDF</a>
+        <a href="index.html#outils">Outils</a>
+        <a href="index.html#parcours">Parcours</a>
 
-                </ul>
-                <ul class="navbar-nav mx-2">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                  Réseau
-                                </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="https://github.com/DzenetanMassart?tab=repositories">Github</a>
-                            <a class="dropdown-item" href="https://www.linkedin.com/in/dzenetan-massart/">Linkedin</a>
-                            <a class="dropdown-item" href="https://www.youtube.com/channel/UCpZE_eV7wKf7sJXvpPGP-ZA/videos">YouTube</a>
-                            <a class="dropdown-item" href="https://www.behance.net/dznetanmassart">Behance</a>
-                            <a class="dropdown-item" href="https://sketchfab.com/DzenetanMassart/models">Sketchfab</a>
-                            <a class="dropdown-item" href="https://www.codewars.com/users/DzenetanMassart">Codewars</a>
-                            <a class="dropdown-item" href="https://www.pinterest.fr/MakeOnWebsoft/_saved/">Pinterest</a>
 
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+        <script src="assets/navbar/navbar.js"></script>
+
+
     </header>
-
 
     <main class="dys">
         <!-- La petite bannière-->
@@ -86,27 +58,25 @@
 
 
 
-            <aside class="card coordonnee text-center">
+            <aside class="coordonnee ">
                 <h4>Coordonnées</h4>
                 <div>
-                    <p>Né à Namur le 5 juillet 1996, Célibataire
+                    <p>Né à Namur le 5 juillet 1996
                     </p>
                     <p><i class="fas fa-envelope"></i> <a href="mailto:dzenetan.massart@gmail.com">dzenetan.massart@gmail.com</a></p>
                 </div>
             </aside>
 
             </div>
-            <aside class="card langues text-center">
+            <aside class=" langues ">
                 <h4>Langues Maîtrisées</h4>
 
                 <div>
                     <div>
-                        <h4>🇫🇷 Français</h4>
-                        <p>(Langue Maternelle)</p>
+                        <p>🇫🇷 Français <sup>(Langue Maternelle)</sup></p>
                     </div>
                     <div>
-                        <h4>🇬🇧 Anglais</h4>
-                        <p>(Niveau technique, spécialisé «infographie»)</p>
+                        <p>🇬🇧 Anglais <sup>(Niveau technique, spécialisé «infographie»)</sup></p>
                     </div>
                 </div>
             </aside>
@@ -116,11 +86,11 @@
         <nav class="metiers">
             <select name="metiers" id="metier">
     <option value="">--Choisissez un métier--</option>
-        <option value="Video Maker">Video Maker</option>
-        <option value="Photographe">Photographe</option>
-        <option value="Community Manager">Community Manager</option>
-        <option value="Employé de Service">Employé de Service</option>
-        <option value="Codeur Javascript">Codeur Javascript</option>
+        <option value="Video Maker" class="vm">Video Maker</option>
+        <option value="Photographe" class="photo">Photographe</option>
+        <option value="Community Manager" class="cm">Community Manager</option>
+        <option value="Employé de Services" class="cm">Employé de Services</option>
+        <option value="Codeur Javascript" class="js">Codeur Javascript</option>
         </select>
         </nav>
         <!--Sélection du métier FIN-->
@@ -134,6 +104,8 @@
                 <ul>
                     <li><img class="prog " alt="Logo Autodesk Maya " src="https://www.masolutionformation.com/wp-content/uploads/2021/03/4abf5146283e1609eeeae16335666564.png "></img>Autodesk Maya</li>
                     <li><img class="prog " alt="Logo Autodesk 3DSsmax " src="https://seeklogo.com/images/1/3ds-max-logo-51422AA0E7-seeklogo.com.png "></img>Autodesk 3Dsmax</li>
+                    <li><img class="prog " alt="Logo Blender " src="https://www.blender.org/wp-content/themes/bthree/assets/images/favicon.ico"></img>Blender</li>
+
                 </ul>
             </article>
             <article id="video">
@@ -175,7 +147,7 @@
                 <h4>Optimisation des réseaux sociaux</h4>
                 <ul>
                     <li><img class="prog " alt="Logo YouTube " src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/09/YouTube_full-color_icon_%282017%29.svg/1280px-YouTube_full-color_icon_%282017%29.svg.png "></img>YouTube</li>
-                    <li><img class="prog " alt="Logo Twitter " src="https://upload.wikimedia.org/wikipedia/fr/thumb/c/c8/Twitter_Bird.svg/1200px-Twitter_Bird.svg.png "></img>Twitter</li>
+                    <li><img class="prog " alt="Logo Twitter " src="https://abs.twimg.com/favicons/twitter.2.ico"></img>Twitter</li>
                     <li><img class="prog " alt="Logo Facebook " src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/16/Facebook-icon-1.png/480px-Facebook-icon-1.png "></img>Facebook</li>
                     <li><img class="prog " alt="Logo LinkedIn " src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/768px-LinkedIn_logo_initials.png "></img>LinkedIn</li>
                 </ul>
@@ -209,10 +181,8 @@
 
         <section class="timeline">
             <p class="stage"><b>2022</b> - <b>Employé de Services</b> - CollègePieX - Châtelineau <span>STAGE</span></p>
-            <span class="icon ">
-                <i class="fas fa-map-marker js "></i>
-            </span>
-            
+
+
             <p><b>2021-2022</b>- Formation d'<b>Employé de Services</b> - IEPSCF NAMUR-CADETS Enseignement de Promotion Sociale
                 <span class="icon">
                                 <i class="fas fa-map-marker cm"></i>

@@ -1,0 +1,69 @@
+$C1: white;
+$C2: #4c85bd;
+$C3: #00000C;
+$C3a: #00000c60;
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+@import url("https://fr.allfont.net/allfont.css?fonts=lexia");
+// Les applications
+.apps {
+    .description {
+        border-top: $C3a solid 2px;
+        border-bottom: $C3a solid 2px;
+        box-shadow: $C3a 2px 2px 2px;
+        padding: 20px;
+        text-align: center;
+        color: $C1;
+    }
+}
+
+@media screen and (min-width: 1280px) {
+    .appsview {
+        display: grid;
+        grid-gap: 20px;
+        grid-template-columns: auto auto;
+        margin: 10px;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    .appsview {
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: auto;
+        margin: 10px;
+    }
+}
+
+.appsview {
+    article {
+        background-color: $C1;
+        height: 200px;
+        h4 {
+            color: $C1;
+            padding: 5px;
+            margin: 0;
+            font-size: 1.5em;
+            background-color: $C3;
+            border-bottom: $C3 1px solid;
+            border-bottom-right-radius: 5px;
+            border-bottom-left-radius: 5px;
+        }
+        p {
+            color: black;
+            height: 75px;
+            padding: 10px;
+        }
+        a {
+            background-color: $C2;
+            color: $C1;
+            padding: 10px;
+            margin: 2px;
+            text-decoration: none;
+            border-radius: 10px;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}

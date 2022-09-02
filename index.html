@@ -10,9 +10,9 @@
     <meta name="author" content="Dzénetan Massart" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <meta name="full-screen" content="yes">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
-    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/navbar/navbar.css">
+    <link rel="stylesheet" href="assets/css/apps.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="assets/css/main.css">
     <!--Generate with https://www.favicon-generator.org/-->
@@ -51,47 +51,20 @@
 </head>
 
 <body>
-    <!--Le header DEBUT-->
-    <header class="dark background">
-        <nav class="navbar navbar-expand-lg dys">
-            <a href="index.html" class="navbar-brand"><img src="assets/image/Dzénetan Massart.png" id="profil" height="40px" /> </a>
 
-            <a class="cv" href="CV.html">CV</a>
+    <!--Le header FIN-->
+    <header class="dys" id="navigation">
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <i class="far fa-caret-square-down"></i>                        </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html#outils">Outils</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="index.html#parcours">Parcours</a>
-                    </li>
+        <a href="index.html" class="active"><img src="assets/image/Dzénetan Massart.png" id="profil" /> </a>
 
-                </ul>
-                <ul class="navbar-nav mx-2 ">
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                  Réseau
-                                </a>
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="https://github.com/DzenetanMassart?tab=repositories">Github</a>
-                            <a class="dropdown-item" href="https://www.linkedin.com/in/dzenetan-massart/">Linkedin</a>
-                            <a class="dropdown-item" href="https://www.youtube.com/channel/UCpZE_eV7wKf7sJXvpPGP-ZA/videos">YouTube</a>
-                            <a class="dropdown-item" href="https://www.behance.net/dznetanmassart">Behance</a>
-                            <a class="dropdown-item" href="https://sketchfab.com/DzenetanMassart/models">Sketchfab</a>
-                            <a class="dropdown-item" href="https://www.codewars.com/users/DzenetanMassart">Codewars</a>
-                            <a class="dropdown-item" href="https://www.pinterest.fr/MakeOnWebsoft/_saved/">Pinterest</a>
+        <a class="cv" href="CV.html">CV</a>
+        <a href="#outils">Outils</a>
+        <a href="#parcours">Parcours</a>
 
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        </nav>
 
     </header>
-    <!--Le header FIN-->
+
+    <script src="assets/navbar/navbar.js"></script>
     <!--Le main Debut-->
 
     <main class="dys">

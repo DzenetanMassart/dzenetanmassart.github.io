@@ -12,6 +12,14 @@ footer {
   height: 100%;
 }
 
+footer:hover {
+  background: white;
+}
+
+footer:hover a {
+  color: black;
+}
+
 footer a {
   text-align: center;
   text-decoration: underline;
@@ -19,5 +27,6 @@ footer a {
   color: white;
   margin: auto auto;
   font-size: 10vw;
+  width: 100%;
 }
 /*# sourceMappingURL=cv_02.css.map */

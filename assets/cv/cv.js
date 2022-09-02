@@ -58,7 +58,7 @@ document.getElementById('metier').addEventListener('change', function() {
             tdd.style.display = "inline-block";
             coding.style.display = "inline-block";
             break;
-        case "Employé de Service":
+        case "Employé de Services":
             document.getElementById("met").innerText = "Pour " + this.value;
             tD.style.display = "none";
             video.style.display = "none";
