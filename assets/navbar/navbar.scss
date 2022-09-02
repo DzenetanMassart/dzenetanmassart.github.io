@@ -14,18 +14,21 @@
         overflow: none;
         background-color: $C3;
         display: flex;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         a {
-            float: left;
-            font-size: 0.8em;
+            height: 100%;
+            margin: auto;
+            line-height: 40px;
+            font-size: 1.2em;
             color: #f2f2f2;
             text-align: center;
-            padding: 14px 16px;
             text-decoration: none !important;
-            display: block;
             width: 25%;
             font-weight: bold;
             img {
-                height: 200%;
+                height: 40px;
+                margin: 0;
+                float: left;
             }
             .icon {
                 display: none;
