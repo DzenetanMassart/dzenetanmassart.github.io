@@ -60,4 +60,10 @@ header a:active {
     width: 100%;
   }
 }
+
+@media (orientation: portrait) {
+  header a span {
+    font-size: 0;
+  }
+}
 /*# sourceMappingURL=navbar.css.map */

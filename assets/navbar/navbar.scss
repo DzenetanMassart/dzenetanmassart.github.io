@@ -55,3 +55,9 @@
             }
         }
     }
+    
+    @media (orientation: portrait) {
+        header a span {
+            font-size: 0;
+        }
+    }
