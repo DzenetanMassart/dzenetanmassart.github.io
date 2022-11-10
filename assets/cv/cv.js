@@ -81,6 +81,18 @@ document.addEventListener("DOMContentLoaded", function() {
         tdd.style.display = "none";
         coding.style.display = "inline-block";
     };
+    if (url_result === "WebManager") {
+        document.title = "CV Web Manager - Dzénetan Massart";
+        document.getElementById("met").innerText = "Pour " + "Web Manager";
+        tD.style.display = "none";
+        video.style.display = "inline-block";
+        photo.style.display = "inline-block";
+        Gi.style.display = "inline-block";
+        mep.style.display = "none";
+        optiweb.style.display = "inline-block";
+        tdd.style.display = "inline-block";
+        coding.style.display = "inline-block";
+    };
 
 
 });
@@ -114,10 +126,6 @@ colorisation()
 
 
 document.getElementById('metier').addEventListener('change', function() {
-
-
-
-
     switch (this.value) {
         case "Video Maker":
             document.title = "CV Video Maker - Dzénetan Massart";
@@ -189,6 +197,20 @@ document.getElementById('metier').addEventListener('change', function() {
             window.location.href = url_o + "#" + this.value.replace(/ /g, '');
 
             break;
+        case "Web Manager":
+            document.title = "CV Web Manager - Dzénetan Massart";
+            document.getElementById("met").innerText = "Pour " + this.value;
+            tD.style.display = "none";
+            video.style.display = "inline-block";
+            photo.style.display = "inline-block";
+            Gi.style.display = "inline-block";
+            mep.style.display = "none";
+            optiweb.style.display = "inline-block";
+            tdd.style.display = "inline-block";
+            coding.style.display = "inline-block";
+            window.location.href = url_o + "#" + this.value.replace(/ /g, '');
+
+            break;
         default:
             document.title = "CV Général - Dzénetan Massart";
             document.getElementById("met").innerText = "";
@@ -200,8 +222,6 @@ document.getElementById('metier').addEventListener('change', function() {
             optiweb.style.display = "inline-block";
             tdd.style.display = "inline-block";
             coding.style.display = "inline-block";
-            window.location.href = url_o + "#" + this.value.replace(/ /g, '');
-
-
+            window.location.href = url_o;
     }
 });

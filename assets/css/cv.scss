@@ -42,6 +42,7 @@ main {
             grid-template-rows: 1fr 1fr;
             justify-items: center;
             align-items: center;
+            height: 750px;
             h2 {
                 font-size: 9vw;
             }
@@ -49,6 +50,7 @@ main {
     }
     @media screen and (max-width: 460px) {
         .banniere {
+            height: 750px;
             display: grid;
             grid-template-columns: 1fr;
             grid-template-rows: 1fr 1fr 1fr;
@@ -114,6 +116,77 @@ main {
                 text-align: center;
                 text-transform: uppercase;
                 border-radius: 0px 0px 40px 0px;
+            }
+        }
+    }
+}
+
+.avantages {
+    display: flex;
+    align-items: center;
+    align-content: space-between;
+    justify-content: space-evenly;
+    gap: 25px;
+    flex-flow: wrap;
+    margin: 20px;
+    article {
+        background-color: rgb(0, 82, 0);
+        color: white;
+        width: 500px;
+        height: 200px;
+        text-align: center;
+        border: 5px ridge #12A458;
+        border-radius: 18px;
+        h4 {
+            text-align: center;
+            display: inline;
+            font-size: 1.5em;
+            color: white;
+            text-shadow: 0 1px 0px #378ab4, 1px 0 0px #5dabcd, 1px 2px 1px #378ab4, 2px 1px 1px #5dabcd, 2px 3px 2px #378ab4, 3px 2px 2px #5dabcd, 3px 4px 2px #378ab4, 4px 3px 3px #5dabcd, 4px 5px 3px #378ab4, 5px 4px 2px #5dabcd, 5px 6px 2px #378ab4, 6px 5px 2px #5dabcd, 6px 7px 1px #378ab4, 7px 6px 1px #5dabcd, 7px 8px 0px #378ab4, 8px 7px 0px #5dabcd;
+            &:after,
+            &:before {
+                content: "★";
+                color: yellow;
+                font-size: 1em;
+                text-shadow: 0 0 20px #eeeeee, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+            }
+        }
+        div {
+            display: flex;
+            position: relative;
+            align-items: center;
+            height: 150px;
+            p {
+                text-align: left;
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                padding: 10px;
+            }
+            a {
+                color: yellow;
+                box-shadow: 0px 1px 0px 0px #fff6af;
+                background: linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+                background-color: #ffec64;
+                border-radius: 6px;
+                border: 1px solid #ffaa22;
+                cursor: pointer;
+                color: #333333;
+                font-family: Arial;
+                font-size: 15px;
+                font-weight: bold;
+                padding: 6px 24px;
+                text-decoration: none;
+                text-shadow: 0px 1px 0px #ffee66;
+                text-align: center;
+                &:hover {
+                    background: linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+                    background-color: #ffab23;
+                }
+                &:active {
+                    position: absolute;
+                    top: 1px;
+                }
             }
         }
     }
@@ -233,6 +306,15 @@ main {
 .hobbies {
     background-color: white;
     .hob {
+        a {
+            color: $C2;
+            &:hover {
+                color: black;
+            }
+            &:link {
+                text-decoration: none;
+            }
+        }
         display: grid;
         @media screen and (min-width: 1500px) {
             grid-template-columns: 1fr 1fr 1fr 1fr;

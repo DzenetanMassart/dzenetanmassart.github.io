@@ -50,6 +50,7 @@ main {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    height: 750px;
   }
   main .banniere h2 {
     font-size: 9vw;
@@ -58,6 +59,7 @@ main {
 
 @media screen and (max-width: 460px) {
   main .banniere {
+    height: 750px;
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 1fr;
@@ -142,6 +144,99 @@ main section:last-child h3 {
   text-align: center;
   text-transform: uppercase;
   border-radius: 0px 0px 40px 0px;
+}
+
+.avantages {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  gap: 25px;
+  -ms-flex-flow: wrap;
+      flex-flow: wrap;
+  margin: 20px;
+}
+
+.avantages article {
+  background-color: #005200;
+  color: white;
+  width: 500px;
+  height: 200px;
+  text-align: center;
+  border: 5px ridge #12A458;
+  border-radius: 18px;
+}
+
+.avantages article h4 {
+  text-align: center;
+  display: inline;
+  font-size: 1.5em;
+  color: white;
+  text-shadow: 0 1px 0px #378ab4, 1px 0 0px #5dabcd, 1px 2px 1px #378ab4, 2px 1px 1px #5dabcd, 2px 3px 2px #378ab4, 3px 2px 2px #5dabcd, 3px 4px 2px #378ab4, 4px 3px 3px #5dabcd, 4px 5px 3px #378ab4, 5px 4px 2px #5dabcd, 5px 6px 2px #378ab4, 6px 5px 2px #5dabcd, 6px 7px 1px #378ab4, 7px 6px 1px #5dabcd, 7px 8px 0px #378ab4, 8px 7px 0px #5dabcd;
+}
+
+.avantages article h4:after, .avantages article h4:before {
+  content: "★";
+  color: yellow;
+  font-size: 1em;
+  text-shadow: 0 0 20px #eeeeee, 0 0 30px #ff4da6, 0 0 40px #ff4da6, 0 0 50px #ff4da6, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+}
+
+.avantages article div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 150px;
+}
+
+.avantages article div p {
+  text-align: left;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+
+.avantages article div a {
+  color: yellow;
+  -webkit-box-shadow: 0px 1px 0px 0px #fff6af;
+          box-shadow: 0px 1px 0px 0px #fff6af;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #ffec64), to(#ffab23));
+  background: linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+  background-color: #ffec64;
+  border-radius: 6px;
+  border: 1px solid #ffaa22;
+  cursor: pointer;
+  color: #333333;
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 6px 24px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #ffee66;
+  text-align: center;
+}
+
+.avantages article div a:hover {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(5%, #ffab23), to(#ffec64));
+  background: linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+  background-color: #ffab23;
+}
+
+.avantages article div a:active {
+  position: absolute;
+  top: 1px;
 }
 
 .metiers {
@@ -299,6 +394,18 @@ main section:last-child h3 {
   display: grid;
   gap: 10px 20px;
   padding: 10px 20px;
+}
+
+.hobbies .hob a {
+  color: #4c85bd;
+}
+
+.hobbies .hob a:hover {
+  color: black;
+}
+
+.hobbies .hob a:link {
+  text-decoration: none;
 }
 
 @media screen and (min-width: 1500px) {

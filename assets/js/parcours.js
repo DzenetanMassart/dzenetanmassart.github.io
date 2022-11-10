@@ -62,5 +62,5 @@ const parcours = [{
     "alt": "PowerPoint & Blender",
     "title": "2022: PowerPoint et Blender",
     "para1": "C'est en 2022 , à la fin de ma formation d'Employé de Services, j'ai pût re-découvrir <a target='_blank' href='https://www.microsoft.com/fr-be/microsoft-365/powerpoint/'>PowerPoint</a>. Je l'avais déjà utilisé par le passer pour mon TFE en Sciences Sociale pour mon CESS.",
-    "para2": "Arrivé à la fin de la période d'essai d'Autodesk Maya et Autodesk 3DSmax, je me suis mis à apprendre en autonomie <a target='_blank' href='https://www.blender.org/'>Blender</a>"
+    "para2": "Arrivé à la fin de la période d'essai d'Autodesk Maya et Autodesk 3DSmax, je me suis mis à apprendre en autodidacte <a target='_blank' href='https://www.blender.org/'>Blender</a>"
 }];
