@@ -53,13 +53,13 @@ main {
     height: 750px;
   }
   main .banniere h2 {
-    font-size: 9vw;
+    font-size: 6vw;
   }
 }
 
 @media screen and (max-width: 460px) {
   main .banniere {
-    height: 750px;
+    height: 1500px;
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 1fr;
@@ -72,7 +72,10 @@ main {
             align-items: center;
   }
   main .banniere h2 {
-    font-size: 22vw;
+    font-size: 20vw;
+  }
+  main .banniere sub {
+    display: none;
   }
 }
 
@@ -174,6 +177,12 @@ main section:last-child h3 {
   border-radius: 18px;
 }
 
+@media screen and (max-width: 1499px) {
+  .avantages article {
+    height: 250px;
+  }
+}
+
 .avantages article h4 {
   text-align: center;
   display: inline;
@@ -198,6 +207,12 @@ main section:last-child h3 {
       -ms-flex-align: center;
           align-items: center;
   height: 150px;
+}
+
+@media screen and (max-width: 1499px) {
+  .avantages article div {
+    height: 200px;
+  }
 }
 
 .avantages article div p {

@@ -44,20 +44,23 @@ main {
             align-items: center;
             height: 750px;
             h2 {
-                font-size: 9vw;
+                font-size: 6vw;
             }
         }
     }
     @media screen and (max-width: 460px) {
         .banniere {
-            height: 750px;
+            height: 1500px;
             display: grid;
             grid-template-columns: 1fr;
             grid-template-rows: 1fr 1fr 1fr;
             justify-items: center;
             align-items: center;
             h2 {
-                font-size: 22vw;
+                font-size: 20vw;
+            }
+            sub {
+                display: none;
             }
         }
     }
@@ -137,6 +140,9 @@ main {
         text-align: center;
         border: 5px ridge #12A458;
         border-radius: 18px;
+        @media screen and (max-width: 1499px) {
+            height: 250px;
+        }
         h4 {
             text-align: center;
             display: inline;
@@ -156,6 +162,9 @@ main {
             position: relative;
             align-items: center;
             height: 150px;
+            @media screen and (max-width: 1499px) {
+                height: 200px;
+            }
             p {
                 text-align: left;
                 display: block;
