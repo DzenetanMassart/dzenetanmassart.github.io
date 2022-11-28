@@ -180,6 +180,7 @@ main section:last-child h3 {
 @media screen and (max-width: 1499px) {
   .avantages article {
     height: 250px;
+    font-size: 14px;
   }
 }
 
@@ -416,12 +417,36 @@ main section:last-child h3 {
   border-radius: 20px;
 }
 
+@media screen and (orientation: portrait) {
+  .exp article {
+    width: 90%;
+    margin: auto auto;
+  }
+}
+
+@media screen and (orientation: portrait) {
+  .exp article {
+    width: 95%;
+  }
+  .exp article div ul {
+    width: 95%;
+    padding: 0;
+    margin: auto auto;
+  }
+}
+
 .exp article h4 {
   text-align: center;
   background-color: #00000C;
   border-radius: 20px 20px 0 0;
   padding: 5px 5px 0 0;
   margin: 0;
+}
+
+@media screen and (max-width: 525px) {
+  .exp article h4 {
+    font-size: 3vw;
+  }
 }
 
 .exp article div {
@@ -433,6 +458,15 @@ main section:last-child h3 {
           justify-content: center;
   -ms-flex-line-pack: center;
       align-content: center;
+}
+
+@media screen and (max-width: 660px) {
+  .exp article div {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 
 .exp ul {
