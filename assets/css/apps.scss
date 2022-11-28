@@ -23,6 +23,19 @@ $C3a: #00000c60;
         grid-gap: 20px;
         grid-template-columns: auto auto;
         margin: 10px;
+        article {
+            height: 200px;
+            a {
+                display: inline;
+                text-align: center;
+                margin: 5px;
+                &:hover {
+                    text-decoration: none;
+                    background-color: $C3;
+                    color: $C1;
+                }
+            }
+        }
     }
 }
 
@@ -32,19 +45,31 @@ $C3a: #00000c60;
         grid-gap: 10px;
         grid-template-columns: auto;
         margin: 10px;
+        article {
+            height: 220px;
+            a {
+                display: block;
+                text-align: center;
+                margin: 5px;
+                &:hover {
+                    text-decoration: none;
+                    background-color: $C3;
+                    color: $C1;
+                }
+            }
+        }
     }
 }
 
 .appsview {
     article {
-        background-color: $C1;
-        height: 200px;
+        background: linear-gradient(180deg, $C3a 0%, $C1 17%, $C1 18%, $C1 100%);
         h4 {
             color: $C1;
             padding: 5px;
             margin: 0;
             font-size: 1.5em;
-            background-color: $C3;
+            background-color: $C3a;
             border-bottom: $C3 1px solid;
             border-bottom-right-radius: 5px;
             border-bottom-left-radius: 5px;
@@ -61,9 +86,6 @@ $C3a: #00000c60;
             margin: 2px;
             text-decoration: none;
             border-radius: 10px;
-            &:hover {
-                text-decoration: underline;
-            }
         }
     }
 }

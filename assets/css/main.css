@@ -246,7 +246,7 @@ html {
   }
 }
 
-main ul {
+.inline ul {
   color: #999;
   text-align: center;
   /* img size is 50x50 */
@@ -257,7 +257,7 @@ main ul {
           animation-timing-function: linear;
 }
 
-main ul::before {
+.inline ul::before {
   content: " ";
   font-size: 8rem;
   font-weight: 100;

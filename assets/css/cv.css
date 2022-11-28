@@ -400,6 +400,89 @@ main section:last-child h3 {
   margin-right: 5px;
 }
 
+.competences #coding ul li {
+  color: black;
+}
+
+.exp {
+  background-color: white;
+}
+
+.exp article {
+  margin: 20px;
+  background-color: #4c85bd;
+  display: block;
+  width: 500px;
+  border-radius: 20px;
+}
+
+.exp article h4 {
+  text-align: center;
+  background-color: #00000C;
+  border-radius: 20px 20px 0 0;
+  padding: 5px 5px 0 0;
+  margin: 0;
+}
+
+.exp article div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.exp ul {
+  width: 250%;
+  background-color: rgba(0, 0, 0, 0.123);
+  list-style-type: " ";
+  list-style-type: none;
+  padding: 5px;
+}
+
+.exp ul li i {
+  margin-right: 5px;
+}
+
+.exp a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: yellow;
+  text-decoration: none;
+  text-align: center;
+  scale: 1;
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.exp a img {
+  width: 75%;
+}
+
+.exp a:hover {
+  color: #00000C;
+  scale: 0.99;
+}
+
 .hobbies {
   background-color: white;
 }
