@@ -2,10 +2,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap");
 @import url("https://fr.allfont.net/allfont.css?fonts=lexia");
 .apps .description {
-  border-top: #00000c60 solid 2px;
-  border-bottom: #00000c60 solid 2px;
-  -webkit-box-shadow: #00000c60 2px 2px 2px;
-          box-shadow: #00000c60 2px 2px 2px;
+  border-top: rgba(0, 0, 12, 0.3764705882) solid 2px;
+  border-bottom: rgba(0, 0, 12, 0.3764705882) solid 2px;
+  box-shadow: rgba(0, 0, 12, 0.3764705882) 2px 2px 2px;
   padding: 20px;
   text-align: center;
   color: white;
@@ -13,11 +12,9 @@
 
 @media screen and (min-width: 1280px) {
   .appsview {
-    display: -ms-grid;
     display: grid;
     grid-gap: 20px;
-    -ms-grid-columns: auto auto;
-        grid-template-columns: auto auto;
+    grid-template-columns: auto auto;
     margin: 10px;
   }
   .appsview article {
@@ -34,14 +31,11 @@
     color: white;
   }
 }
-
 @media screen and (max-width: 1280px) {
   .appsview {
-    display: -ms-grid;
     display: grid;
     grid-gap: 10px;
-    -ms-grid-columns: auto;
-        grid-template-columns: auto;
+    grid-template-columns: auto;
     margin: 10px;
   }
   .appsview article {
@@ -58,29 +52,24 @@
     color: white;
   }
 }
-
 .appsview article {
-  background: -webkit-gradient(linear, left top, left bottom, from(#00000c60), color-stop(17%, white), color-stop(18%, white), to(white));
-  background: linear-gradient(180deg, #00000c60 0%, white 17%, white 18%, white 100%);
+  background: linear-gradient(180deg, rgba(0, 0, 12, 0.3764705882) 0%, white 17%, white 18%, white 100%);
 }
-
 .appsview article h4 {
   color: white;
   padding: 5px;
   margin: 0;
   font-size: 1.5em;
-  background-color: #00000c60;
+  background-color: rgba(0, 0, 12, 0.3764705882);
   border-bottom: #00000C 1px solid;
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
 }
-
 .appsview article p {
   color: black;
   height: 75px;
   padding: 10px;
 }
-
 .appsview article a {
   background-color: #4c85bd;
   color: white;
@@ -88,5 +77,4 @@
   margin: 2px;
   text-decoration: none;
   border-radius: 10px;
-}
-/*# sourceMappingURL=apps.css.map */
+}/*# sourceMappingURL=apps.css.map */

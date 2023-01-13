@@ -9,13 +9,9 @@ header {
   height: 40px;
   overflow: none;
   background-color: #00000C;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-
 header a {
   height: 100%;
   margin: auto;
@@ -27,27 +23,22 @@ header a {
   width: 25%;
   font-weight: bold;
 }
-
 header a img {
   height: 40px;
   margin: 0;
   float: left;
 }
-
 header a .icon {
   display: none;
 }
-
 header a:hover {
   background-color: #4c85bd;
   color: #00000C;
 }
-
 header a:active {
   background-color: #4c85bd;
   color: white;
 }
-
 @media screen and (max-width: 600px) {
   header header a:not(:first-child) {
     display: none;
@@ -65,5 +56,4 @@ header a:active {
   header a span {
     font-size: 0;
   }
-}
-/*# sourceMappingURL=navbar.css.map */
+}/*# sourceMappingURL=navbar.css.map */

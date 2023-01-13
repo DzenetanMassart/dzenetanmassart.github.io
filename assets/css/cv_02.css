@@ -3,23 +3,18 @@ main > a > img {
 }
 
 footer {
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr;
-      grid-template-columns: 1fr;
-      grid-template-areas: ". " ". ";
+  grid-template-columns: 1fr;
+  grid-template-areas: ". " ". ";
   width: 100%;
   height: 100%;
 }
-
 footer:hover {
   background: white;
 }
-
 footer:hover a {
   color: black;
 }
-
 footer a {
   text-align: center;
   text-decoration: underline;
@@ -28,5 +23,4 @@ footer a {
   margin: auto auto;
   font-size: 10vw;
   width: 100%;
-}
-/*# sourceMappingURL=cv_02.css.map */
+}/*# sourceMappingURL=cv_02.css.map */

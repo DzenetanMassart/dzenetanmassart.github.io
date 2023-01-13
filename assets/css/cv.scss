@@ -369,27 +369,11 @@ main {
             }
         }
     }
-    a {
-        display: flex;
-        text-align: center;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        align-content: center;
-        justify-content: space-between;
-        align-items: center;
-        img {
-            width: 75%;
-        }
-        color: yellow;
-        text-decoration: none;
-        text-align: center;
-        scale:1;
-        transition:all 0.2s;
-        &:hover {
-            color: $C3;
-            scale: 0.99;
-        }
-    }
+
+   img{
+    width:80px;
+   }
+    
 }
 
 // Les hobbies

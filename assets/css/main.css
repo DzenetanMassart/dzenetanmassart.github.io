@@ -12,7 +12,6 @@ html {
 .lien_magique {
   color: yellow;
 }
-
 .lien_magique:hover {
   color: yellow;
   text-decoration: none;
@@ -21,9 +20,9 @@ html {
 
 @media screen and (min-width: 1280px) {
   h1,
-  h2 {
+h2 {
     color: white;
-    font-family: 'Oswald', sans-serif;
+    font-family: "Oswald", sans-serif;
     text-align: center;
     font-size: 3vw;
     text-shadow: #00000C 0 1px 0;
@@ -32,10 +31,9 @@ html {
     color: white;
   }
   main .intro {
-    border-top: #00000c60 solid 2px;
-    border-bottom: #00000c60 solid 2px;
-    -webkit-box-shadow: #00000c60 2px 2px 2px;
-            box-shadow: #00000c60 2px 2px 2px;
+    border-top: rgba(0, 0, 12, 0.3764705882) solid 2px;
+    border-bottom: rgba(0, 0, 12, 0.3764705882) solid 2px;
+    box-shadow: rgba(0, 0, 12, 0.3764705882) 2px 2px 2px;
     padding: 20px;
     text-align: center;
     margin-bottom: 20px;
@@ -48,11 +46,9 @@ html {
     text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.616), 0px 0px 3px rgba(194, 4, 4, 0.616), 0px 0px 5px yellow;
   }
   main .inline {
-    display: -ms-grid;
     display: grid;
     grid-gap: 5px;
-    -ms-grid-columns: auto auto;
-        grid-template-columns: auto auto;
+    grid-template-columns: auto auto;
     margin: 5px;
   }
   main .inline ul {
@@ -67,22 +63,22 @@ html {
     padding-right: 5px;
   }
   main .inline .technologies,
-  main .inline .logiciels,
-  main .inline .capacites,
-  main .inline .programmes {
+main .inline .logiciels,
+main .inline .capacites,
+main .inline .programmes {
     color: white;
     padding-left: 5px;
     padding-right: 5px;
-    background-color: #00000c60;
+    background-color: rgba(0, 0, 12, 0.3764705882);
     border-bottom: 1px white solid;
     border-left: 1px white solid;
     border-right: 1px white solid;
     border-radius: 5px 5px 5px 5px;
   }
   main .inline .technologies span,
-  main .inline .logiciels span,
-  main .inline .capacites span,
-  main .inline .programmes span {
+main .inline .logiciels span,
+main .inline .capacites span,
+main .inline .programmes span {
     display: block;
     border-bottom: 2px white solid;
     width: 100%;
@@ -90,44 +86,42 @@ html {
     border-radius: 0 0 50px 50px;
   }
   main .inline .technologies li:nth-child(2n-1),
-  main .inline .logiciels li:nth-child(2n-1),
-  main .inline .capacites li:nth-child(2n-1),
-  main .inline .programmes li:nth-child(2n-1) {
-    background-color: #00000c3b;
+main .inline .logiciels li:nth-child(2n-1),
+main .inline .capacites li:nth-child(2n-1),
+main .inline .programmes li:nth-child(2n-1) {
+    background-color: rgba(0, 0, 12, 0.231372549);
   }
   main .inline .technologies a:link, main .inline .technologies a:visited,
-  main .inline .logiciels a:link,
-  main .inline .logiciels a:visited,
-  main .inline .capacites a:link,
-  main .inline .capacites a:visited,
-  main .inline .programmes a:link,
-  main .inline .programmes a:visited {
+main .inline .logiciels a:link,
+main .inline .logiciels a:visited,
+main .inline .capacites a:link,
+main .inline .capacites a:visited,
+main .inline .programmes a:link,
+main .inline .programmes a:visited {
     color: white;
-    background-color: #00000c60;
+    background-color: rgba(0, 0, 12, 0.3764705882);
     border-radius: 50px;
     padding-left: 5px;
     padding-right: 5px;
     text-decoration: none;
-    -webkit-transition: padding-left 0.5s;
     transition: padding-left 0.5s;
   }
   main .inline .technologies a:link:hover, main .inline .technologies a:visited:hover,
-  main .inline .logiciels a:link:hover,
-  main .inline .logiciels a:visited:hover,
-  main .inline .capacites a:link:hover,
-  main .inline .capacites a:visited:hover,
-  main .inline .programmes a:link:hover,
-  main .inline .programmes a:visited:hover {
+main .inline .logiciels a:link:hover,
+main .inline .logiciels a:visited:hover,
+main .inline .capacites a:link:hover,
+main .inline .capacites a:visited:hover,
+main .inline .programmes a:link:hover,
+main .inline .programmes a:visited:hover {
     padding-left: 10px;
     padding-right: 10px;
   }
 }
-
 @media screen and (max-width: 1280px) {
   h1,
-  h2 {
+h2 {
     color: white;
-    font-family: 'Oswald', sans-serif;
+    font-family: "Oswald", sans-serif;
     text-align: center;
     font-size: 6vw;
     text-shadow: #00000C 0 1px 0;
@@ -136,8 +130,8 @@ html {
     color: white;
   }
   main .intro {
-    border-top: #00000c60 solid 2px;
-    border-bottom: #00000c60 solid 2px;
+    border-top: rgba(0, 0, 12, 0.3764705882) solid 2px;
+    border-bottom: rgba(0, 0, 12, 0.3764705882) solid 2px;
     text-align: center;
     padding: 5px;
   }
@@ -149,11 +143,9 @@ html {
     text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.616), 0px 0px 3px rgba(194, 4, 4, 0.616), 0px 0px 5px yellow;
   }
   main .inline {
-    display: -ms-grid;
     display: grid;
     grid-gap: 5px;
-    -ms-grid-columns: auto;
-        grid-template-columns: auto;
+    grid-template-columns: auto;
     margin: 5px;
   }
   main .inline ul {
@@ -168,19 +160,19 @@ html {
     padding-right: 5px;
   }
   main .inline .technologies,
-  main .inline .logiciels,
-  main .inline .capacites,
-  main .inline .programmes {
+main .inline .logiciels,
+main .inline .capacites,
+main .inline .programmes {
     color: white;
     padding-left: 5px;
     padding-right: 5px;
-    background-color: #00000c60;
+    background-color: rgba(0, 0, 12, 0.3764705882);
     line-height: 150%;
   }
   main .inline .technologies span,
-  main .inline .logiciels span,
-  main .inline .capacites span,
-  main .inline .programmes span {
+main .inline .logiciels span,
+main .inline .capacites span,
+main .inline .programmes span {
     display: block;
     border-bottom: 2px white solid;
     width: 100%;
@@ -188,39 +180,37 @@ html {
     border-radius: 0 0 50px 50px;
   }
   main .inline .technologies li:nth-child(2n-1),
-  main .inline .logiciels li:nth-child(2n-1),
-  main .inline .capacites li:nth-child(2n-1),
-  main .inline .programmes li:nth-child(2n-1) {
+main .inline .logiciels li:nth-child(2n-1),
+main .inline .capacites li:nth-child(2n-1),
+main .inline .programmes li:nth-child(2n-1) {
     background-color: rgba(0, 0, 12, 0.231);
   }
   main .inline .technologies a:link, main .inline .technologies a:visited,
-  main .inline .logiciels a:link,
-  main .inline .logiciels a:visited,
-  main .inline .capacites a:link,
-  main .inline .capacites a:visited,
-  main .inline .programmes a:link,
-  main .inline .programmes a:visited {
+main .inline .logiciels a:link,
+main .inline .logiciels a:visited,
+main .inline .capacites a:link,
+main .inline .capacites a:visited,
+main .inline .programmes a:link,
+main .inline .programmes a:visited {
     color: white;
-    background-color: #00000c60;
+    background-color: rgba(0, 0, 12, 0.3764705882);
     border-radius: 50px;
     padding-left: 5px;
     padding-right: 5px;
     text-decoration: none;
-    -webkit-transition: padding-left 0.5s;
     transition: padding-left 0.5s;
   }
   main .inline .technologies a:link:hover, main .inline .technologies a:visited:hover,
-  main .inline .logiciels a:link:hover,
-  main .inline .logiciels a:visited:hover,
-  main .inline .capacites a:link:hover,
-  main .inline .capacites a:visited:hover,
-  main .inline .programmes a:link:hover,
-  main .inline .programmes a:visited:hover {
+main .inline .logiciels a:link:hover,
+main .inline .logiciels a:visited:hover,
+main .inline .capacites a:link:hover,
+main .inline .capacites a:visited:hover,
+main .inline .programmes a:link:hover,
+main .inline .programmes a:visited:hover {
     padding-left: 10px;
     padding-right: 10px;
   }
 }
-
 /* Background data (Original source: https://subtlepatterns.com/grid-me/) */
 /* Animations */
 @-webkit-keyframes bg-scrolling-reverse {
@@ -233,30 +223,26 @@ html {
     background-position: 50px 50px;
   }
 }
-
 @-webkit-keyframes bg-scrolling {
   0% {
     background-position: 50px 50px;
   }
 }
-
 @keyframes bg-scrolling {
   0% {
     background-position: 50px 50px;
   }
 }
-
 .inline ul {
   color: #999;
   text-align: center;
   /* img size is 50x50 */
   background: url("../image/bg.png") repeat 0 0;
-  -webkit-animation: bg-scrolling-reverse .92s infinite;
-          animation: bg-scrolling-reverse .92s infinite;
+  -webkit-animation: bg-scrolling-reverse 0.92s infinite;
+          animation: bg-scrolling-reverse 0.92s infinite;
   -webkit-animation-timing-function: linear;
           animation-timing-function: linear;
 }
-
 .inline ul::before {
   content: " ";
   font-size: 8rem;
@@ -265,15 +251,13 @@ html {
 }
 
 .parcours .description {
-  border-top: #00000c60 solid 2px;
-  border-bottom: #00000c60 solid 2px;
-  -webkit-box-shadow: #00000c60 2px 2px 2px;
-          box-shadow: #00000c60 2px 2px 2px;
+  border-top: rgba(0, 0, 12, 0.3764705882) solid 2px;
+  border-bottom: rgba(0, 0, 12, 0.3764705882) solid 2px;
+  box-shadow: rgba(0, 0, 12, 0.3764705882) 2px 2px 2px;
   padding: 20px;
   text-align: center;
   color: white;
 }
-
 .parcours a {
   padding: 0.2rem 0.4rem;
   font-size: 87.5%;
@@ -283,24 +267,18 @@ html {
   white-space: nowrap;
   text-decoration: none;
 }
-
 .parcours a:hover {
   text-decoration: underline;
 }
-
 @media screen and (min-width: 1280px) {
   .parcours .parc {
-    display: -ms-grid;
     display: grid;
     grid-gap: 20px;
-    -ms-grid-columns: auto;
-        grid-template-columns: auto;
+    grid-template-columns: auto;
     margin: 15px;
   }
   .parcours .parc article {
-    -ms-grid-columns: 20vw auto;
-        grid-template-columns: 20vw auto;
-    display: -ms-grid;
+    grid-template-columns: 20vw auto;
     display: grid;
     grid-gap: 20px;
   }
@@ -319,35 +297,27 @@ html {
     background-color: #fff;
     border: 1px solid rgba(0, 0, 0, 0.125);
     position: relative;
-    display: -ms-flexbox;
-    display: -webkit-box;
     display: flex;
-    -ms-flex-direction: column;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-            flex-direction: column;
+    flex-direction: column;
     min-width: 0;
     word-wrap: break-word;
     background-clip: border-box;
-    border-radius: .25rem;
+    border-radius: 0.25rem;
   }
   .parcours .parc article div:nth-child(2n) p {
     padding-left: 10px;
     line-height: 150%;
   }
   .parcours .parc article div:nth-child(2n) h3 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     padding-left: 5px;
   }
 }
-
 @media screen and (max-width: 1280px) {
   .parcours .parc {
-    display: -ms-grid;
     display: grid;
     grid-gap: 10px;
-    -ms-grid-columns: auto;
-        grid-template-columns: auto;
+    grid-template-columns: auto;
     margin: 10px;
   }
   .parcours .parc article {
@@ -363,30 +333,24 @@ html {
     background-color: #fff;
     border: 1px solid rgba(0, 0, 0, 0.125);
     position: relative;
-    display: -ms-flexbox;
-    display: -webkit-box;
     display: flex;
-    -ms-flex-direction: column;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-            flex-direction: column;
+    flex-direction: column;
     min-width: 0;
     word-wrap: break-word;
     background-clip: border-box;
-    border-bottom-right-radius: .25em;
-    border-bottom-left-radius: .25em;
+    border-bottom-right-radius: 0.25em;
+    border-bottom-left-radius: 0.25em;
   }
   .parcours .parc article div:nth-child(2n) p {
     padding-left: 10px;
     line-height: 150%;
   }
   .parcours .parc article div:nth-child(2n) h3 {
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-size: 1.2em;
     padding-left: 5px;
   }
 }
-
 .parcours a {
   padding: 0.2rem 0.4rem;
   font-size: 87.5%;
@@ -401,7 +365,6 @@ html {
 }
 
 .dys {
-  font-family: 'Lexia', arial;
+  font-family: "Lexia", arial;
   font-size: 16px;
-}
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
