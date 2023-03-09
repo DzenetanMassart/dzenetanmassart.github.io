@@ -25,6 +25,7 @@
             text-decoration: none !important;
             width: 25%;
             font-weight: bold;
+                    background-color: $C3;
             img {
                 height: 40px;
                 margin: 0;
@@ -60,4 +61,42 @@
         header a span {
             font-size: 0;
         }
+                header summary span {
+            font-size: 0;
+        }
     }
+
+    details {
+                z-index: 99 !important;
+        background-color: $C3;
+    color:white;
+    width: 25vw;
+    margin-bottom: 0.5em;
+    text-align: center;
+        padding: 0.5em;
+        cursor: pointer;
+
+summary {
+    font-weight: bold;
+}
+a{
+        background-color: $C3;    
+        padding:5px 15px 5px 15px;
+        z-index: 99 !important;
+}
+        }
+
+
+
+details[open] {
+    padding: 0.5em;
+        background-color: $C3;
+        width:25vw;
+
+}
+
+details[open] summary {
+    border-bottom: 1px solid $C2;
+    margin-bottom: 0.5em;
+        background-color: $C3;
+}

@@ -20,7 +20,7 @@ html {
 
 @media screen and (min-width: 1280px) {
   h1,
-h2 {
+  h2 {
     color: white;
     font-family: "Oswald", sans-serif;
     text-align: center;
@@ -63,9 +63,9 @@ h2 {
     padding-right: 5px;
   }
   main .inline .technologies,
-main .inline .logiciels,
-main .inline .capacites,
-main .inline .programmes {
+  main .inline .logiciels,
+  main .inline .capacites,
+  main .inline .programmes {
     color: white;
     padding-left: 5px;
     padding-right: 5px;
@@ -76,9 +76,9 @@ main .inline .programmes {
     border-radius: 5px 5px 5px 5px;
   }
   main .inline .technologies span,
-main .inline .logiciels span,
-main .inline .capacites span,
-main .inline .programmes span {
+  main .inline .logiciels span,
+  main .inline .capacites span,
+  main .inline .programmes span {
     display: block;
     border-bottom: 2px white solid;
     width: 100%;
@@ -86,18 +86,18 @@ main .inline .programmes span {
     border-radius: 0 0 50px 50px;
   }
   main .inline .technologies li:nth-child(2n-1),
-main .inline .logiciels li:nth-child(2n-1),
-main .inline .capacites li:nth-child(2n-1),
-main .inline .programmes li:nth-child(2n-1) {
+  main .inline .logiciels li:nth-child(2n-1),
+  main .inline .capacites li:nth-child(2n-1),
+  main .inline .programmes li:nth-child(2n-1) {
     background-color: rgba(0, 0, 12, 0.231372549);
   }
   main .inline .technologies a:link, main .inline .technologies a:visited,
-main .inline .logiciels a:link,
-main .inline .logiciels a:visited,
-main .inline .capacites a:link,
-main .inline .capacites a:visited,
-main .inline .programmes a:link,
-main .inline .programmes a:visited {
+  main .inline .logiciels a:link,
+  main .inline .logiciels a:visited,
+  main .inline .capacites a:link,
+  main .inline .capacites a:visited,
+  main .inline .programmes a:link,
+  main .inline .programmes a:visited {
     color: white;
     background-color: rgba(0, 0, 12, 0.3764705882);
     border-radius: 50px;
@@ -107,19 +107,19 @@ main .inline .programmes a:visited {
     transition: padding-left 0.5s;
   }
   main .inline .technologies a:link:hover, main .inline .technologies a:visited:hover,
-main .inline .logiciels a:link:hover,
-main .inline .logiciels a:visited:hover,
-main .inline .capacites a:link:hover,
-main .inline .capacites a:visited:hover,
-main .inline .programmes a:link:hover,
-main .inline .programmes a:visited:hover {
+  main .inline .logiciels a:link:hover,
+  main .inline .logiciels a:visited:hover,
+  main .inline .capacites a:link:hover,
+  main .inline .capacites a:visited:hover,
+  main .inline .programmes a:link:hover,
+  main .inline .programmes a:visited:hover {
     padding-left: 10px;
     padding-right: 10px;
   }
 }
 @media screen and (max-width: 1280px) {
   h1,
-h2 {
+  h2 {
     color: white;
     font-family: "Oswald", sans-serif;
     text-align: center;
@@ -160,9 +160,9 @@ h2 {
     padding-right: 5px;
   }
   main .inline .technologies,
-main .inline .logiciels,
-main .inline .capacites,
-main .inline .programmes {
+  main .inline .logiciels,
+  main .inline .capacites,
+  main .inline .programmes {
     color: white;
     padding-left: 5px;
     padding-right: 5px;
@@ -170,9 +170,9 @@ main .inline .programmes {
     line-height: 150%;
   }
   main .inline .technologies span,
-main .inline .logiciels span,
-main .inline .capacites span,
-main .inline .programmes span {
+  main .inline .logiciels span,
+  main .inline .capacites span,
+  main .inline .programmes span {
     display: block;
     border-bottom: 2px white solid;
     width: 100%;
@@ -180,18 +180,18 @@ main .inline .programmes span {
     border-radius: 0 0 50px 50px;
   }
   main .inline .technologies li:nth-child(2n-1),
-main .inline .logiciels li:nth-child(2n-1),
-main .inline .capacites li:nth-child(2n-1),
-main .inline .programmes li:nth-child(2n-1) {
+  main .inline .logiciels li:nth-child(2n-1),
+  main .inline .capacites li:nth-child(2n-1),
+  main .inline .programmes li:nth-child(2n-1) {
     background-color: rgba(0, 0, 12, 0.231);
   }
   main .inline .technologies a:link, main .inline .technologies a:visited,
-main .inline .logiciels a:link,
-main .inline .logiciels a:visited,
-main .inline .capacites a:link,
-main .inline .capacites a:visited,
-main .inline .programmes a:link,
-main .inline .programmes a:visited {
+  main .inline .logiciels a:link,
+  main .inline .logiciels a:visited,
+  main .inline .capacites a:link,
+  main .inline .capacites a:visited,
+  main .inline .programmes a:link,
+  main .inline .programmes a:visited {
     color: white;
     background-color: rgba(0, 0, 12, 0.3764705882);
     border-radius: 50px;
@@ -201,30 +201,20 @@ main .inline .programmes a:visited {
     transition: padding-left 0.5s;
   }
   main .inline .technologies a:link:hover, main .inline .technologies a:visited:hover,
-main .inline .logiciels a:link:hover,
-main .inline .logiciels a:visited:hover,
-main .inline .capacites a:link:hover,
-main .inline .capacites a:visited:hover,
-main .inline .programmes a:link:hover,
-main .inline .programmes a:visited:hover {
+  main .inline .logiciels a:link:hover,
+  main .inline .logiciels a:visited:hover,
+  main .inline .capacites a:link:hover,
+  main .inline .capacites a:visited:hover,
+  main .inline .programmes a:link:hover,
+  main .inline .programmes a:visited:hover {
     padding-left: 10px;
     padding-right: 10px;
   }
 }
 /* Background data (Original source: https://subtlepatterns.com/grid-me/) */
 /* Animations */
-@-webkit-keyframes bg-scrolling-reverse {
-  100% {
-    background-position: 50px 50px;
-  }
-}
 @keyframes bg-scrolling-reverse {
   100% {
-    background-position: 50px 50px;
-  }
-}
-@-webkit-keyframes bg-scrolling {
-  0% {
     background-position: 50px 50px;
   }
 }
@@ -238,10 +228,8 @@ main .inline .programmes a:visited:hover {
   text-align: center;
   /* img size is 50x50 */
   background: url("../image/bg.png") repeat 0 0;
-  -webkit-animation: bg-scrolling-reverse 0.92s infinite;
-          animation: bg-scrolling-reverse 0.92s infinite;
-  -webkit-animation-timing-function: linear;
-          animation-timing-function: linear;
+  animation: bg-scrolling-reverse 0.92s infinite;
+  animation-timing-function: linear;
 }
 .inline ul::before {
   content: " ";

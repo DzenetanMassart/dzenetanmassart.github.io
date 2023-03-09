@@ -22,6 +22,7 @@ header a {
   text-decoration: none !important;
   width: 25%;
   font-weight: bold;
+  background-color: #00000C;
 }
 header a img {
   height: 40px;
@@ -56,4 +57,37 @@ header a:active {
   header a span {
     font-size: 0;
   }
+  header summary span {
+    font-size: 0;
+  }
+}
+details {
+  z-index: 99 !important;
+  background-color: #00000C;
+  color: white;
+  width: 25vw;
+  margin-bottom: 0.5em;
+  text-align: center;
+  padding: 0.5em;
+  cursor: pointer;
+}
+details summary {
+  font-weight: bold;
+}
+details a {
+  background-color: #00000C;
+  padding: 5px 15px 5px 15px;
+  z-index: 99 !important;
+}
+
+details[open] {
+  padding: 0.5em;
+  background-color: #00000C;
+  width: 25vw;
+}
+
+details[open] summary {
+  border-bottom: 1px solid #4c85bd;
+  margin-bottom: 0.5em;
+  background-color: #00000C;
 }/*# sourceMappingURL=navbar.css.map */

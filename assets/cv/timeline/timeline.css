@@ -75,8 +75,7 @@
   content: " ";
 }
 .stage span {
-  -ms-writing-mode: tb-rl;
-      writing-mode: vertical-rl;
+  writing-mode: vertical-rl;
   position: absolute;
   right: 1vw;
   top: 0;

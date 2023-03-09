@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap");
+@import url("https://fr.allfont.net/allfont.css?fonts=lexia");
+h1, h2, h3 {
+  font-family: "Oswald", sans-serif;
+}
+
+main {
+  font-size: 1.1em;
+  display: grid;
+  justify-items: center;
+  align-items: baseline;
+}
+@media screen and (orientation: landscape) {
+  main {
+    grid-template-columns: 1fr 1fr;
+  }
+  main section {
+    width: 75%;
+  }
+}
+@media screen and (orientation: portrait) {
+  main {
+    grid-template-columns: 1fr;
+  }
+  main section {
+    width: 90%;
+    margin-bottom: 10px;
+  }
+}
+main h1 {
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 50px;
+  margin: 0;
+}
+main h2 {
+  text-align: right;
+  font-weight: lighter;
+  font-size: 20px;
+  margin: 0;
+}
+main h3 {
+  text-align: center;
+  font-size: larger;
+  font-weight: bold;
+  background-color: white;
+  color: #00000C;
+  padding: 2px;
+  margin: 0;
+  border-radius: 10px 100px/120px;
+}
+main .Slogan {
+  background-color: white;
+  color: #4c85bd;
+  text-align: center;
+  border-radius: 30px;
+}
+main .Slogan samp::before {
+  content: '"';
+}
+main .Slogan samp::after {
+  content: '"';
+}
+main ul {
+  list-style: none;
+  padding: 0;
+}
+main ul li {
+  padding-top: 5px;
+}
+main ul li:nth-child(2n+1) {
+  background-color: rgba(0, 0, 0, 0.11);
+}
+main ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.Coordonnees p {
+  background-color: rgba(255, 0, 0, 0.493);
+  text-align: center;
+  padding: 10px;
+}/*# sourceMappingURL=CM.css.map */

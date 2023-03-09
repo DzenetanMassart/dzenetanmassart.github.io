@@ -1,0 +1,94 @@
+$C1: rgb(192, 192, 192);
+$C2: #4c85bd;
+$C3: #00000C;
+$C4:white;
+$C5:rgb(100, 100, 100);
+    @import url('https://fonts.googleapis.com/css?family=Oswald');
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
+    @import url("https://fr.allfont.net/allfont.css?fonts=lexia");
+    h1,h2,h3{
+                font-family: 'Oswald', sans-serif;
+
+    }
+    main{
+        font-size:1.1em;
+                display: grid;
+        @media screen and (orientation: landscape) {
+                        grid-template-columns: 1fr 1fr;
+            section{
+                width:75%;
+            }
+                    }
+        @media screen and (orientation: portrait) {
+                            grid-template-columns: 1fr;
+            section{
+                width:90%;
+                margin-bottom:10px;
+            }
+                        }
+            justify-items: center;
+            align-items:baseline;
+
+    h1{
+        text-align: left;
+        text-transform: uppercase;
+        font-size:50px;
+        margin:0;
+
+    }
+    h2{
+        text-align:right;
+        font-weight: lighter;
+        font-size: 20px;
+                margin:0;
+
+    }
+    h3{
+        text-align: center;
+        font-size: larger;
+        font-weight: bold;
+        background-color: $C4;
+        color:$C3;
+        padding:2px;
+        margin:0;
+        border-radius: 10px 100px / 120px;
+    }
+
+    .Slogan{
+        background-color: $C4;
+        color:$C2;
+        text-align: center;
+border-radius: 30px;    samp{
+        &::before{
+            content:'"';
+        }
+                &::after{
+            content:'"';
+        }
+    }}
+
+    ul{
+        list-style: none;
+        padding:0;
+        li{
+            padding-top:5px;
+            &:nth-child(2n+1){
+                background-color: rgba(0, 0, 0, 0.11);
+            }
+            a{
+                color:$C4;
+                text-decoration: none;
+            }
+        }
+    }
+}
+
+.Coordonnees{
+p{
+    background-color:rgba(255, 0, 0, 0.493);
+    text-align: center;
+    padding:10px;
+}
+}
+
+
