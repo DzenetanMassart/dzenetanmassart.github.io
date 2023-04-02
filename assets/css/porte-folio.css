@@ -1,60 +1,254 @@
 @import url("https://fonts.googleapis.com/css?family=Oswald");
-@media screen and (min-width: 1280px) {
-  main {
-    display: grid;
-    grid-template-columns: 45% 45%;
-    grid-gap: 10%;
-  }
-  main section {
-    background: rgb(0, 0, 12);
-    border-radius: 95px 95px 0 0;
-    border: solid rgba(0, 0, 12, 0.376) 10px;
-  }
-  main section h2 {
-    border-bottom: solid rgb(255, 255, 255) 2px;
-    text-transform: uppercase;
-    font-family: "Oswald", sans-serif;
-  }
-  main section div {
-    text-align: center;
-    color: rgb(255, 255, 255);
-    border-radius: 180px;
-    overflow-wrap: break-word;
-  }
-  main section div button:hover a {
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-  }
-  main section div span {
-    color: rgb(255, 255, 255);
-  }
+h2 {
+  text-align: left;
+  margin: 0;
+  background-color: rgba(0, 0, 12, 0.376);
+  display: inline;
+  padding-top: 1px;
+  padding-right: 20px;
 }
-@media screen and (max-width: 1280px) {
-  main {
-    display: grid;
-    grid-gap: 1%;
-  }
-  main section {
-    background: rgb(0, 0, 12);
-    border-radius: 100px 100px 0 0;
-    border: solid rgba(0, 0, 12, 0.376) 15px;
-  }
-  main section h2 {
-    border-bottom: solid rgb(255, 255, 255) 2px;
-    text-transform: uppercase;
-    font-family: "Oswald", sans-serif;
-  }
-  main section div {
-    text-align: center;
-    color: rgb(255, 255, 255);
-    border-radius: 180px;
-    overflow-wrap: break-word;
-  }
-  main section div button:hover a {
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-  }
-  main section div span {
-    color: rgb(255, 255, 255);
-  }
+
+.sites {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  background-color: rgba(0, 0, 12, 0.376);
+  padding: 10px;
+  margin-bottom: 5px;
+}
+.sites article {
+  background-color: rgb(255, 255, 255);
+  border: rgb(0, 0, 12) 1px solid;
+  color: rgb(76, 133, 189);
+  width: 500px;
+}
+.sites article h4 {
+  text-align: center;
+  background-color: rgb(76, 133, 189);
+  color: rgb(255, 255, 255);
+  margin: 0;
+  font-size: larger;
+  font-weight: lighter;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.sites article p {
+  color: rgb(0, 0, 12);
+  margin: 25px;
+}
+.sites article p:nth-child(2n+1) {
+  text-align: right;
+}
+.sites article a {
+  box-shadow: inset 0px 1px 0px 0px #54a3f7;
+  background-color: #007dc1;
+  border-radius: 3px 3px 0 0;
+  border: 1px solid #124d77;
+  display: block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 13px;
+  padding: 6px 24px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #154682;
+  transition: all 0.1s;
+}
+.sites article a:hover {
+  background-color: #0061a7;
+  padding-left: 10%;
+}
+.sites article a:hover::after {
+  content: " >>";
+}
+.sites article a:active {
+  position: relative;
+  top: 1px;
+}
+
+.Behance {
+  background-color: rgb(255, 255, 255);
+  color: rgb(76, 133, 189);
+  text-decoration: none;
+  text-align: center;
+  display: block;
+  padding: 10px;
+  transition: all 0.1s;
+  font-weight: bold;
+}
+.Behance:hover {
+  background-color: #0061a7;
+  padding-left: 10%;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+}
+.Behance:hover::after {
+  content: " >>";
+}
+.Behance:active {
+  position: relative;
+  top: 1px;
+}
+
+.photographies {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+  background-color: rgba(0, 0, 12, 0.376);
+  padding: 10px;
+  margin-bottom: 5px;
+}
+.photographies article {
+  width: 90vw;
+  background-color: rgb(255, 255, 255);
+  border: rgb(0, 0, 12) 1px solid;
+}
+.photographies article h4 {
+  text-align: center;
+  background-color: rgb(76, 133, 189);
+  color: rgb(255, 255, 255);
+  margin: 0;
+  padding: 10px;
+  font-size: larger;
+  font-weight: lighter;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.photographies article img {
+  width: 100%;
+}
+.photographies article .projet {
+  box-shadow: inset 0px 1px 0px 0px #54a3f7;
+  background-color: #007dc1;
+  border-radius: 3px 3px 0 0;
+  border: 1px solid #124d77;
+  display: block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 13px;
+  padding: 6px 24px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #154682;
+  transition: all 0.1s;
+}
+.photographies article .projet:hover {
+  background-color: #0061a7;
+  padding-left: 10%;
+}
+.photographies article .projet:active {
+  position: relative;
+  top: 1px;
+}
+.photographies article p {
+  color: rgb(0, 0, 12);
+  padding: 10px;
+}
+.photographies article p a {
+  color: rgb(76, 133, 189);
+  text-decoration: none;
+}
+
+.gmaps {
+  background-color: rgb(255, 255, 255);
+  width: 90%;
+  margin: auto auto;
+  border-radius: 50px 50px 50px 50px;
+  text-align: center;
+}
+.gmaps img {
+  width: 70px;
+}
+.gmaps h3 {
+  color: rgb(0, 0, 12);
+}
+.gmaps p {
+  color: rgb(76, 133, 189);
+  text-align: center;
+}
+.gmaps .progress_bar {
+  width: 100%;
+  background-color: rgba(0, 0, 12, 0.376);
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.gmaps .progress_bar div {
+  background-color: rgb(76, 133, 189);
+  flex-grow: 2;
+}
+.gmaps a {
+  box-shadow: inset 0px 1px 0px 0px #54a3f7;
+  background-color: #007dc1;
+  border-radius: 3px 3px 0 0;
+  margin: auto auto;
+  border: 1px solid #124d77;
+  display: block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 13px;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #154682;
+  transition: all 0.1s;
+}
+.gmaps a:hover {
+  background-color: #0061a7;
+  padding-left: 10%;
+}
+.gmaps a:active {
+  position: relative;
+  top: 1px;
+}
+
+.LinkedIn {
+  background-color: rgb(255, 255, 255);
+  width: 90%;
+  margin: auto auto;
+  border-radius: 50px 50px 50px 50px;
+  text-align: center;
+}
+.LinkedIn img {
+  width: 70px;
+  border-radius: 100%;
+}
+.LinkedIn h3 {
+  color: rgb(0, 0, 12);
+}
+.LinkedIn p {
+  color: rgb(76, 133, 189);
+  text-align: center;
+}
+.LinkedIn a {
+  box-shadow: inset 0px 1px 0px 0px #54a3f7;
+  background-color: #007dc1;
+  border-radius: 3px 3px 0 0;
+  margin: auto auto;
+  border: 1px solid #124d77;
+  display: block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 13px;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #154682;
+  transition: all 0.1s;
+}
+.LinkedIn a:hover {
+  background-color: #0061a7;
+  padding-left: 10%;
+}
+.LinkedIn a:active {
+  position: relative;
+  top: 1px;
 }/*# sourceMappingURL=porte-folio.css.map */

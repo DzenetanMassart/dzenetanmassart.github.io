@@ -74,9 +74,14 @@ details {
 details summary {
   font-weight: bold;
 }
+details ul {
+  list-style: none;
+  text-align: left;
+}
 details a {
   background-color: #00000C;
-  padding: 5px 15px 5px 15px;
+  padding: 5px 20px 5px 20px;
+  box-shadow: 3px 3px 4px black;
   z-index: 99 !important;
 }
 
