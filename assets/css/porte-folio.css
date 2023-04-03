@@ -159,6 +159,7 @@ h2 {
   background-color: rgb(255, 255, 255);
   width: 90%;
   margin: auto auto;
+  margin-bottom: 5px;
   border-radius: 50px 50px 50px 50px;
   text-align: center;
 }
@@ -213,6 +214,7 @@ h2 {
   background-color: rgb(255, 255, 255);
   width: 90%;
   margin: auto auto;
+  margin-bottom: 5px;
   border-radius: 50px 50px 50px 50px;
   text-align: center;
 }
