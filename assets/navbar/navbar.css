@@ -83,6 +83,7 @@ details a {
   padding: 5px 20px 5px 20px;
   box-shadow: 3px 3px 4px black;
   z-index: 99 !important;
+  margin: 5%;
 }
 
 details[open] {
