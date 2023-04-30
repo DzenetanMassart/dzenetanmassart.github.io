@@ -63,7 +63,6 @@ header a:active {
 }
 details {
   z-index: 99 !important;
-  background-color: #00000C;
   color: white;
   width: 25vw;
   margin-bottom: 0.5em;
@@ -74,16 +73,35 @@ details {
 details summary {
   font-weight: bold;
 }
-details ul {
-  list-style: none;
-  text-align: left;
+@media (orientation: portrait) {
+  details ul {
+    list-style: none;
+    text-align: left;
+    background-color: #00000C;
+    box-shadow: 3px 3px 4px black;
+    padding: 0;
+  }
+  details ul a {
+    padding: 5px 20px 5px 20px;
+    z-index: 99 !important;
+    display: block;
+    width: 50px;
+  }
 }
-details a {
-  background-color: #00000C;
-  padding: 5px 20px 5px 20px;
-  box-shadow: 3px 3px 4px black;
-  z-index: 99 !important;
-  margin: 5%;
+@media (orientation: landscape) {
+  details ul {
+    list-style: none;
+    text-align: left;
+    background-color: #00000C;
+    box-shadow: 3px 3px 4px black;
+    padding: 0;
+  }
+  details ul a {
+    padding: 5px 20px 5px 20px;
+    z-index: 99 !important;
+    display: block;
+    width: 230px;
+  }
 }
 
 details[open] {

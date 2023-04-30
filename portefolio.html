@@ -38,29 +38,42 @@
 </head>
 
 <body>
-        <!--Le header FIN-->
-        <header class="dys" id="navigation">
-        
-            <a href="index.html" class="active"><img src="assets/image/Dzénetan Massart.png" id="profil" /> <span>Accueil</span>
+       <!--Le header FIN-->
+  <header class="dys" id="navigation">
+
+    <a href="index.html" class="active"><img src="assets/image/Dzénetan Massart.png" id="profil" /> <span>Accueil</span> </a>
+
+<details class="cv">
+<summary>📜<span>Les CVs</span></summary>
+<ul>
+    <li><a href="CV/community_manager.html" alt="CV de Community Manager">🌐<span>Community Manager</span></a>
+</li>
+    <li><a href="portefolio.html" alt="portefolio">📚<span>Portefolio</span></a>
+</li>
+</ul>
+
+</details>
+    <a href="index.html#outils" class="outils">🧰<span>Outils</span></a>
+    <a href="index.html#parcours" class="parcours">💼<span>Parcours</span></a>
+    <details>
+        <summary>📜<span>Contactez</span></summary>
+        <ul>
+            <li> <a href="mailto:dzenetan.massart@gmail.com">✉️ <span>e-mail</span></a>
             </a>
+        </li>
+            <li><a href="https://www.linkedin.com/in/dzenetan-massart/" alt="LinkedIn">🪪<span>LinkedIn</span></a>
+        </li>
+        <li><a href="        https://www.facebook.com/people/Dz%C3%A9netan-Massart/pfbid0M3U254AVG7XncCf1iriRqj2VPKVUWj54MBYEtwN8xNm6Jhf6RGa1vHM3FkRSdMd3l/
+            " alt="Facebook">📇<span>Facebook</span></a>
+        </li>
+        </ul>
         
-            <details class="cv">
-                <summary>📜<span>Les CVs</span></summary>
-                <ul>
-                    <li><a href="CV/community_manager.html" alt="CV de Community Manager">🌐<span>Community Manager</span></a>
-                    </li>
-                    <li><a href="portefolio.html" alt="portefolio">📚<span>Portefolio</span></a>
-                    </li>
-                </ul>
-        
-            </details>
-            <a href="#outils" class="outils">🧰<span>Outils</span></a>
-            <a href="#parcours" class="parcours">💼<span>Parcours</span></a>
-            <a href="mailto:dzenetan.massart@gmail.com"><i class="fas fa-envelope"></i> <span>Contacter par e-mail</span></a>
-        
-        </header>
-        
-        <script src="assets/navbar/navbar.js"></script>
+        </details>
+
+</header>
+
+<script src="assets/navbar/navbar.js"></script>
+<!--Le main Debut-->
 <h1>Dzénetan Massart : Portefolio</h1>
 <main>
 
@@ -70,19 +83,19 @@
                 <h4>🧰 Tricks and Tips</h4>
                 <p>Un site web répertoriant de la documentation au sujet du dévellopement web dans divers langages,CMS,...</p>
                <p>Projet commencé en 2019.</p>
-                <a target="_blank" href="https://dzenetanmassart.github.io/Tricks-and-Tips/">S'y rendre</a>
+                <a target="_blank" href="https://dzenetanmassart.github.io/Tricks-and-Tips/" class="lien">S'y rendre</a>
             </article>
             <article>
                 <h4>📘 Le site web</h4>
                 <p>Un site web résumant toutes les capacités de Dzénetan Massart dans des CVs, une liste de logiciel, une liste de tâche,...</p>
                 <p>Projet commencé en 2017.</p>
-                <a target="_blank" href="https://dzenetanmassart.github.io/">S'y rendre</a>
+                <a target="_blank" href="https://dzenetanmassart.github.io/" class="lien">S'y rendre</a>
             </article>
             <article>
                 <h4>🛠️ Make On Websoft</h4>
                 <p>Un site web répertoriant des logiciels de créations sur le web dans divers format.</p>
                 <p>Projet commencé en 2019.</p>
-                <a target="_blank" href="https://dzenetanmassart.github.io/MakeOnWeb/">S'y rendre</a>
+                <a target="_blank" href="https://dzenetanmassart.github.io/MakeOnWeb/" class="lien">S'y rendre</a>
             </article>
 </section>
 
@@ -114,12 +127,16 @@
                 <p>Points de Contributions</p>
 
                 <div class="progress_bar">
-                    <span>1 500</span>
-                    <div style="width:89.82857142857142%">4 644</div>
-                    <span>5 000</span>
+                    <label for="gmpas">
+                        <kbd>1 500</kbd>
+                        <span>4 845</span>
+                        <kbd>5 000</kbd>
+                    </label>
+
+<progress id="gmaps" max="5000" value="4845"> 95.57142857142857% </progress>
                 </div>
 <a href="https://www.google.com/maps/contrib/110579370211725205652/reviews/@50.4497567,4.7780214,13z/data=!3m1!4b1!4m3!8m2!3m1!1e1?authuser=0"
-    target="_blank" rel="noopener noreferrer">Voir le profil complet</a>
+    target="_blank" rel="noopener noreferrer" class="lien">Voir le profil complet</a>
 </section>
 
 <h2> <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="Icone LinkedIn" style="width:5vw; background-color: white;border-radius: 10%;"
@@ -129,8 +146,9 @@
         alt="Profil Dzénetan Massart"
         srcset="https://media.licdn.com/dms/image/D4E03AQFHbSObPoyVjA/profile-displayphoto-shrink_200_200/0/1676642151006?e=1686182400&v=beta&t=FLuwuvieMEZlR9NNM0uVK7DHvty33h0EloSu1KW-tNc">
     <h3>Dzénetan Massart</h3>
-<p>363 abonnés - 358 relations</p>
-    <a href="https://www.linkedin.com/in/dzenetan-massart/"
+<p>367 abonnés - 363 relations</p>
+
+    <a href="https://www.linkedin.com/in/dzenetan-massart/" class="lien"
         target="_blank" rel="noopener noreferrer">Voir le profil complet</a>
 </section>
 </main>
