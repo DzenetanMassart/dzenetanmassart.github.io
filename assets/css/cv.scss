@@ -318,10 +318,12 @@ main {
 // Les expériences professionelles
 .exp {
     background-color: white;
+    display: flex;
+    flex-wrap: wrap;
     article {
         @media screen and (orientation: portrait) {
             width: 90%;
-            margin: auto auto;
+            margin: 1em auto;
         }
         margin: 20px;
         background-color: $C2;
@@ -335,6 +337,14 @@ main {
                     width: 95%;
                     padding: 0;
                     margin: auto auto;
+                }
+                @media screen and (orientation: portrait) {
+a{
+    img{
+        width: 95%;
+        padding:2%;
+    }
+}
                 }
             }
         }

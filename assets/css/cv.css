@@ -323,6 +323,8 @@ main section:last-child h3 {
 
 .exp {
   background-color: white;
+  display: flex;
+  flex-wrap: wrap;
 }
 .exp article {
   margin: 20px;
@@ -334,7 +336,7 @@ main section:last-child h3 {
 @media screen and (orientation: portrait) {
   .exp article {
     width: 90%;
-    margin: auto auto;
+    margin: 1em auto;
   }
 }
 @media screen and (orientation: portrait) {
@@ -345,6 +347,12 @@ main section:last-child h3 {
     width: 95%;
     padding: 0;
     margin: auto auto;
+  }
+}
+@media screen and (orientation: portrait) and (orientation: portrait) {
+  .exp article div a img {
+    width: 95%;
+    padding: 2%;
   }
 }
 .exp article h4 {
