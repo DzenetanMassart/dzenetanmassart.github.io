@@ -9,7 +9,8 @@ const img_link = [
     "assets/image/parcours/2019.png",
     "assets/image/parcours/2020.png",
     "assets/image/parcours/2021.png",
-    "assets/image/parcours/2022.png"
+    "assets/image/parcours/2022.png",
+    "assets/image/parcours/2023.png"
 ];
 
 /* Le parcours en texte */
@@ -63,4 +64,11 @@ const parcours = [{
     "title": "2022: PowerPoint et Blender",
     "para1": "C'est en 2022 , à la fin de ma formation d'Employé de Services, j'ai pût re-découvrir <a target='_blank' href='https://www.microsoft.com/fr-be/microsoft-365/powerpoint/'>PowerPoint</a>. Je l'avais déjà utilisé par le passer pour mon TFE en Sciences Sociale pour mon CESS.",
     "para2": "Arrivé à la fin de la période d'essai d'Autodesk Maya et Autodesk 3DSmax, je me suis mis à apprendre en autodidacte <a target='_blank' href='https://www.blender.org/'>Blender</a>"
+}
+, {
+    "alt": "Photopea & Canva",
+    "title": "2023: Photopea & Canva",
+    "para1": "C'est en 2023 , durant la formation <a target='_blank' href='https://www.interface3namur.be/formation/demandeurs-emploi/tactic-emploi/'>\"TACTIC emploi\"</a> où j'ai pût approfondir <a target='_blank' href='https://www.photopea.com/'>Photopea</a> et <a target='_blank' href='https://www.canva.com/'>Canva</a>.",
+    "para2": "Je les avais déjà experimenté pour produire des CVs et des MockUps mais là, c'était surtout pour venir en aide à mes partenaires n'aillant pas Adobe Photoshop et Adobe InDesign."
+
 }];
