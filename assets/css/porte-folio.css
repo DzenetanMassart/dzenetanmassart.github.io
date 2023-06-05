@@ -146,10 +146,12 @@ h2 {
 .gmaps p {
   color: rgb(76, 133, 189);
   text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 .gmaps .progress_bar {
   width: 100%;
   background-color: rgba(0, 0, 12, 0.376);
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 .gmaps .progress_bar label {
   font-size: larger;
@@ -207,6 +209,28 @@ h2 {
 .LinkedIn p {
   color: rgb(76, 133, 189);
   text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+.BehanceProfil {
+  background-color: rgb(255, 255, 255);
+  width: 90%;
+  margin: auto auto;
+  margin-bottom: 5px;
+  border-radius: 50px 50px 50px 50px;
+  text-align: center;
+}
+.BehanceProfil img {
+  width: 70px;
+  border-radius: 100%;
+}
+.BehanceProfil h3 {
+  color: rgb(0, 0, 12);
+}
+.BehanceProfil p {
+  color: rgb(76, 133, 189);
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
 a.lien {
