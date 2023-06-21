@@ -248,6 +248,27 @@ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 }
 
+.YouTubeChaine{
+    background-color: $C1;
+width:90%;
+margin:auto auto;
+margin-bottom: 5px;
+border-radius:50px 50px 50px 50px;    
+text-align: center;
+img{
+    width:70px;
+    border-radius: 100%;
+}
+h3{
+    color:$C3;
+}
+p{
+color:$C2;
+text-align: center;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+}
+
 // Les boutons de liens
 
 a.lien{

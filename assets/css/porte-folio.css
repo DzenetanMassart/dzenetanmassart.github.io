@@ -233,6 +233,27 @@ h2 {
   font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
 }
 
+.YouTubeChaine {
+  background-color: rgb(255, 255, 255);
+  width: 90%;
+  margin: auto auto;
+  margin-bottom: 5px;
+  border-radius: 50px 50px 50px 50px;
+  text-align: center;
+}
+.YouTubeChaine img {
+  width: 70px;
+  border-radius: 100%;
+}
+.YouTubeChaine h3 {
+  color: rgb(0, 0, 12);
+}
+.YouTubeChaine p {
+  color: rgb(76, 133, 189);
+  text-align: center;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
 a.lien {
   box-shadow: inset 0px 1px 0px 0px #54a3f7;
   background-color: #007dc1;
