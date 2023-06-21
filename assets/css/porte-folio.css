@@ -234,12 +234,12 @@ h2 {
 }
 
 .YouTubeChaine {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255) !important;
   width: 90%;
-  margin: auto auto;
+  margin: auto auto !important;
   margin-bottom: 5px;
   border-radius: 50px 50px 50px 50px;
-  text-align: center;
+  text-align: center !important;
 }
 .YouTubeChaine img {
   width: 70px;

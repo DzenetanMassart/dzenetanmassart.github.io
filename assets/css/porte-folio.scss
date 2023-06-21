@@ -249,12 +249,12 @@ font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
 
 .YouTubeChaine{
-    background-color: $C1;
+    background-color: $C1 !important;
 width:90%;
-margin:auto auto;
+margin:auto auto !important;
 margin-bottom: 5px;
 border-radius:50px 50px 50px 50px;    
-text-align: center;
+text-align: center !important;
 img{
     width:70px;
     border-radius: 100%;
