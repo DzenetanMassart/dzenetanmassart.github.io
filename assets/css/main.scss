@@ -6,6 +6,7 @@ $C3a: #00000c60;
 
 body {
     background-color: $C2;
+    color:$C3;
 }
 
 html {
@@ -14,6 +15,9 @@ html {
 
 .lien_magique {
     color: yellow;
+    background-color: $C3;
+    border-radius: 25%;
+    padding:5px;
     &:hover {
         color: yellow;
         text-decoration: none;
@@ -32,7 +36,7 @@ html {
         text-shadow: $C3 0 1px 0;
     }
     main {
-        color: $C1;
+        color: $C3;
         .intro {
             border-top: $C3a solid 2px;
             border-bottom: $C3a solid 2px;
@@ -40,8 +44,13 @@ html {
             padding: 20px;
             text-align: center;
             margin-bottom: 20px;
+            background-color: $C1;
+
             a {
                 color: yellow;
+                background-color: $C3;
+                border-radius: 25%;
+                padding:5px;
                 &:hover {
                     text-decoration: none;
                     text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.616), 0px 0px 3px rgba(194, 4, 4, 0.616), 0px 0px 5px yellow;
@@ -80,11 +89,17 @@ html {
                     display: block;
                     border-bottom: 2px $C1 solid;
                     width: 100%;
-                    background-color: $C2;
+                    background-color: $C1;
                     border-radius: 0 0 50px 50px;
+                    color:$C3;
+                    font-weight: bolder;
+                    font-size: large;
+padding: 5px 0 5px 0 ;
+                    
                 }
                 li {
-                    &:nth-child(2n-1) {
+                    padding: 5px 0 5px 0 ;
+                                        &:nth-child(2n-1) {
                         background-color: #00000c3b;
                     }
                 }
@@ -119,14 +134,18 @@ html {
         text-shadow: $C3 0 1px 0;
     }
     main {
-        color: $C1;
+        color: $C3;
         .intro {
             border-top: $C3a solid 2px;
             border-bottom: $C3a solid 2px;
             text-align: center;
             padding: 5px;
+            background-color: $C1;
             a {
                 color: yellow;
+                background-color: $C3;
+                border-radius: 25%;
+                padding:5px;
                 &:hover {
                     text-decoration: none;
                     text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.616), 0px 0px 3px rgba(194, 4, 4, 0.616), 0px 0px 5px yellow;
@@ -162,10 +181,15 @@ html {
                     display: block;
                     border-bottom: 2px $C1 solid;
                     width: 100%;
-                    background-color: $C2;
+                    background-color: $C1;
                     border-radius: 0 0 50px 50px;
+                    color:$C3;
+                    font-weight: bolder;
+                    font-size: large;
+padding: 5px 0 5px 0 ;
                 }
                 li {
+                    padding: 10px 0 10px 0 ;
                     &:nth-child(2n-1) {
                         background-color: rgba(0, 0, 12, 0.231);
                     }
@@ -236,7 +260,9 @@ $bg-height: 50px;
         box-shadow: $C3a 2px 2px 2px;
         padding: 20px;
         text-align: center;
-        color: $C1;
+        color: $C3;
+        font-weight: bold;
+        background-color: $C1;
     }
     a {
         padding: 0.2rem 0.4rem;
@@ -303,9 +329,9 @@ $bg-height: 50px;
             margin: 10px;
             article {
                 img {
-                    width: 10%;
+                    width: 20%;
                     margin: auto auto;
-                    height: 10%;
+                    height: 20%;
                     display: block;
                 }
                 height: 10%;
@@ -348,10 +374,11 @@ $bg-height: 50px;
 
 .copyright {
     text-align: center;
-    color: white;
-}
-
-.dys {
-    font-family: 'Lexia', arial;
-    font-size: 16px;
+    color: $C3;
+font-weight: bolder;
+padding: 20px 0 20px 0;
+background-color: $C1;
+width:98%;
+margin: auto auto;
+font-size: larger;
 }

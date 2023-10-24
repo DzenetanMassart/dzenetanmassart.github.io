@@ -5,7 +5,9 @@
   box-shadow: rgba(0, 0, 12, 0.3764705882) 2px 2px 2px;
   padding: 20px;
   text-align: center;
-  color: white;
+  color: #00000C;
+  font-weight: bold;
+  background-color: white;
 }
 
 @media screen and (min-width: 1280px) {
