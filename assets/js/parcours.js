@@ -1,16 +1,16 @@
 /* Le parcours en lien d'image */
 const img_link = [
-    "assets/image/parcours/2007.png",
-    "assets/image/parcours/2008.png",
-    "assets/image/parcours/2010.png",
-    "assets/image/parcours/2011.png",
-    "assets/image/parcours/2014.png",
-    "assets/image/parcours/2016.png",
-    "assets/image/parcours/2019.png",
-    "assets/image/parcours/2020.png",
-    "assets/image/parcours/2021.png",
-    "assets/image/parcours/2022.png",
-    "assets/image/parcours/2023.png"
+    "assets/image/parcours/2007",
+    "assets/image/parcours/2008",
+    "assets/image/parcours/2010",
+    "assets/image/parcours/2011",
+    "assets/image/parcours/2014",
+    "assets/image/parcours/2016",
+    "assets/image/parcours/2019",
+    "assets/image/parcours/2020",
+    "assets/image/parcours/2021",
+    "assets/image/parcours/2022",
+    "assets/image/parcours/2023"
 ];
 
 /* Le parcours en texte */
