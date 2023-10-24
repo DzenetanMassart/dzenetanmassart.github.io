@@ -12,7 +12,7 @@ for (let ii = 0; ii < app.length; ii++) {
         apps.desc +
         '</p><a target="_blank" href="' +
         apps.link +
-        '">Lien</a></div></article>';
+        '">S\'y rendre</a></div></article>';
 }
 
 document.getElementById("generate").innerHTML += generate;
