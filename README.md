@@ -26,5 +26,6 @@ Lien vers le site web : https://dzenetanmassart.github.io/index.html
 -   Classement                                                             
 -   Photocopier                                                            
 -   Mise sous enveloppe
+-   Rédaction
 
 [Portefolio](https://dzenetanmassart.github.io/portefolio.html)

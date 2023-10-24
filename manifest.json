@@ -1,0 +1,54 @@
+{
+	"name": "Dzénetan Massart : Le Site Web",
+	"short_name": "Dzénetan Massart-Le site",
+	"description": "Le site web de Dzénetan Massart",
+	"start_url": "./index.html?utm=homescreen",
+	"display": "standalone",
+	"orientation": "landscape",
+	"background_color": "#455DB3",
+	"theme_color": "#00000",
+	"icons": [
+		{
+			"src": "assets/image/DM_launch/res/mipmap-hdpi/DM_launch.png",
+			"type": "image/png",
+			"sizes": "72x72"
+		},
+		{
+			"src": "assets/image/DM_launch/res/mipmap-mdpi/DM_launch.png",
+			"type": "image/png",
+			"sizes": "48x48"
+		},
+		{
+            "src": "assets/image/DM_launch/res/mipmap-xhdpi/DM_launch.png",
+            "type": "image/png",
+			"sizes": "96x96",
+			"purpose": "maskable"
+        },
+        {
+            "src": "assets/image/DM_launch/res/mipmap-xxhdpi/DM_launch.png",
+            "type": "image/png",
+            "sizes": "144x144",
+			"purpose": "maskable"
+        }
+        ,
+        {
+            "src": "assets/image/DM_launch/res/mipmap-xxxhdpi/DM_launch.png",
+            "type": "image/png",
+            "sizes": "192x192",
+			"purpose": "maskable"
+        }
+        ,
+        {
+            "src": "assets/image/DM_launch/play_store_512.png",
+            "type": "image/png",
+            "sizes": "512x512",
+			"purpose": "maskable"
+        }
+	],
+	"author": {
+		"name": "Dzénetan Massart",
+		"website": "https://dzenetanmassart.github.io/",
+		"github": "https://dzenetanmassart.github.io/",
+		"source-repo": "https://github.com/DzenetanMassart/dzenetanmassart.github.io"
+	}
+}
