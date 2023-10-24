@@ -56,10 +56,13 @@ html {
     grid-gap: 5px;
     grid-template-columns: auto auto;
     margin: 5px;
+    text-align: center;
+    color: white;
   }
   main .inline ul {
     text-align: center;
     list-style-type: none;
+    padding: 0;
   }
   main .inline ul .li {
     color: white;
@@ -72,6 +75,7 @@ html {
   main .inline .logiciels,
   main .inline .capacites,
   main .inline .programmes {
+    text-align: center;
     color: white;
     padding-left: 5px;
     padding-right: 5px;
@@ -100,12 +104,14 @@ html {
   main .inline .capacites li,
   main .inline .programmes li {
     padding: 5px 0 5px 0;
+    color: white;
   }
   main .inline .technologies li:nth-child(2n-1),
   main .inline .logiciels li:nth-child(2n-1),
   main .inline .capacites li:nth-child(2n-1),
   main .inline .programmes li:nth-child(2n-1) {
     background-color: rgba(0, 0, 12, 0.231372549);
+    color: white;
   }
   main .inline .technologies a:link, main .inline .technologies a:visited,
   main .inline .logiciels a:link,
@@ -131,6 +137,7 @@ html {
   main .inline .programmes a:visited:hover {
     padding-left: 10px;
     padding-right: 10px;
+    color: white;
   }
 }
 @media screen and (max-width: 1280px) {
@@ -164,11 +171,13 @@ html {
   }
   main .inline {
     display: grid;
+    text-align: center;
     grid-gap: 5px;
     grid-template-columns: auto;
     margin: 5px;
   }
   main .inline ul {
+    padding: 0;
     text-align: center;
     list-style-type: none;
   }
@@ -200,13 +209,15 @@ html {
     border-radius: 0 0 50px 50px;
     color: #00000C;
     font-weight: bolder;
-    font-size: large;
+    font-size: larger;
+    text-align: center;
     padding: 5px 0 5px 0;
   }
   main .inline .technologies li,
   main .inline .logiciels li,
   main .inline .capacites li,
   main .inline .programmes li {
+    color: white;
     padding: 10px 0 10px 0;
   }
   main .inline .technologies li:nth-child(2n-1),

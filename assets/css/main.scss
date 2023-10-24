@@ -62,9 +62,12 @@ html {
             grid-gap: 5px;
             grid-template-columns: auto auto;
             margin: 5px;
+            text-align: center;
+            color:$C1;
             ul {
                 text-align: center;
                 list-style-type: none;
+                padding:0;
                 .li {
                     color: $C1;
                     background-color: $C3;
@@ -77,6 +80,7 @@ html {
             .logiciels,
             .capacites,
             .programmes {
+                text-align: center;
                 color: $C1;
                 padding-left: 5px;
                 padding-right: 5px;
@@ -99,8 +103,10 @@ padding: 5px 0 5px 0 ;
                 }
                 li {
                     padding: 5px 0 5px 0 ;
+                    color:$C1;
                                         &:nth-child(2n-1) {
                         background-color: #00000c3b;
+                        color:$C1;
                     }
                 }
                 a {
@@ -113,9 +119,11 @@ padding: 5px 0 5px 0 ;
                         padding-right: 5px;
                         text-decoration: none;
                         transition: padding-left 0.5s;
+                        
                         &:hover {
                             padding-left: 10px;
                             padding-right: 10px;
+                            color:$C1;
                         }
                     }
                 }
@@ -154,10 +162,12 @@ padding: 5px 0 5px 0 ;
         }
         .inline {
             display: grid;
+            text-align: center;
             grid-gap: 5px;
             grid-template-columns: auto;
             margin: 5px;
             ul {
+                padding:0;
                 text-align: center;
                 list-style-type: none;
                 .li {
@@ -185,10 +195,13 @@ padding: 5px 0 5px 0 ;
                     border-radius: 0 0 50px 50px;
                     color:$C3;
                     font-weight: bolder;
-                    font-size: large;
+                    font-size: larger;
+                    text-align: center;
+
 padding: 5px 0 5px 0 ;
                 }
                 li {
+                    color:$C1;
                     padding: 10px 0 10px 0 ;
                     &:nth-child(2n-1) {
                         background-color: rgba(0, 0, 12, 0.231);

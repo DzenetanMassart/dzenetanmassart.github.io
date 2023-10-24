@@ -1,5 +1,4 @@
 let app = [{
-        "icon": "fas fa-magic",
         "title": "Tricks and Tips",
         "badgestyle": "badge-secondary",
         "badge": "Compile des apps et de la doc'",
@@ -7,7 +6,6 @@ let app = [{
         "link": "https://dzenetanmassart.github.io/Tricks-and-Tips/"
     },
     {
-        "icon": "fas fa-atlas",
         "title": "MakeOnWeb",
         "badgestyle": "badge-secondary",
         "badge": "Compile des apps autour de la création sur le Web",
