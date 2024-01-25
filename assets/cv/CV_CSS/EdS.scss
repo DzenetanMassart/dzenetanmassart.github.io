@@ -91,8 +91,9 @@ p{
     padding:10px;
 }
 }
+
 section{
-    &:nth-child(n+3){
+    &:not(:first-child){
     background-color: $C1;}
     font-weight: bold;
     ul{
@@ -105,7 +106,4 @@ content:"\0000A0 \0000A0";
     }
   
 }
-
-
-
 
