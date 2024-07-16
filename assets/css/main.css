@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Oswald");
 body {
   background-color: #4c85bd;
@@ -290,39 +291,44 @@ html {
   background-color: white;
 }
 .parcours a {
-  padding: 0.2rem 0.4rem;
-  font-size: 87.5%;
-  color: #fff;
-  background-color: #212529;
-  border-radius: 0.2rem;
-  white-space: nowrap;
+  box-shadow: inset 0 0 0 0 #4c85bd;
+  color: #4c85bd;
   text-decoration: none;
+  transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+.parcours a:before {
+  content: " ";
+}
+.parcours a:after {
+  content: " ";
 }
 .parcours a:hover {
-  text-decoration: underline;
+  box-shadow: inset 200px 0 0 0 #4c85bd;
+  color: white;
 }
+
 @media screen and (min-width: 1280px) {
-  .parcours .parc {
+  .parc {
     display: grid;
     grid-gap: 20px;
     grid-template-columns: auto;
     margin: 15px;
   }
-  .parcours .parc article {
+  .parc article {
     grid-template-columns: 20vw auto;
     display: grid;
     grid-gap: 20px;
   }
-  .parcours .parc article div {
+  .parc article div {
     height: 20vw;
   }
-  .parcours .parc article div img {
+  .parc article div img {
     width: 20vw;
     margin: auto auto;
     height: 20vw;
     display: block;
   }
-  .parcours .parc article div:nth-child(2n) {
+  .parc article div:nth-child(2n) {
     height: 20vw;
     font-size: 0.9vw;
     background-color: #fff;
@@ -335,32 +341,32 @@ html {
     background-clip: border-box;
     border-radius: 0.25rem;
   }
-  .parcours .parc article div:nth-child(2n) p {
+  .parc article div:nth-child(2n) p {
     padding-left: 10px;
     line-height: 150%;
   }
-  .parcours .parc article div:nth-child(2n) h3 {
+  .parc article div:nth-child(2n) h3 {
     font-family: "Open Sans", sans-serif;
     padding-left: 5px;
   }
 }
 @media screen and (max-width: 1280px) {
-  .parcours .parc {
+  .parc {
     display: grid;
     grid-gap: 10px;
     grid-template-columns: auto;
     margin: 10px;
   }
-  .parcours .parc article {
+  .parc article {
     height: 10%;
   }
-  .parcours .parc article img {
+  .parc article img {
     width: 20%;
     margin: auto auto;
     height: 20%;
     display: block;
   }
-  .parcours .parc article div:nth-child(2n) {
+  .parc article div:nth-child(2n) {
     background-color: #fff;
     border: 1px solid rgba(0, 0, 0, 0.125);
     position: relative;
@@ -372,24 +378,16 @@ html {
     border-bottom-right-radius: 0.25em;
     border-bottom-left-radius: 0.25em;
   }
-  .parcours .parc article div:nth-child(2n) p {
+  .parc article div:nth-child(2n) p {
     padding-left: 10px;
     line-height: 150%;
   }
-  .parcours .parc article div:nth-child(2n) h3 {
+  .parc article div:nth-child(2n) h3 {
     font-family: "Open Sans", sans-serif;
     font-size: 1.2em;
     padding-left: 5px;
   }
 }
-.parcours a {
-  padding: 0.2rem 0.4rem;
-  font-size: 87.5%;
-  color: #fff;
-  background-color: #212529;
-  border-radius: 0.2rem;
-}
-
 .copyright {
   text-align: center;
   color: #00000C;

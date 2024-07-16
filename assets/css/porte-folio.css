@@ -43,6 +43,26 @@ h2 {
   text-align: right;
 }
 
+.sec {
+  background-color: rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
+  width: 90%;
+  margin: auto auto;
+  margin-bottom: 5px;
+  border-radius: 50px 50px 50px 50px;
+  text-align: center;
+}
+
+.artstation {
+  background-color: rgb(255, 255, 255);
+  background-color: rgb(255, 255, 255);
+  width: 90%;
+  margin: auto auto;
+  margin-bottom: 5px;
+  border-radius: 50px 50px 50px 50px;
+  text-align: center;
+}
+
 .Behance {
   background-color: rgb(255, 255, 255);
   color: rgb(76, 133, 189);

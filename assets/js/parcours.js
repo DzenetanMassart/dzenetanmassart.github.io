@@ -10,7 +10,8 @@ const img_link = [
     "assets/image/parcours/2020",
     "assets/image/parcours/2021",
     "assets/image/parcours/2022",
-    "assets/image/parcours/2023"
+    "assets/image/parcours/2023",
+    "assets/image/parcours/2024"
 ];
 
 /* Le parcours en texte */
@@ -70,5 +71,12 @@ const parcours = [{
     "title": "2023: Photopea & Canva",
     "para1": "C'est en 2023 , durant la formation <a target='_blank' href='https://www.interface3namur.be/formation/demandeurs-emploi/tactic-emploi/'>\"TACTIC emploi\"</a> où j'ai pût approfondir <a target='_blank' href='https://www.photopea.com/'>Photopea</a> et <a target='_blank' href='https://www.canva.com/'>Canva</a>.",
     "para2": "Je les avais déjà experimenté pour produire des CVs et des MockUps mais là, c'était surtout pour venir en aide à mes partenaires n'aillant pas Adobe Photoshop et Adobe InDesign."
+
+}
+, {
+    "alt": "Mozilla Firefox",
+    "title": "2024: Mozilla Firefox",
+    "para1": "C'est en 2024 , après plusieurs soucis avec Google Chrome et l'essai d'Opéra GX que je passe ENFIN à <a target='_blank' href='https://www.mozilla.org/fr/firefox/new/'>Mozilla Firefox</a>.",
+    "para2": "Gràce à ce changement, j'ai pû prendre mon indépendance des navigateurs en Chromium et gagner en rapidité dû à des plugins et moins de prises de ressources sur le processeur de mes PCs."
 
 }];
