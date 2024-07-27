@@ -1,0 +1,70 @@
+$C1: rgb(255, 255, 255);
+$C2: rgb(76, 133, 189);
+$C3: rgb(0, 0, 12);
+$C3a: rgba(0, 0, 12, 0.376);
+.annonce{
+    background-color: $C1;
+margin:15px;
+padding:10px;
+outline-width: 10px;
+outline-style: dotted;
+outline-color: $C1;
+border-radius: 40px;
+outline-width: 10px;
+animation: annonce 1s ease-in-out infinite;
+    h2{
+        background-color: $C1;
+        color: $C2;
+        margin:0;
+        &:after{
+            content:"NOUVEAU";
+            vertical-align: super;
+            font-size: 12px;
+animation: annonce_cligne 0.5s ease-in-out infinite;
+            padding:5px;
+                    }
+    }
+    p{
+color:$C3;
+text-align: center;
+margin:0;
+a{
+    color:$C2;
+    &:link{
+        color:$C2;
+    }
+}
+    }
+}
+
+@keyframes annonce {
+    0% {
+        outline: 8px ridge $C1;
+        border-radius: 2rem; 
+    }
+50%{
+
+    outline: 5px ridge $C1;
+    border-radius: 2rem; 
+}
+    100% {
+
+        outline: 8px ridge $C1;
+        border-radius: 2rem;    }
+  }
+
+  @keyframes annonce_cligne {
+    0% {
+
+        color: $C1;
+    }
+50%{
+
+        color: $C3a;
+}
+    100% {
+
+        color: $C1; 
+    }
+  }
+  

@@ -1,0 +1,60 @@
+.annonce {
+  background-color: rgb(255, 255, 255);
+  margin: 15px;
+  padding: 10px;
+  outline-width: 10px;
+  outline-style: dotted;
+  outline-color: rgb(255, 255, 255);
+  border-radius: 40px;
+  outline-width: 10px;
+  animation: annonce 1s ease-in-out infinite;
+}
+.annonce h2 {
+  background-color: rgb(255, 255, 255);
+  color: rgb(76, 133, 189);
+  margin: 0;
+}
+.annonce h2:after {
+  content: "NOUVEAU";
+  vertical-align: super;
+  font-size: 12px;
+  animation: annonce_cligne 0.5s ease-in-out infinite;
+  padding: 5px;
+}
+.annonce p {
+  color: rgb(0, 0, 12);
+  text-align: center;
+  margin: 0;
+}
+.annonce p a {
+  color: rgb(76, 133, 189);
+}
+.annonce p a:link {
+  color: rgb(76, 133, 189);
+}
+
+@keyframes annonce {
+  0% {
+    outline: 8px ridge rgb(255, 255, 255);
+    border-radius: 2rem;
+  }
+  50% {
+    outline: 5px ridge rgb(255, 255, 255);
+    border-radius: 2rem;
+  }
+  100% {
+    outline: 8px ridge rgb(255, 255, 255);
+    border-radius: 2rem;
+  }
+}
+@keyframes annonce_cligne {
+  0% {
+    color: rgb(255, 255, 255);
+  }
+  50% {
+    color: rgba(0, 0, 12, 0.376);
+  }
+  100% {
+    color: rgb(255, 255, 255);
+  }
+}/*# sourceMappingURL=annonces.css.map */
