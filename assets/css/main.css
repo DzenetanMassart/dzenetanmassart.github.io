@@ -86,10 +86,10 @@ html {
     border-right: 1px white solid;
     border-radius: 5px 5px 5px 5px;
   }
-  main .inline .technologies span,
-  main .inline .logiciels span,
-  main .inline .capacites span,
-  main .inline .programmes span {
+  main .inline .technologies h2,
+  main .inline .logiciels h2,
+  main .inline .capacites h2,
+  main .inline .programmes h2 {
     display: block;
     border-bottom: 2px white solid;
     width: 100%;
@@ -99,6 +99,53 @@ html {
     font-weight: bolder;
     font-size: large;
     padding: 5px 0 5px 0;
+    text-shadow: none;
+  }
+  main .inline .technologies .c,
+  main .inline .logiciels .c,
+  main .inline .capacites .c,
+  main .inline .programmes .c {
+    border: #4c85bd solid 5px;
+  }
+  main .inline .technologies .c:first,
+  main .inline .logiciels .c:first,
+  main .inline .capacites .c:first,
+  main .inline .programmes .c:first {
+    margin-bottom: 20px;
+  }
+  main .inline .technologies .c:last-child,
+  main .inline .logiciels .c:last-child,
+  main .inline .capacites .c:last-child,
+  main .inline .programmes .c:last-child {
+    margin-top: 20px;
+  }
+  main .inline .technologies span,
+  main .inline .logiciels span,
+  main .inline .capacites span,
+  main .inline .programmes span {
+    display: flex;
+  }
+  main .inline .technologies span h3,
+  main .inline .logiciels span h3,
+  main .inline .capacites span h3,
+  main .inline .programmes span h3 {
+    display: inline;
+  }
+  main .inline .technologies h3,
+  main .inline .logiciels h3,
+  main .inline .capacites h3,
+  main .inline .programmes h3 {
+    background-color: #4c85bd;
+    color: white;
+    margin: -15px;
+    padding: 5px;
+    text-align: center;
+    display: block;
+    position: relative;
+    width: 236px;
+    top: 5px;
+    left: 15px;
+    border-top-right-radius: 20%;
   }
   main .inline .technologies li,
   main .inline .logiciels li,
@@ -199,10 +246,10 @@ html {
     background-color: rgba(0, 0, 12, 0.3764705882);
     line-height: 150%;
   }
-  main .inline .technologies span,
-  main .inline .logiciels span,
-  main .inline .capacites span,
-  main .inline .programmes span {
+  main .inline .technologies h2,
+  main .inline .logiciels h2,
+  main .inline .capacites h2,
+  main .inline .programmes h2 {
     display: block;
     border-bottom: 2px white solid;
     width: 100%;
@@ -212,7 +259,59 @@ html {
     font-weight: bolder;
     font-size: larger;
     text-align: center;
+    text-shadow: none;
     padding: 5px 0 5px 0;
+  }
+  main .inline .technologies .c,
+  main .inline .logiciels .c,
+  main .inline .capacites .c,
+  main .inline .programmes .c {
+    border: #4c85bd solid 5px;
+  }
+  main .inline .technologies .c:first,
+  main .inline .logiciels .c:first,
+  main .inline .capacites .c:first,
+  main .inline .programmes .c:first {
+    margin-bottom: 20px;
+  }
+  main .inline .technologies .c:last-child,
+  main .inline .logiciels .c:last-child,
+  main .inline .capacites .c:last-child,
+  main .inline .programmes .c:last-child {
+    margin-top: 20px;
+  }
+  main .inline .technologies span,
+  main .inline .logiciels span,
+  main .inline .capacites span,
+  main .inline .programmes span {
+    display: flex;
+    top: 5px;
+    margin-top: 35px;
+  }
+  main .inline .technologies span h3,
+  main .inline .logiciels span h3,
+  main .inline .capacites span h3,
+  main .inline .programmes span h3 {
+    width: 36%;
+    display: inline;
+    font-size: 1em;
+    top: 5px;
+  }
+  main .inline .technologies h3,
+  main .inline .logiciels h3,
+  main .inline .capacites h3,
+  main .inline .programmes h3 {
+    background-color: #4c85bd;
+    color: white;
+    margin: -15px;
+    padding: 5px;
+    text-align: center;
+    display: block;
+    position: relative;
+    width: 236px;
+    top: 5px;
+    left: 15px;
+    border-top-right-radius: 20%;
   }
   main .inline .technologies li,
   main .inline .logiciels li,

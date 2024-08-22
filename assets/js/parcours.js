@@ -77,6 +77,6 @@ const parcours = [{
     "alt": "Mozilla Firefox",
     "title": "2024: Mozilla Firefox",
     "para1": "C'est en 2024 , après plusieurs soucis avec Google Chrome et l'essai d'Opéra GX que je passe ENFIN à <a target='_blank' href='https://www.mozilla.org/fr/firefox/new/'>Mozilla Firefox</a>.",
-    "para2": "Gràce à ce changement, j'ai pû prendre mon indépendance des navigateurs en Chromium et gagner en rapidité dû à des plugins et moins de prises de ressources sur le processeur de mes PCs."
-
+    "para2": "Gràce à ce changement, j'ai pû prendre mon indépendance des navigateurs en Chromium et gagner en rapidité dû à des plugins et moins de prises de ressources sur le processeur de mes PCs.",
+    "para3":"J'ai même également installé la <a target='_blank' href='https://www.mozilla.org/fr/firefox/developer/'>Firefox Developer Edition</a> afin d'éviter d'être handicapé dans mes réalisations web."
 }];

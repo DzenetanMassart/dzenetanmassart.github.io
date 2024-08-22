@@ -89,7 +89,7 @@ html {
                 border-left: 1px $C1 solid;
                 border-right: 1px $C1 solid;
                 border-radius: 5px 5px 5px 5px;
-                span {
+                h2 {
                     display: block;
                     border-bottom: 2px $C1 solid;
                     width: 100%;
@@ -99,8 +99,36 @@ html {
                     font-weight: bolder;
                     font-size: large;
 padding: 5px 0 5px 0 ;
-                    
+text-shadow: none;
                 }
+                .c{
+                    border:$C2 solid 5px;
+                    &:first{
+                        margin-bottom:20px;
+                    }
+                    &:last-child{
+                        margin-top:20px;
+                    }
+                }
+                span{
+                    display: flex;
+                    h3{
+display:inline;
+                    }
+                }
+                    h3{
+                        background-color: $C2;
+                        color:$C1;
+                        margin: -15px;
+                        padding:5px;
+                        text-align: center;
+                        display: block;
+                        position: relative;
+                        width: 236px;
+                        top: 5px;
+                        left: 15px;
+                        border-top-right-radius: 20%;    
+                    }
                 li {
                     padding: 5px 0 5px 0 ;
                     color:$C1;
@@ -187,7 +215,7 @@ padding: 5px 0 5px 0 ;
                 padding-right: 5px;
                 background-color: $C3a;
                 line-height: 150%;
-                span {
+                h2 {
                     display: block;
                     border-bottom: 2px $C1 solid;
                     width: 100%;
@@ -197,9 +225,43 @@ padding: 5px 0 5px 0 ;
                     font-weight: bolder;
                     font-size: larger;
                     text-align: center;
-
+                    text-shadow: none;
 padding: 5px 0 5px 0 ;
                 }
+                .c{
+                    border:$C2 solid 5px;
+                    &:first{
+                        margin-bottom:20px;
+                    }
+                    &:last-child{
+                        margin-top:20px;
+                    }
+                }
+                span{
+                    display: flex;
+                    top:5px;
+                    margin-top: 35px;
+                    h3{
+                        width: 36%;
+display:inline;
+font-size: 1em;
+top:5px
+                    }
+                }
+                    h3{
+                        background-color: $C2;
+                        color:$C1;
+                        margin: -15px;
+                        padding:5px;
+                        text-align: center;
+                        display: block;
+                        position: relative;
+                        width: 236px;
+                        top: 5px;
+                        left: 15px;
+                        border-top-right-radius: 20%;    
+                    }
+                
                 li {
                     color:$C1;
                     padding: 10px 0 10px 0 ;
