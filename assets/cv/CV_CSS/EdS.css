@@ -6,24 +6,29 @@ h1, h2, h3 {
 
 main {
   font-size: 1.1em;
-  display: grid;
+  display: flex;
   justify-items: center;
   align-items: baseline;
 }
 @media screen and (orientation: landscape) {
   main {
-    grid-template-columns: 1fr 1fr;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
   }
   main section {
-    width: 75%;
+    width: 50vw;
   }
 }
 @media screen and (orientation: portrait) {
   main {
-    grid-template-columns: 1fr;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
   }
   main section {
-    width: 90%;
+    width: 100vw;
     margin-bottom: 10px;
   }
 }
@@ -32,12 +37,14 @@ main h1 {
   text-transform: uppercase;
   font-size: 50px;
   margin: 0;
+  padding: 5px;
 }
 main h2 {
   text-align: right;
   font-weight: lighter;
   font-size: 20px;
   margin: 0;
+  padding: 5px;
 }
 main h3 {
   text-align: center;
@@ -71,13 +78,19 @@ main ul li a {
 .Coordonnees {
   text-align: center;
 }
-.Coordonnees li > a:link {
+.Coordonnees a:link, .Coordonnees a:visited {
   color: #4c85bd;
   text-decoration: underline;
   text-align: center;
+  font-weight: bolder;
+  background-color: #000000;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 50px;
 }
-.Coordonnees li > a:link:hover {
-  color: #ffffff;
+.Coordonnees a:link:hover, .Coordonnees a:visited:hover {
+  color: #000000;
+  background-color: white;
 }
 .Coordonnees p {
   background-color: rgba(255, 0, 0, 0.493);
