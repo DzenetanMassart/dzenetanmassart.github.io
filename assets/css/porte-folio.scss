@@ -66,6 +66,11 @@ border-radius:50px 50px 50px 50px;    text-align: center;
     margin:auto auto;
   margin-bottom: 5px;
 border-radius:50px 50px 50px 50px;    text-align: center;
+img{
+    @media screen and (max-width: 1280px) {
+        width:90%;
+    }
+}
 }
 
 .Behance{
