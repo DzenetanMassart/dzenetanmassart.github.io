@@ -1,0 +1,23 @@
+@import url("https://fonts.googleapis.com/css?family=Oswald");
+.lien_magique {
+  color: yellow;
+  background-color: #00000C;
+  border-radius: 25%;
+  padding: 5px;
+}
+.lien_magique:hover {
+  color: yellow;
+  text-decoration: none;
+  text-shadow: 0px 0px 1px rgba(95, 81, 81, 0.616), 0px 0px 3px rgba(194, 4, 4, 0.616), 0px 0px 5px yellow !important;
+}
+
+.copyright {
+  text-align: center;
+  color: #00000C;
+  font-weight: bolder;
+  padding: 20px 0 20px 0;
+  background-color: white;
+  width: 98%;
+  margin: auto auto;
+  font-size: larger;
+}/*# sourceMappingURL=0.css.map */

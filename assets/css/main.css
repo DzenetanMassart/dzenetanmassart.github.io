@@ -9,593 +9,75 @@ html {
   scroll-behavior: smooth;
 }
 
-.lien_magique {
-  color: yellow;
-  background-color: #00000C;
-  border-radius: 25%;
-  padding: 5px;
-}
-.lien_magique:hover {
-  color: yellow;
-  text-decoration: none;
-  text-shadow: 0px 0px 1px rgba(95, 81, 81, 0.616), 0px 0px 3px rgba(194, 4, 4, 0.616), 0px 0px 5px yellow !important;
-}
-
-@media screen and (min-width: 1280px) {
-  h1,
-  h2 {
-    color: white;
-    font-family: "Oswald", sans-serif;
-    text-align: center;
-    font-size: 3vw;
-    text-shadow: #00000C 0 1px 0;
-  }
-  main {
-    color: #00000C;
-  }
-  main .intro {
-    border-top: rgba(0, 0, 12, 0.3764705882) solid 2px;
-    border-bottom: rgba(0, 0, 12, 0.3764705882) solid 2px;
-    box-shadow: rgba(0, 0, 12, 0.3764705882) 2px 2px 2px;
-    padding: 20px;
-    text-align: center;
-    margin-bottom: 20px;
-    background-color: white;
-  }
-  main .intro a {
-    color: yellow;
-    background-color: #00000C;
-    border-radius: 25%;
-    padding: 5px;
-  }
-  main .intro a:hover {
-    text-decoration: none;
-    text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.616), 0px 0px 3px rgba(194, 4, 4, 0.616), 0px 0px 5px yellow;
-  }
-  main .inline {
-    display: grid;
-    grid-gap: 5px;
-    grid-template-columns: auto auto;
-    margin: 5px;
-    text-align: center;
-    color: white;
-  }
-  main .inline ul {
-    text-align: center;
-    list-style-type: none;
-    padding: 0;
-  }
-  main .inline ul .li {
-    color: white;
-    background-color: #00000C;
-    border-radius: 50px;
-    padding-left: 5px;
-    padding-right: 5px;
-  }
-  main .inline .technologies,
-  main .inline .logiciels,
-  main .inline .capacites {
-    text-align: center;
-    color: white;
-    padding-left: 5px;
-    padding-right: 5px;
-    background-color: rgba(0, 0, 12, 0.3764705882);
-    border-bottom: 1px white solid;
-    border-left: 1px white solid;
-    border-right: 1px white solid;
-    border-radius: 5px 5px 5px 5px;
-  }
-  main .inline .technologies h2,
-  main .inline .logiciels h2,
-  main .inline .capacites h2 {
-    display: block;
-    border-bottom: 2px white solid;
-    width: 100%;
-    background-color: white;
-    border-radius: 0 0 50px 50px;
-    color: #00000C;
-    font-weight: bolder;
-    font-size: large;
-    padding: 5px 0 5px 0;
-    text-shadow: none;
-  }
-  main .inline .technologies .c,
-  main .inline .logiciels .c,
-  main .inline .capacites .c {
-    border: #4c85bd solid 5px;
-  }
-  main .inline .technologies .c:first,
-  main .inline .logiciels .c:first,
-  main .inline .capacites .c:first {
-    margin-bottom: 20px;
-  }
-  main .inline .technologies .c:last-child,
-  main .inline .logiciels .c:last-child,
-  main .inline .capacites .c:last-child {
-    margin-top: 20px;
-  }
-  main .inline .technologies span,
-  main .inline .logiciels span,
-  main .inline .capacites span {
-    display: flex;
-  }
-  main .inline .technologies span h3,
-  main .inline .logiciels span h3,
-  main .inline .capacites span h3 {
-    display: inline;
-  }
-  main .inline .technologies h3,
-  main .inline .logiciels h3,
-  main .inline .capacites h3 {
-    background-color: #4c85bd;
-    color: white;
-    margin: -15px;
-    padding: 5px;
-    text-align: center;
-    display: block;
-    position: relative;
-    width: 236px;
-    top: 5px;
-    left: 15px;
-    border-top-right-radius: 20%;
-  }
-  main .inline .technologies li,
-  main .inline .logiciels li,
-  main .inline .capacites li {
-    padding: 5px 0 5px 0;
-    color: white;
-  }
-  main .inline .technologies li:nth-child(2n-1),
-  main .inline .logiciels li:nth-child(2n-1),
-  main .inline .capacites li:nth-child(2n-1) {
-    background-color: rgba(0, 0, 12, 0.231372549);
-    color: white;
-  }
-  main .inline .technologies a:link, main .inline .technologies a:visited,
-  main .inline .logiciels a:link,
-  main .inline .logiciels a:visited,
-  main .inline .capacites a:link,
-  main .inline .capacites a:visited {
-    color: white;
-    background-color: rgba(0, 0, 12, 0.3764705882);
-    border-radius: 50px;
-    padding-left: 5px;
-    padding-right: 5px;
-    text-decoration: none;
-    transition: padding-left 0.5s;
-  }
-  main .inline .technologies a:link:hover, main .inline .technologies a:visited:hover,
-  main .inline .logiciels a:link:hover,
-  main .inline .logiciels a:visited:hover,
-  main .inline .capacites a:link:hover,
-  main .inline .capacites a:visited:hover {
-    padding-left: 10px;
-    padding-right: 10px;
-    color: white;
-  }
-  .programmes {
-    text-align: center;
-    color: white;
-    padding-left: 5px;
-    padding-right: 5px;
-    background-color: rgba(0, 0, 12, 0.3764705882);
-    border-bottom: 1px white solid;
-    border-left: 1px white solid;
-    border-right: 1px white solid;
-    border-radius: 5px 5px 5px 5px;
-    margin-top: 0;
-  }
-  .programmes h2 {
-    display: block;
-    border-bottom: 2px white solid;
-    width: 100%;
-    background-color: white;
-    border-radius: 0 0 50px 50px;
-    color: #00000C;
-    font-weight: bolder;
-    font-size: large;
-    padding: 5px 0 5px 0;
-    text-shadow: none;
-  }
-  .programmes h3 {
-    display: block !important;
-    background-color: transparent !important;
-    margin-left: 5px;
-    margin-right: 5px;
-    font-size: 1em;
-    padding-top: 20px;
-  }
-  .programmes h3:nth-child(2) {
-    padding-top: 0px;
-  }
-  .programmes h3 span {
-    margin: 10px;
-    background-color: #4c85bd;
-    padding: 8px;
-  }
-  .programmes .c {
-    border: #4c85bd solid 5px;
-  }
-  .programmes .c:first {
-    margin-bottom: 20px;
-  }
-  .programmes li {
-    padding: 5px 0 5px 0;
-    color: white;
-  }
-  .programmes li:nth-child(2n-1) {
-    background-color: rgba(0, 0, 12, 0.231372549);
-    color: white;
-  }
-  .programmes a:link, .programmes a:visited {
-    color: white;
-    background-color: rgba(0, 0, 12, 0.3764705882);
-    border-radius: 50px;
-    padding-left: 5px;
-    padding-right: 5px;
-    text-decoration: none;
-    transition: padding-left 0.5s;
-  }
-  .programmes a:link:hover, .programmes a:visited:hover {
-    padding-left: 10px;
-    padding-right: 10px;
-    color: white;
-  }
-}
-@media screen and (max-width: 1280px) {
-  h1,
-  h2 {
-    color: white;
-    font-family: "Oswald", sans-serif;
-    text-align: center;
-    font-size: 6vw;
-    text-shadow: #00000C 0 1px 0;
-  }
-  main {
-    color: #00000C;
-  }
-  main .intro {
-    border-top: rgba(0, 0, 12, 0.3764705882) solid 2px;
-    border-bottom: rgba(0, 0, 12, 0.3764705882) solid 2px;
-    text-align: center;
-    background-color: white;
-  }
-  main .intro a {
-    color: yellow;
-    background-color: #00000C;
-    border-radius: 25%;
-    padding: 5px;
-  }
-  main .intro a:hover {
-    text-decoration: none;
-    text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.616), 0px 0px 3px rgba(194, 4, 4, 0.616), 0px 0px 5px yellow;
-  }
-  main .inline {
-    display: grid;
-    text-align: center;
-    grid-gap: 5px;
-    grid-template-columns: auto;
-    margin: 5px;
-  }
-  main .inline ul {
-    padding: 0;
-    text-align: center;
-    list-style-type: none;
-  }
-  main .inline ul .li {
-    color: white;
-    background-color: #00000C;
-    border-radius: 50px;
-    padding-left: 5px;
-    padding-right: 5px;
-  }
-  main .inline .technologies,
-  main .inline .logiciels,
-  main .inline .capacites {
-    color: white;
-    padding-left: 5px;
-    padding-right: 5px;
-    background-color: rgba(0, 0, 12, 0.3764705882);
-    line-height: 150%;
-  }
-  main .inline .technologies h2,
-  main .inline .logiciels h2,
-  main .inline .capacites h2 {
-    display: block;
-    border-bottom: 2px white solid;
-    width: 100%;
-    background-color: white;
-    border-radius: 0 0 50px 50px;
-    color: #00000C;
-    font-weight: bolder;
-    font-size: larger;
-    text-align: center;
-    text-shadow: none;
-    padding: 5px 0 5px 0;
-  }
-  main .inline .technologies .c,
-  main .inline .logiciels .c,
-  main .inline .capacites .c {
-    border: #4c85bd solid 5px;
-  }
-  main .inline .technologies .c:first,
-  main .inline .logiciels .c:first,
-  main .inline .capacites .c:first {
-    margin-bottom: 20px;
-  }
-  main .inline .technologies .c:last-child,
-  main .inline .logiciels .c:last-child,
-  main .inline .capacites .c:last-child {
-    margin-top: 20px;
-  }
-  main .inline .technologies span,
-  main .inline .logiciels span,
-  main .inline .capacites span {
-    display: flex;
-    top: 5px;
-    margin-top: 35px;
-  }
-  main .inline .technologies span h3,
-  main .inline .logiciels span h3,
-  main .inline .capacites span h3 {
-    width: 36%;
-    display: inline;
-    font-size: 1em;
-    top: 5px;
-  }
-  main .inline .technologies h3,
-  main .inline .logiciels h3,
-  main .inline .capacites h3 {
-    background-color: #4c85bd;
-    color: white;
-    margin: -15px;
-    padding: 5px;
-    text-align: center;
-    display: block;
-    position: relative;
-    width: 236px;
-    top: 5px;
-    left: 15px;
-    border-top-right-radius: 20%;
-  }
-  main .inline .technologies li,
-  main .inline .logiciels li,
-  main .inline .capacites li {
-    color: white;
-    padding: 10px 0 10px 0;
-  }
-  main .inline .technologies li:nth-child(2n-1),
-  main .inline .logiciels li:nth-child(2n-1),
-  main .inline .capacites li:nth-child(2n-1) {
-    background-color: rgba(0, 0, 12, 0.231);
-  }
-  main .inline .technologies a:link, main .inline .technologies a:visited,
-  main .inline .logiciels a:link,
-  main .inline .logiciels a:visited,
-  main .inline .capacites a:link,
-  main .inline .capacites a:visited {
-    color: white;
-    background-color: rgba(0, 0, 12, 0.3764705882);
-    border-radius: 50px;
-    padding-left: 5px;
-    padding-right: 5px;
-    text-decoration: none;
-    transition: padding-left 0.5s;
-  }
-  main .inline .technologies a:link:hover, main .inline .technologies a:visited:hover,
-  main .inline .logiciels a:link:hover,
-  main .inline .logiciels a:visited:hover,
-  main .inline .capacites a:link:hover,
-  main .inline .capacites a:visited:hover {
-    padding-left: 10px;
-    padding-right: 10px;
-  }
-}
-.programmes {
-  color: white;
-  padding-left: 5px;
-  padding-right: 5px;
-  background-color: rgba(0, 0, 12, 0.3764705882);
-  line-height: 150%;
-  padding-bottom: 10px;
-  display: flex;
-  flex-direction: column;
-  display: flex;
-  top: 5px;
-  justify-content: center;
-}
-.programmes h2 {
-  display: block;
-  border-bottom: 2px white solid;
-  width: 100%;
+h1 {
   background-color: white;
-  border-radius: 0 0 50px 50px;
-  color: #00000C;
-  font-weight: bolder;
-  font-size: larger;
-  text-align: center;
-  text-shadow: none;
-  padding: 5px 0 5px 0;
-}
-.programmes ul {
-  border: #4c85bd solid 5px;
-  margin: 0;
-}
-.programmes h3 {
-  font-size: 1em;
-  display: block !important;
-  background-color: transparent !important;
-  margin: 0;
-  color: white;
-}
-.programmes h3 span {
-  background-color: #4c85bd;
-  margin: 5px;
-  padding: 8px;
-}
-.programmes li {
-  color: white;
-  padding: 10px 0 10px 0;
-}
-.programmes li:nth-child(2n-1) {
-  background-color: rgba(0, 0, 12, 0.231);
-}
-.programmes a:link, .programmes a:visited {
-  color: white;
-  background-color: rgba(0, 0, 12, 0.3764705882);
-  border-radius: 50px;
-  padding-left: 5px;
-  padding-right: 5px;
-  text-decoration: none;
-  transition: padding-left 0.5s;
-}
-.programmes a:link:hover, .programmes a:visited:hover {
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
-/* Background data (Original source: https://subtlepatterns.com/grid-me/) */
-/* Animations */
-@keyframes bg-scrolling-reverse {
-  100% {
-    background-position: 50px 50px;
-  }
-}
-@keyframes bg-scrolling {
-  0% {
-    background-position: 50px 50px;
-  }
-}
-.inline ul {
-  color: #999;
-  text-align: center;
-  /* img size is 50x50 */
-  background: url("../image/bg.png") repeat 0 0;
-  animation: bg-scrolling-reverse 0.92s infinite;
-  animation-timing-function: linear;
-}
-.inline ul::before {
-  content: " ";
-  font-size: 8rem;
-  font-weight: 100;
-  font-style: normal;
-}
-
-.parcours .description {
-  border-top: rgba(0, 0, 12, 0.3764705882) solid 2px;
-  border-bottom: rgba(0, 0, 12, 0.3764705882) solid 2px;
-  box-shadow: rgba(0, 0, 12, 0.3764705882) 2px 2px 2px;
-  padding: 20px;
-  text-align: center;
-  color: #00000C;
-  font-weight: bold;
-  background-color: white;
-}
-.parcours a {
-  box-shadow: inset 0 0 0 0 #4c85bd;
   color: #4c85bd;
-  text-decoration: none;
-  transition: color 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
-}
-.parcours a:before {
-  content: " ";
-}
-.parcours a:after {
-  content: " ";
-}
-.parcours a:hover {
-  box-shadow: inset 200px 0 0 0 #4c85bd;
-  color: white;
+  text-align: center;
+  padding: 10px;
 }
 
-@media screen and (min-width: 1280px) {
-  .parc {
-    display: grid;
-    grid-gap: 20px;
-    grid-template-columns: auto;
-    margin: 15px;
-  }
-  .parc article {
-    grid-template-columns: 20vw auto;
-    display: grid;
-    grid-gap: 20px;
-  }
-  .parc article div {
-    height: 20vw;
-  }
-  .parc article div img {
-    width: 20vw;
-    margin: auto auto;
-    height: 20vw;
-    display: block;
-  }
-  .parc article div:nth-child(2n) {
-    height: 20vw;
-    font-size: 0.9vw;
-    background-color: #fff;
-    border: 1px solid rgba(0, 0, 0, 0.125);
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    min-width: 0;
-    word-wrap: break-word;
-    background-clip: border-box;
-    border-radius: 0.25rem;
-  }
-  .parc article div:nth-child(2n) p {
-    padding-left: 10px;
-    line-height: 150%;
-  }
-  .parc article div:nth-child(2n) h3 {
-    font-family: "Open Sans", sans-serif;
-    padding-left: 5px;
-  }
-}
-@media screen and (max-width: 1280px) {
-  .parc {
-    display: grid;
-    grid-gap: 10px;
-    grid-template-columns: auto;
-    margin: 10px;
-  }
-  .parc article {
-    height: 10%;
-  }
-  .parc article img {
-    width: 20%;
-    margin: auto auto;
-    height: 20%;
-    display: block;
-  }
-  .parc article div:nth-child(2n) {
-    background-color: #fff;
-    border: 1px solid rgba(0, 0, 0, 0.125);
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    min-width: 0;
-    word-wrap: break-word;
-    background-clip: border-box;
-    border-bottom-right-radius: 0.25em;
-    border-bottom-left-radius: 0.25em;
-  }
-  .parc article div:nth-child(2n) p {
-    padding-left: 10px;
-    line-height: 150%;
-  }
-  .parc article div:nth-child(2n) h3 {
-    font-family: "Open Sans", sans-serif;
-    font-size: 1.2em;
-    padding-left: 5px;
-  }
-}
-.copyright {
+h2 {
+  color: white;
   text-align: center;
-  color: #00000C;
-  font-weight: bolder;
-  padding: 20px 0 20px 0;
+  padding: 10px;
+}
+
+.intro {
   background-color: white;
-  width: 98%;
+  padding: 10px;
+}
+
+.competences {
+  background-color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: stretch;
+  /* flex-flow: wrap; */
+  flex-wrap: wrap;
+  align-content: space-around;
+  height: 100%;
+  padding: 15px;
+  gap: 5px;
+  width: 80vw;
   margin: auto auto;
-  font-size: larger;
+}
+.competences div {
+  border: #4c85bd solid 2px;
+  margin: 10px;
+}
+.competences div h3 {
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+  margin-top: 0;
+  margin-bottom: 0;
+  background-color: #4c85bd;
+  color: white;
+}
+.competences div h3::before {
+  content: "❒ ";
+}
+.competences div span {
+  font-weight: bold;
+  padding: 15px;
+}
+.competences div span::before {
+  content: "➯ ";
+}
+.competences div dl {
+  padding: 10px;
+  margin: 10px;
+}
+.competences div dl dt {
+  color: #4c85bd;
+}
+.competences div dl dd {
+  margin-bottom: 10px;
+}
+.competences div dl dd ul {
+  list-style-type: none;
+}
+.competences div dl dd ul li::before {
+  content: "★ ";
 }/*# sourceMappingURL=main.css.map */
