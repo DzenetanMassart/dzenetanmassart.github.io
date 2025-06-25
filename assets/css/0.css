@@ -1,14 +1,22 @@
 @import url("https://fonts.googleapis.com/css?family=Oswald");
 .lien_magique {
-  color: yellow;
-  background-color: #00000C;
-  border-radius: 25%;
-  padding: 5px;
+  background-color: white;
+  color: #00000C;
+  padding: 10px;
+  margin: 2px;
+  text-decoration: none;
+  border-radius: 10px;
+  border: rgba(0, 0, 12, 0.3764705882) 2px solid;
+  transition: all 0.5s;
 }
 .lien_magique:hover {
-  color: yellow;
+  color: #4c85bd;
   text-decoration: none;
-  text-shadow: 0px 0px 1px rgba(95, 81, 81, 0.616), 0px 0px 3px rgba(194, 4, 4, 0.616), 0px 0px 5px yellow !important;
+  font-size: large;
+  margin: 5px;
+  padding: 12px;
+  box-shadow: 0px 0px 1px rgba(95, 81, 81, 0.616), 0px 0px 3px rgba(194, 4, 4, 0.616), 0px 0px 5px yellow !important;
+  background-color: lightgray;
 }
 
 .copyright {
@@ -20,4 +28,8 @@
   width: 98%;
   margin: auto auto;
   font-size: larger;
+}
+
+sup {
+  cursor: help;
 }/*# sourceMappingURL=0.css.map */

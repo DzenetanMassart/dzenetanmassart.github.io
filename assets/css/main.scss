@@ -50,6 +50,7 @@ h2{
 div{
     border: $C2 solid 2px;
     margin: 10px;
+    width: 100%;
     h3{
         padding-left:5px;
         padding-right:5px;
@@ -58,6 +59,7 @@ div{
         margin-bottom: 0;
         background-color: $C2;
         color:$C1;
+        font-size: 16px;
         &::before{
             content:"❒ ";
         }
@@ -79,6 +81,7 @@ div{
             margin-bottom:10px;
             ul {
                 list-style-type: none;
+                padding:0;
                 li{
                     &::before{
                         content:"★ "
@@ -89,4 +92,5 @@ div{
     }
 }
 }
+
 

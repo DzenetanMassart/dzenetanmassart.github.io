@@ -53,6 +53,9 @@
     color: #00000C;
   }
 }
+.appsview {
+  padding: 5px;
+}
 .appsview article {
   background: linear-gradient(180deg, rgba(0, 0, 12, 0.3764705882) 0%, white 17%, white 18%, white 100%);
 }

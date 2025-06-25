@@ -45,6 +45,7 @@ h2 {
 .competences div {
   border: #4c85bd solid 2px;
   margin: 10px;
+  width: 100%;
 }
 .competences div h3 {
   padding-left: 5px;
@@ -54,6 +55,7 @@ h2 {
   margin-bottom: 0;
   background-color: #4c85bd;
   color: white;
+  font-size: 16px;
 }
 .competences div h3::before {
   content: "❒ ";
@@ -77,6 +79,7 @@ h2 {
 }
 .competences div dl dd ul {
   list-style-type: none;
+  padding: 0;
 }
 .competences div dl dd ul li::before {
   content: "★ ";
