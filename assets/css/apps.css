@@ -40,6 +40,7 @@
   }
   .appsview article {
     height: 220px;
+    margin-bottom: 20px;
   }
   .appsview article a {
     display: block;
