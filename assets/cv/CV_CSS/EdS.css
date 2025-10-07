@@ -1,37 +1,57 @@
-@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Oswald");
 h1, h2, h3 {
-  font-family: "Oswald", sans-serif;
+  font-family: 'Oswald', sans-serif;
 }
 
 main {
   font-size: 1.1em;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   justify-items: center;
-  align-items: baseline;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
 }
+
 @media screen and (orientation: landscape) {
   main {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     gap: 1em;
   }
   main section {
     width: 50vw;
   }
 }
+
 @media screen and (orientation: portrait) {
   main {
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
   main section {
     width: 100vw;
     margin-bottom: 10px;
   }
 }
+
 main h1 {
   text-align: left;
   text-transform: uppercase;
@@ -39,6 +59,7 @@ main h1 {
   margin: 0;
   padding: 5px;
 }
+
 main h2 {
   text-align: right;
   font-weight: lighter;
@@ -46,6 +67,7 @@ main h2 {
   margin: 0;
   padding: 5px;
 }
+
 main h3 {
   text-align: center;
   font-size: larger;
@@ -54,22 +76,27 @@ main h3 {
   color: #00000C;
   padding: 2px;
   margin: 0;
-  border-radius: 10px 100px/120px;
+  border-radius: 10px 100px / 120px;
 }
+
 main .slogan {
   text-align: center;
   padding: 10px;
 }
+
 main ul {
   list-style: none;
   padding: 0;
 }
+
 main ul li {
   padding-top: 5px;
 }
+
 main ul li:nth-child(2n+1) {
   background-color: rgba(0, 0, 0, 0.11);
 }
+
 main ul li a {
   color: white;
   text-decoration: none;
@@ -78,6 +105,7 @@ main ul li a {
 .Coordonnees {
   text-align: center;
 }
+
 .Coordonnees a:link, .Coordonnees a:visited {
   color: #4c85bd;
   text-decoration: underline;
@@ -88,10 +116,12 @@ main ul li a {
   padding-right: 10px;
   border-radius: 50px;
 }
+
 .Coordonnees a:link:hover, .Coordonnees a:visited:hover {
   color: #000000;
   background-color: white;
 }
+
 .Coordonnees p {
   background-color: rgba(255, 0, 0, 0.493);
   text-align: center;
@@ -101,12 +131,16 @@ main ul li a {
 section {
   font-weight: bold;
 }
+
 section:not(:first-child) {
-  background-color: rgb(192, 192, 192);
+  background-color: silver;
 }
+
 section ul {
   padding: 10px;
 }
+
 section ul li:before {
-  content: "  ";
-}/*# sourceMappingURL=EdS.css.map */
+  content: "\0000A0 \0000A0";
+}
+/*# sourceMappingURL=EdS.css.map */

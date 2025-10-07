@@ -1,60 +1,145 @@
 .annonce {
-  background-color: rgb(255, 255, 255);
+  background-color: white;
   margin: 15px;
   padding: 10px;
   outline-width: 10px;
   outline-style: dotted;
-  outline-color: rgb(255, 255, 255);
+  outline-color: white;
   border-radius: 40px;
   outline-width: 10px;
-  animation: annonce 1s ease-in-out infinite;
+  -webkit-animation: annonce 1s ease-in-out infinite;
+          animation: annonce 1s ease-in-out infinite;
 }
+
 .annonce h2 {
-  background-color: rgb(255, 255, 255);
-  color: rgb(76, 133, 189);
+  background-color: white;
+  color: #4c85bd;
   margin: 0;
 }
+
 .annonce h2:after {
   content: "NOUVEAU";
   vertical-align: super;
   font-size: 12px;
-  animation: annonce_cligne 0.5s ease-in-out infinite;
+  -webkit-animation: annonce_cligne 0.5s ease-in-out infinite;
+          animation: annonce_cligne 0.5s ease-in-out infinite;
   padding: 5px;
 }
+
 .annonce p {
-  color: rgb(0, 0, 12);
+  color: #00000c;
   text-align: center;
   margin: 0;
 }
+
 .annonce p a {
-  color: rgb(76, 133, 189);
+  color: #4c85bd;
 }
+
 .annonce p a:link {
-  color: rgb(76, 133, 189);
+  color: #4c85bd;
+}
+
+.annonce article h3 {
+  text-align: center;
+}
+
+.annonce article h3 span {
+  background: #4c85bd;
+  color: white;
+  padding: 0px 5px 0 5px;
+  white-space: nowrap;
+}
+
+.annonce article ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: normal;
+      -ms-flex-align: normal;
+          align-items: normal;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+}
+
+.annonce article ul li {
+  font-size: 1rem;
+  max-width: 300px;
+  padding: 1rem;
+  margin: 5px;
+  position: relative;
+  text-align: center;
+  padding: 5px;
+  background-color: #4c85bd;
+  color: white;
+  border-width: 3px;
+  border-style: solid;
+  -o-border-image: linear-gradient(to left, #4c85bd, rgba(0, 0, 0, 0)) 1 100%;
+     border-image: -webkit-gradient(linear, right top, left top, from(#4c85bd), to(rgba(0, 0, 0, 0))) 1 100%;
+     border-image: linear-gradient(to left, #4c85bd, rgba(0, 0, 0, 0)) 1 100%;
+}
+
+@-webkit-keyframes annonce {
+  0% {
+    outline: 8px ridge white;
+    border-radius: 2rem;
+  }
+  50% {
+    outline: 5px ridge white;
+    border-radius: 2rem;
+  }
+  100% {
+    outline: 8px ridge white;
+    border-radius: 2rem;
+  }
 }
 
 @keyframes annonce {
   0% {
-    outline: 8px ridge rgb(255, 255, 255);
+    outline: 8px ridge white;
     border-radius: 2rem;
   }
   50% {
-    outline: 5px ridge rgb(255, 255, 255);
+    outline: 5px ridge white;
     border-radius: 2rem;
   }
   100% {
-    outline: 8px ridge rgb(255, 255, 255);
+    outline: 8px ridge white;
     border-radius: 2rem;
   }
 }
-@keyframes annonce_cligne {
+
+@-webkit-keyframes annonce_cligne {
   0% {
-    color: rgb(255, 255, 255);
+    color: white;
   }
   50% {
     color: rgba(0, 0, 12, 0.376);
   }
   100% {
-    color: rgb(255, 255, 255);
+    color: white;
   }
-}/*# sourceMappingURL=annonces.css.map */
+}
+
+@keyframes annonce_cligne {
+  0% {
+    color: white;
+  }
+  50% {
+    color: rgba(0, 0, 12, 0.376);
+  }
+  100% {
+    color: white;
+  }
+}
+/*# sourceMappingURL=annonces.css.map */

@@ -30,23 +30,32 @@ h2 {
 .competences {
   background-color: white;
   padding: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-around;
-  align-items: stretch;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
   /* flex-flow: wrap; */
-  flex-wrap: wrap;
-  align-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-line-pack: distribute;
+      align-content: space-around;
   height: 100%;
   padding: 15px;
   gap: 5px;
   width: 80vw;
   margin: auto auto;
 }
+
 .competences div {
   border: #4c85bd solid 2px;
   margin: 10px;
   width: 100%;
 }
+
 .competences div h3 {
   padding-left: 5px;
   padding-right: 5px;
@@ -57,30 +66,39 @@ h2 {
   color: white;
   font-size: 16px;
 }
+
 .competences div h3::before {
   content: "❒ ";
 }
+
 .competences div span {
   font-weight: bold;
   padding: 15px;
 }
+
 .competences div span::before {
   content: "➯ ";
 }
+
 .competences div dl {
   padding: 10px;
   margin: 10px;
 }
+
 .competences div dl dt {
   color: #4c85bd;
 }
+
 .competences div dl dd {
   margin-bottom: 10px;
 }
+
 .competences div dl dd ul {
   list-style-type: none;
   padding: 0;
 }
+
 .competences div dl dd ul li::before {
   content: "★ ";
-}/*# sourceMappingURL=main.css.map */
+}
+/*# sourceMappingURL=main.css.map */

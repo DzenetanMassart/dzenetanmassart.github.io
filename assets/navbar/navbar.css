@@ -6,9 +6,13 @@ header {
   height: 40px;
   overflow: none;
   background-color: #00000C;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
 header a {
   height: 100%;
   margin: auto;
@@ -21,22 +25,27 @@ header a {
   font-weight: bold;
   background-color: #00000C;
 }
+
 header a img {
   height: 40px;
   margin: 0;
   float: left;
 }
+
 header a .icon {
   display: none;
 }
+
 header a:hover {
   background-color: #4c85bd;
   color: #00000C;
 }
+
 header a:active {
   background-color: #4c85bd;
   color: white;
 }
+
 @media screen and (max-width: 600px) {
   header header a:not(:first-child) {
     display: none;
@@ -58,6 +67,7 @@ header a:active {
     font-size: 0;
   }
 }
+
 details {
   z-index: 99 !important;
   color: white;
@@ -67,15 +77,18 @@ details {
   padding: 0.5em;
   cursor: pointer;
 }
+
 details summary {
   font-weight: bold;
 }
+
 @media (orientation: portrait) {
   details ul {
     list-style: none;
     text-align: left;
     background-color: #00000C;
-    box-shadow: 3px 3px 4px black;
+    -webkit-box-shadow: 3px 3px 4px black;
+            box-shadow: 3px 3px 4px black;
     padding: 0;
   }
   details ul a {
@@ -85,12 +98,14 @@ details summary {
     width: 50px;
   }
 }
+
 @media (orientation: landscape) {
   details ul {
     list-style: none;
     text-align: left;
     background-color: #00000C;
-    box-shadow: 3px 3px 4px black;
+    -webkit-box-shadow: 3px 3px 4px black;
+            box-shadow: 3px 3px 4px black;
     padding: 0;
   }
   details ul a {
@@ -111,4 +126,5 @@ details[open] summary {
   border-bottom: 1px solid #4c85bd;
   margin-bottom: 0.5em;
   background-color: #00000C;
-}/*# sourceMappingURL=navbar.css.map */
+}
+/*# sourceMappingURL=navbar.css.map */

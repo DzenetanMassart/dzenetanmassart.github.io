@@ -6,16 +6,19 @@
   margin: 2px;
   text-decoration: none;
   border-radius: 10px;
-  border: rgba(0, 0, 12, 0.3764705882) 2px solid;
+  border: #00000c60 2px solid;
+  -webkit-transition: all 0.5s;
   transition: all 0.5s;
 }
+
 .lien_magique:hover {
   color: #4c85bd;
   text-decoration: none;
   font-size: large;
   margin: 5px;
   padding: 12px;
-  box-shadow: 0px 0px 1px rgba(95, 81, 81, 0.616), 0px 0px 3px rgba(194, 4, 4, 0.616), 0px 0px 5px yellow !important;
+  -webkit-box-shadow: 0px 0px 1px rgba(95, 81, 81, 0.616), 0px 0px 3px rgba(194, 4, 4, 0.616), 0px 0px 5px yellow !important;
+          box-shadow: 0px 0px 1px rgba(95, 81, 81, 0.616), 0px 0px 3px rgba(194, 4, 4, 0.616), 0px 0px 5px yellow !important;
   background-color: lightgray;
 }
 
@@ -32,4 +35,5 @@
 
 sup {
   cursor: help;
-}/*# sourceMappingURL=0.css.map */
+}
+/*# sourceMappingURL=0.css.map */

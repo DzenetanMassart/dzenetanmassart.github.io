@@ -1,8 +1,9 @@
 @import url("https://fonts.googleapis.com/css?family=Oswald");
 .apps .description {
-  border-top: rgba(0, 0, 12, 0.3764705882) solid 2px;
-  border-bottom: rgba(0, 0, 12, 0.3764705882) solid 2px;
-  box-shadow: rgba(0, 0, 12, 0.3764705882) 2px 2px 2px;
+  border-top: #00000c60 solid 2px;
+  border-bottom: #00000c60 solid 2px;
+  -webkit-box-shadow: #00000c60 2px 2px 2px;
+          box-shadow: #00000c60 2px 2px 2px;
   padding: 20px;
   text-align: center;
   color: #00000C;
@@ -12,9 +13,11 @@
 
 @media screen and (min-width: 1280px) {
   .appsview {
+    display: -ms-grid;
     display: grid;
     grid-gap: 20px;
-    grid-template-columns: auto auto;
+    -ms-grid-columns: auto auto;
+        grid-template-columns: auto auto;
     margin: 10px;
   }
   .appsview article {
@@ -31,11 +34,14 @@
     color: #00000C;
   }
 }
+
 @media screen and (max-width: 1280px) {
   .appsview {
+    display: -ms-grid;
     display: grid;
     grid-gap: 10px;
-    grid-template-columns: auto;
+    -ms-grid-columns: auto;
+        grid-template-columns: auto;
     margin: 10px;
   }
   .appsview article {
@@ -53,27 +59,33 @@
     color: #00000C;
   }
 }
+
 .appsview {
   padding: 5px;
 }
+
 .appsview article {
-  background: linear-gradient(180deg, rgba(0, 0, 12, 0.3764705882) 0%, white 17%, white 18%, white 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#00000c60), color-stop(17%, white), color-stop(18%, white), to(white));
+  background: linear-gradient(180deg, #00000c60 0%, white 17%, white 18%, white 100%);
 }
+
 .appsview article h3 {
   color: white;
   padding: 5px;
   margin: 0;
   font-size: 1.5em;
-  background-color: rgba(0, 0, 12, 0.3764705882);
+  background-color: #00000c60;
   border-bottom: #00000C 1px solid;
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
 }
+
 .appsview article p {
   color: black;
   height: 75px;
   padding: 10px;
 }
+
 .appsview article a {
   background-color: white;
   color: #00000C;
@@ -83,10 +95,13 @@
   border-radius: 10px;
   border: #00000C 2px solid;
 }
+
 .appsview article a:active {
   background-color: grey;
 }
+
 .appsview article a:hover {
   text-decoration: none;
   background-color: lightgray;
-}/*# sourceMappingURL=apps.css.map */
+}
+/*# sourceMappingURL=apps.css.map */

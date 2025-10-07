@@ -35,7 +35,50 @@ a{
     }
 }
     }
+    article{
+        h3{
+            text-align: center;
+span{
+background: $C2;
+color: $C1;
+padding:0px 5px 0 5px; 
+white-space : nowrap;
 }
+        }
+        ul{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: normal;
+    justify-content: center;
+padding:0;
+  margin: 0;
+            list-style-type: none;
+            li{
+                font-size: 1rem;
+                  max-width: 300px;
+  padding: 1rem;
+              margin:5px;
+                position: relative;
+                text-align: center;
+                padding:5px;
+                background-color: $C2;
+                color:$C1;
+  border-width: 3px;
+  border-style: solid;
+border-image: 
+    linear-gradient(
+      to left, 
+      $C2, 
+      rgba(0, 0, 0, 0)
+    ) 1 100%;
+                
+}
+            }
+        }
+        
+    }
+
 
 @keyframes annonce {
     0% {
@@ -67,4 +110,6 @@ a{
         color: $C1; 
     }
   }
+
+
   
